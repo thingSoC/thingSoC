@@ -1,17 +1,17 @@
 # thingSoC
-thingSoC - System on Chip Platform for the Internet of Things - Reference Platforms
 
-thingSoC is a modular development platform for the Internet of Things,
-that addresses many of the limitations of current product offerings;
-such as automatic device discovery, automatic device configuration,
-and self testing capabilities.
+**thingSoC** is an open source standard that defines a
+vendor independent socket system for the creation of new Internet Things;
+it addresses many of the limitations of current product offerings
+and standards, by adding capabilities such as automatic device discovery, 
+automatic device configuration, self-monitoring, and self-testing. 
 
-thingSoC is currently in alpha testing, 
-and we expect to have a beta release candidate
-available here on Github in early April 2015.
+**thingSoC** works with many existing standards and Integrated Development Environments (IDEs),
+such as Arduino, rfDuino, Raspberry Pi, Beaglbone, X-Bee, and others;
+but adds  new features and new capabilites to make building new IoT devices easy.
 
-thingSoC is an Open Source Hardware (OSHW) project,
-and will be freely available for community development.
+The **thingSoC** virtual platform definition supports a number of different System-on-Chip platforms and peripherals,
+such as cell modems, packet radios, Wi-Fi, Bluetooth, and more. 
+Documentation is available on the [thingSoC Organization Website](http://thingSoC.github.io)
 
-Documentation is available on the Organization Website at http://thingSoC.github.io
 
