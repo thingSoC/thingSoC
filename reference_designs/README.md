@@ -12,6 +12,14 @@ USB-CDC-BASE | USB UART Base Board      | Base Boards utilize female sockets
 USB-CDC-EXPB | USB UART Expansion Board | Expansion Boards utilize male pins
 
 
+
+Company   | Product  | Sensor  |  Accuracy  | Price  | Features
+--------- | -------- | ------- | ---------- | ------ | --------
+          |          |         |            |        |
+---------------------------------------------------------------
+
+
+
 **thingSoC** is an open source standard that defines a
 vendor independent socket system for the creation of new Internet Things;
 it addresses many of the limitations of current product offerings
