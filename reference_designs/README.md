@@ -5,8 +5,8 @@
 
 **thingSoC Reference Designs** are a library of thingSoC implementations that implement
  reference and testing circuits for demonstrating the use of the thingSoC libraries.
-These reference designs can be used and adapted as starting templates for user designs.
-
+These reference designs can serve as starting templates for user designs.
+Feel free to remix and customize as needed.
 
 
 Name           | Reference Design         | Notes 
