@@ -3,7 +3,7 @@
 [![Image](http://thingsoc.github.io/img/projects/thingSoC/thingSoC_thumb.png?raw=true)  
 *thingSoC*](http://thingsoc.github.io)
 
-**thingSoC Reference Designs** is a library of thingSoC implementations that implement
+**thingSoC Reference Designs** are a library of thingSoC implementations that implement
 useful Reference and Testing circuits for demonstrating the use of the thingSoC libraries.
 
 | Name | Reference Design | Notes |
