@@ -4,9 +4,9 @@
 *thingSoC*](http://thingsoc.github.io)
 
 **thingSoC Reference Designs** are a library of thingSoC implementations that implement
-useful Reference and Testing circuits for demonstrating the use of the thingSoC libraries.
+ reference and testing circuits for demonstrating the use of the thingSoC libraries.
+These reference designs can be used and adapted as starting templates for user designs.
 
----------------------------------------------------------------
 
 
 Name           | Reference Design         | Notes 
