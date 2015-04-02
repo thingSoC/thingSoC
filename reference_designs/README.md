@@ -9,12 +9,12 @@ useful Reference and Testing circuits for demonstrating the use of the thingSoC 
 ---------------------------------------------------------------
 
 
-Name         | Reference Design         | Notes 
------------- | ------------------------ | -----
-USB-CDC-BASE | USB UART Base Board      | Base Boards utilize female sockets        
-USB-CDC-EXPB | USB UART Expansion Board | Expansion Boards utilize male pins        
-             |                          |        
-             |                          |        
+Name           | Reference Design         | Notes 
+------------   | ------------------------ | -----
+USB-CDC-BASE   | USB UART Base Board      | Base Boards utilize female sockets        
+USB-CDC-EXPB   | USB UART Expansion Board | Expansion Boards utilize male pins        
+XBEE-EXPB      | XBee Socket Adaptor      | XBee Radio to thingSoC adaptor        
+MIKROBUS-EXPB  | Mikrobus Socket Adaptor  | Mikrobus to thingSoC adaptor        
 ---------------------------------------------------------------
 
 
