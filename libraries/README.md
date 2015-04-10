@@ -9,5 +9,6 @@
 vendor independent socket system for the creation of new Internet Things;
 it addresses many of the limitations of current product offerings
 and standards, by adding capabilities such as automatic device discovery, 
-automatic device configuration, self-monitoring, and self-testing. 
+device configuration, monitoring, instrumentation, and testing.
+
 
