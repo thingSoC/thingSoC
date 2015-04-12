@@ -27,9 +27,7 @@ such as cell modems, packet radios, Wi-Fi, Bluetooth, and more.
 
 [thingSoC Software Architecture](http://thingsoc.github.io/support/software_architecture.html)
 
-[thingSoC Alpha Test Plan](http://thingsoc.github.io/support/alpha_test_plan.html)
-
-[thingSoC Beta Test Plan](http://thingsoc.github.io/support/beta_test_plan.html)
+[thingSoC Schedule/Plan](http://thingsoc.github.io/support/schedule_plan.html)
 
 ---------------------------------------
 
