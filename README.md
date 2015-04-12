@@ -31,17 +31,13 @@ such as cell modems, packet radios, Wi-Fi, Bluetooth, and more.
 
 ---------------------------------------
 
-## Reference Design Index <a name="reference_index"/>
+## thingSoC Reference Designs <a name="reference_designs"/>
 
 **thingSoC Reference Designs** are example thingSoC implementations that implement
 various reference and testing circuits for demonstrating the use of the thingSoC libraries.
 These reference designs can serve as starting templates for user designs.
-Feel free to remix and customize as needed.
 
-Name           | Reference Design         | Notes 
-------------   | ------------------------ | -----
-USB-CDC-BASE   | USB UART Base Board      | Base Boards utilize female sockets        
-USB-CDC-EXPB   | USB UART Expansion Board | Expansion Boards utilize male pins        
+[thingSoC Reference Designs](http://thingsoc.github.io/projects/)
 
 ---------------------------------------------------------------
 
