@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -10766,6 +10766,368 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <pad name="10A" x="22.86" y="0" drill="1.016" shape="octagon" rot="R90"/>
 <rectangle x1="22.606" y1="-0.254" x2="23.114" y2="0.254" layer="51"/>
 </package>
+<package name="TSOC-BB-D40-DIL-SMD-TOP">
+<description>&lt;b&gt;thingSoC Dual Fourty (40) Pin Dual-in-Line Socket SMD - TOP layer metal&lt;/b&gt;
+&lt;p&gt;
+Source LBR : http://www.thingsoc.com
+&lt;br&gt;
+Github : https://github.com/thingsoc
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/
+(Creative Commons 4.0)
+&lt;p&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<text x="32.5882" y="37.6682" size="1.27" layer="25" font="vector" ratio="10" rot="R180">&gt;NAME</text>
+<rectangle x1="22.606" y1="7.366" x2="23.114" y2="7.874" layer="51"/>
+<rectangle x1="20.066" y1="7.366" x2="20.574" y2="7.874" layer="51"/>
+<rectangle x1="17.526" y1="7.366" x2="18.034" y2="7.874" layer="51"/>
+<rectangle x1="14.986" y1="7.366" x2="15.494" y2="7.874" layer="51"/>
+<rectangle x1="12.446" y1="7.366" x2="12.954" y2="7.874" layer="51"/>
+<rectangle x1="9.906" y1="7.366" x2="10.414" y2="7.874" layer="51"/>
+<rectangle x1="7.366" y1="7.366" x2="7.874" y2="7.874" layer="51"/>
+<rectangle x1="25.146" y1="7.366" x2="25.654" y2="7.874" layer="51"/>
+<rectangle x1="30.226" y1="7.366" x2="30.734" y2="7.874" layer="51"/>
+<rectangle x1="27.686" y1="7.366" x2="28.194" y2="7.874" layer="51"/>
+<rectangle x1="9.906" y1="4.826" x2="10.414" y2="5.334" layer="51"/>
+<rectangle x1="7.366" y1="4.826" x2="7.874" y2="5.334" layer="51"/>
+<rectangle x1="12.446" y1="4.826" x2="12.954" y2="5.334" layer="51"/>
+<rectangle x1="14.986" y1="4.826" x2="15.494" y2="5.334" layer="51"/>
+<rectangle x1="17.526" y1="4.826" x2="18.034" y2="5.334" layer="51"/>
+<rectangle x1="20.066" y1="4.826" x2="20.574" y2="5.334" layer="51"/>
+<rectangle x1="22.606" y1="4.826" x2="23.114" y2="5.334" layer="51"/>
+<rectangle x1="25.146" y1="4.826" x2="25.654" y2="5.334" layer="51"/>
+<rectangle x1="27.686" y1="4.826" x2="28.194" y2="5.334" layer="51"/>
+<rectangle x1="30.226" y1="4.826" x2="30.734" y2="5.334" layer="51"/>
+<wire x1="1.626390625" y1="38.1" x2="74.573609375" y2="38.1" width="0.254" layer="51"/>
+<wire x1="74.573609375" y1="38.1" x2="76.2" y2="36.473609375" width="0.254" layer="51" curve="-90"/>
+<wire x1="76.2" y1="36.473609375" x2="76.2" y2="1.626390625" width="0.254" layer="51"/>
+<wire x1="76.2" y1="1.626390625" x2="74.573609375" y2="0" width="0.254" layer="51" curve="-90"/>
+<wire x1="74.573609375" y1="0" x2="1.626390625" y2="0" width="0.254" layer="51"/>
+<wire x1="1.626390625" y1="0" x2="0" y2="1.626390625" width="0.254" layer="51" curve="-90"/>
+<wire x1="0" y1="1.626390625" x2="0" y2="36.473609375" width="0.254" layer="51"/>
+<wire x1="0" y1="36.473609375" x2="1.626390625" y2="38.1" width="0.254" layer="51" curve="-90"/>
+<hole x="35.56" y="35.56" drill="3.2"/>
+<hole x="2.54" y="35.56" drill="3.2"/>
+<hole x="73.66" y="2.54" drill="3.2"/>
+<smd name="1A" x="7.62" y="3.4925" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="1B" x="7.62" y="9.2075" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="2A" x="10.16" y="3.4925" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="3A" x="12.7" y="3.4925" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="4A" x="15.24" y="3.4925" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="5A" x="17.78" y="3.4925" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="6A" x="20.32" y="3.4925" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="6B" x="20.32" y="9.2075" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="5B" x="17.78" y="9.2075" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="4B" x="15.24" y="9.2075" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="3B" x="12.7" y="9.2075" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="2B" x="10.16" y="9.2075" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="7A" x="22.86" y="3.4925" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="8A" x="25.4" y="3.4925" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="7B" x="22.86" y="9.2075" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="8B" x="25.4" y="9.2075" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="9B" x="27.94" y="9.2075" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="9A" x="27.94" y="3.4925" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="10A" x="30.48" y="3.4925" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="10B" x="30.48" y="9.2075" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<hole x="7.62" y="5.08" drill="1"/>
+<hole x="7.62" y="7.62" drill="1"/>
+<hole x="10.16" y="5.08" drill="1"/>
+<hole x="10.16" y="7.62" drill="1"/>
+<hole x="12.7" y="5.08" drill="1"/>
+<hole x="12.7" y="7.62" drill="1"/>
+<hole x="15.24" y="5.08" drill="1"/>
+<hole x="15.24" y="7.62" drill="1"/>
+<hole x="17.78" y="5.08" drill="1"/>
+<hole x="17.78" y="7.62" drill="1"/>
+<hole x="20.32" y="5.08" drill="1"/>
+<hole x="20.32" y="7.62" drill="1"/>
+<hole x="22.86" y="5.08" drill="1"/>
+<hole x="22.86" y="7.62" drill="1"/>
+<hole x="25.4" y="5.08" drill="1"/>
+<hole x="25.4" y="7.62" drill="1"/>
+<hole x="27.94" y="5.08" drill="1"/>
+<hole x="27.94" y="7.62" drill="1"/>
+<hole x="30.48" y="5.08" drill="1"/>
+<hole x="30.48" y="7.62" drill="1"/>
+<rectangle x1="22.606" y1="32.766" x2="23.114" y2="33.274" layer="51"/>
+<rectangle x1="20.066" y1="32.766" x2="20.574" y2="33.274" layer="51"/>
+<rectangle x1="17.526" y1="32.766" x2="18.034" y2="33.274" layer="51"/>
+<rectangle x1="14.986" y1="32.766" x2="15.494" y2="33.274" layer="51"/>
+<rectangle x1="12.446" y1="32.766" x2="12.954" y2="33.274" layer="51"/>
+<rectangle x1="9.906" y1="32.766" x2="10.414" y2="33.274" layer="51"/>
+<rectangle x1="7.366" y1="32.766" x2="7.874" y2="33.274" layer="51"/>
+<rectangle x1="25.146" y1="32.766" x2="25.654" y2="33.274" layer="51"/>
+<rectangle x1="30.226" y1="32.766" x2="30.734" y2="33.274" layer="51"/>
+<rectangle x1="27.686" y1="32.766" x2="28.194" y2="33.274" layer="51"/>
+<rectangle x1="9.906" y1="30.226" x2="10.414" y2="30.734" layer="51"/>
+<rectangle x1="7.366" y1="30.226" x2="7.874" y2="30.734" layer="51"/>
+<rectangle x1="12.446" y1="30.226" x2="12.954" y2="30.734" layer="51"/>
+<rectangle x1="14.986" y1="30.226" x2="15.494" y2="30.734" layer="51"/>
+<rectangle x1="17.526" y1="30.226" x2="18.034" y2="30.734" layer="51"/>
+<rectangle x1="20.066" y1="30.226" x2="20.574" y2="30.734" layer="51"/>
+<rectangle x1="22.606" y1="30.226" x2="23.114" y2="30.734" layer="51"/>
+<rectangle x1="25.146" y1="30.226" x2="25.654" y2="30.734" layer="51"/>
+<rectangle x1="27.686" y1="30.226" x2="28.194" y2="30.734" layer="51"/>
+<rectangle x1="30.226" y1="30.226" x2="30.734" y2="30.734" layer="51"/>
+<smd name="1C" x="7.62" y="28.8925" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="1D" x="7.62" y="34.6075" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="2C" x="10.16" y="28.8925" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="3C" x="12.7" y="28.8925" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="4C" x="15.24" y="28.8925" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="5C" x="17.78" y="28.8925" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="6C" x="20.32" y="28.8925" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="6D" x="20.32" y="34.6075" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="5D" x="17.78" y="34.6075" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="4D" x="15.24" y="34.6075" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="3D" x="12.7" y="34.6075" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="2D" x="10.16" y="34.6075" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="7C" x="22.86" y="28.8925" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="8C" x="25.4" y="28.8925" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="7D" x="22.86" y="34.6075" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="8D" x="25.4" y="34.6075" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="9D" x="27.94" y="34.6075" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="9C" x="27.94" y="28.8925" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="10C" x="30.48" y="28.8925" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<smd name="10D" x="30.48" y="34.6075" dx="1.5" dy="1.2" layer="1" rot="R90"/>
+<hole x="7.62" y="30.48" drill="1"/>
+<hole x="7.62" y="33.02" drill="1"/>
+<hole x="10.16" y="30.48" drill="1"/>
+<hole x="10.16" y="33.02" drill="1"/>
+<hole x="12.7" y="30.48" drill="1"/>
+<hole x="12.7" y="33.02" drill="1"/>
+<hole x="15.24" y="30.48" drill="1"/>
+<hole x="15.24" y="33.02" drill="1"/>
+<hole x="17.78" y="30.48" drill="1"/>
+<hole x="17.78" y="33.02" drill="1"/>
+<hole x="20.32" y="30.48" drill="1"/>
+<hole x="20.32" y="33.02" drill="1"/>
+<hole x="22.86" y="30.48" drill="1"/>
+<hole x="22.86" y="33.02" drill="1"/>
+<hole x="25.4" y="30.48" drill="1"/>
+<hole x="25.4" y="33.02" drill="1"/>
+<hole x="27.94" y="30.48" drill="1"/>
+<hole x="27.94" y="33.02" drill="1"/>
+<hole x="30.48" y="30.48" drill="1"/>
+<hole x="30.48" y="33.02" drill="1"/>
+<circle x="35.56" y="35.56" radius="2.159" width="0.6096" layer="21"/>
+<hole x="2.54" y="2.54" drill="3.2"/>
+<circle x="7.62" y="1.27" radius="0.4064" width="0.4064" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="0" y="4.826"/>
+<vertex x="5.08" y="4.826"/>
+<vertex x="5.08" y="0"/>
+<vertex x="1.016" y="0"/>
+<vertex x="0" y="1.016"/>
+</polygon>
+<hole x="35.56" y="2.54" drill="3.2"/>
+<hole x="40.64" y="2.54" drill="3.2"/>
+<circle x="40.64" y="2.54" radius="2.159" width="0.6096" layer="21"/>
+<hole x="40.64" y="35.56" drill="3.2"/>
+<hole x="73.66" y="35.56" drill="3.2"/>
+<polygon width="0.127" layer="21">
+<vertex x="76.2" y="33.274"/>
+<vertex x="71.12" y="33.274"/>
+<vertex x="71.12" y="38.1"/>
+<vertex x="75.184" y="38.1"/>
+<vertex x="76.2" y="37.084"/>
+</polygon>
+</package>
+<package name="TSOC-BB-D40-DIL-SMD-BOT">
+<description>&lt;b&gt;thingSoC Dual Fourty (40) Pin Dual-in-Line Socket SMD - BOTTOM layer metal&lt;/b&gt;
+&lt;p&gt;
+Source LBR : http://www.thingsoc.com
+&lt;br&gt;
+Github : https://github.com/thingsoc
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/
+(Creative Commons 4.0)
+&lt;p&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<text x="32.5882" y="37.6682" size="1.27" layer="25" font="vector" ratio="10" rot="R180">&gt;NAME</text>
+<rectangle x1="22.606" y1="7.366" x2="23.114" y2="7.874" layer="51"/>
+<rectangle x1="20.066" y1="7.366" x2="20.574" y2="7.874" layer="51"/>
+<rectangle x1="17.526" y1="7.366" x2="18.034" y2="7.874" layer="51"/>
+<rectangle x1="14.986" y1="7.366" x2="15.494" y2="7.874" layer="51"/>
+<rectangle x1="12.446" y1="7.366" x2="12.954" y2="7.874" layer="51"/>
+<rectangle x1="9.906" y1="7.366" x2="10.414" y2="7.874" layer="51"/>
+<rectangle x1="7.366" y1="7.366" x2="7.874" y2="7.874" layer="51"/>
+<rectangle x1="25.146" y1="7.366" x2="25.654" y2="7.874" layer="51"/>
+<rectangle x1="30.226" y1="7.366" x2="30.734" y2="7.874" layer="51"/>
+<rectangle x1="27.686" y1="7.366" x2="28.194" y2="7.874" layer="51"/>
+<rectangle x1="9.906" y1="4.826" x2="10.414" y2="5.334" layer="51"/>
+<rectangle x1="7.366" y1="4.826" x2="7.874" y2="5.334" layer="51"/>
+<rectangle x1="12.446" y1="4.826" x2="12.954" y2="5.334" layer="51"/>
+<rectangle x1="14.986" y1="4.826" x2="15.494" y2="5.334" layer="51"/>
+<rectangle x1="17.526" y1="4.826" x2="18.034" y2="5.334" layer="51"/>
+<rectangle x1="20.066" y1="4.826" x2="20.574" y2="5.334" layer="51"/>
+<rectangle x1="22.606" y1="4.826" x2="23.114" y2="5.334" layer="51"/>
+<rectangle x1="25.146" y1="4.826" x2="25.654" y2="5.334" layer="51"/>
+<rectangle x1="27.686" y1="4.826" x2="28.194" y2="5.334" layer="51"/>
+<rectangle x1="30.226" y1="4.826" x2="30.734" y2="5.334" layer="51"/>
+<wire x1="1.626390625" y1="38.1" x2="74.573609375" y2="38.1" width="0.254" layer="51"/>
+<wire x1="74.573609375" y1="38.1" x2="76.2" y2="36.473609375" width="0.254" layer="51" curve="-90"/>
+<wire x1="76.2" y1="36.473609375" x2="76.2" y2="1.626390625" width="0.254" layer="51"/>
+<wire x1="76.2" y1="1.626390625" x2="74.573609375" y2="0" width="0.254" layer="51" curve="-90"/>
+<wire x1="74.573609375" y1="0" x2="1.626390625" y2="0" width="0.254" layer="51"/>
+<wire x1="1.626390625" y1="0" x2="0" y2="1.626390625" width="0.254" layer="51" curve="-90"/>
+<wire x1="0" y1="1.626390625" x2="0" y2="36.473609375" width="0.254" layer="51"/>
+<wire x1="0" y1="36.473609375" x2="1.626390625" y2="38.1" width="0.254" layer="51" curve="-90"/>
+<hole x="35.56" y="35.56" drill="3.2"/>
+<hole x="2.54" y="35.56" drill="3.2"/>
+<hole x="73.66" y="2.54" drill="3.2"/>
+<smd name="1A" x="7.62" y="3.4925" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="1B" x="7.62" y="9.2075" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="2A" x="10.16" y="3.4925" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="3A" x="12.7" y="3.4925" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="4A" x="15.24" y="3.4925" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="5A" x="17.78" y="3.4925" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="6A" x="20.32" y="3.4925" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="6B" x="20.32" y="9.2075" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="5B" x="17.78" y="9.2075" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="4B" x="15.24" y="9.2075" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="3B" x="12.7" y="9.2075" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="2B" x="10.16" y="9.2075" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="7A" x="22.86" y="3.4925" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="8A" x="25.4" y="3.4925" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="7B" x="22.86" y="9.2075" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="8B" x="25.4" y="9.2075" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="9B" x="27.94" y="9.2075" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="9A" x="27.94" y="3.4925" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="10A" x="30.48" y="3.4925" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="10B" x="30.48" y="9.2075" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<hole x="7.62" y="5.08" drill="1"/>
+<hole x="7.62" y="7.62" drill="1"/>
+<hole x="10.16" y="5.08" drill="1"/>
+<hole x="10.16" y="7.62" drill="1"/>
+<hole x="12.7" y="5.08" drill="1"/>
+<hole x="12.7" y="7.62" drill="1"/>
+<hole x="15.24" y="5.08" drill="1"/>
+<hole x="15.24" y="7.62" drill="1"/>
+<hole x="17.78" y="5.08" drill="1"/>
+<hole x="17.78" y="7.62" drill="1"/>
+<hole x="20.32" y="5.08" drill="1"/>
+<hole x="20.32" y="7.62" drill="1"/>
+<hole x="22.86" y="5.08" drill="1"/>
+<hole x="22.86" y="7.62" drill="1"/>
+<hole x="25.4" y="5.08" drill="1"/>
+<hole x="25.4" y="7.62" drill="1"/>
+<hole x="27.94" y="5.08" drill="1"/>
+<hole x="27.94" y="7.62" drill="1"/>
+<hole x="30.48" y="5.08" drill="1"/>
+<hole x="30.48" y="7.62" drill="1"/>
+<rectangle x1="22.606" y1="32.766" x2="23.114" y2="33.274" layer="51"/>
+<rectangle x1="20.066" y1="32.766" x2="20.574" y2="33.274" layer="51"/>
+<rectangle x1="17.526" y1="32.766" x2="18.034" y2="33.274" layer="51"/>
+<rectangle x1="14.986" y1="32.766" x2="15.494" y2="33.274" layer="51"/>
+<rectangle x1="12.446" y1="32.766" x2="12.954" y2="33.274" layer="51"/>
+<rectangle x1="9.906" y1="32.766" x2="10.414" y2="33.274" layer="51"/>
+<rectangle x1="7.366" y1="32.766" x2="7.874" y2="33.274" layer="51"/>
+<rectangle x1="25.146" y1="32.766" x2="25.654" y2="33.274" layer="51"/>
+<rectangle x1="30.226" y1="32.766" x2="30.734" y2="33.274" layer="51"/>
+<rectangle x1="27.686" y1="32.766" x2="28.194" y2="33.274" layer="51"/>
+<rectangle x1="9.906" y1="30.226" x2="10.414" y2="30.734" layer="51"/>
+<rectangle x1="7.366" y1="30.226" x2="7.874" y2="30.734" layer="51"/>
+<rectangle x1="12.446" y1="30.226" x2="12.954" y2="30.734" layer="51"/>
+<rectangle x1="14.986" y1="30.226" x2="15.494" y2="30.734" layer="51"/>
+<rectangle x1="17.526" y1="30.226" x2="18.034" y2="30.734" layer="51"/>
+<rectangle x1="20.066" y1="30.226" x2="20.574" y2="30.734" layer="51"/>
+<rectangle x1="22.606" y1="30.226" x2="23.114" y2="30.734" layer="51"/>
+<rectangle x1="25.146" y1="30.226" x2="25.654" y2="30.734" layer="51"/>
+<rectangle x1="27.686" y1="30.226" x2="28.194" y2="30.734" layer="51"/>
+<rectangle x1="30.226" y1="30.226" x2="30.734" y2="30.734" layer="51"/>
+<smd name="1C" x="7.62" y="28.8925" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="1D" x="7.62" y="34.6075" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="2C" x="10.16" y="28.8925" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="3C" x="12.7" y="28.8925" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="4C" x="15.24" y="28.8925" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="5C" x="17.78" y="28.8925" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="6C" x="20.32" y="28.8925" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="6D" x="20.32" y="34.6075" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="5D" x="17.78" y="34.6075" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="4D" x="15.24" y="34.6075" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="3D" x="12.7" y="34.6075" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="2D" x="10.16" y="34.6075" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="7C" x="22.86" y="28.8925" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="8C" x="25.4" y="28.8925" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="7D" x="22.86" y="34.6075" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="8D" x="25.4" y="34.6075" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="9D" x="27.94" y="34.6075" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="9C" x="27.94" y="28.8925" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="10C" x="30.48" y="28.8925" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<smd name="10D" x="30.48" y="34.6075" dx="1.5" dy="1.2" layer="16" rot="R90"/>
+<hole x="7.62" y="30.48" drill="1"/>
+<hole x="7.62" y="33.02" drill="1"/>
+<hole x="10.16" y="30.48" drill="1"/>
+<hole x="10.16" y="33.02" drill="1"/>
+<hole x="12.7" y="30.48" drill="1"/>
+<hole x="12.7" y="33.02" drill="1"/>
+<hole x="15.24" y="30.48" drill="1"/>
+<hole x="15.24" y="33.02" drill="1"/>
+<hole x="17.78" y="30.48" drill="1"/>
+<hole x="17.78" y="33.02" drill="1"/>
+<hole x="20.32" y="30.48" drill="1"/>
+<hole x="20.32" y="33.02" drill="1"/>
+<hole x="22.86" y="30.48" drill="1"/>
+<hole x="22.86" y="33.02" drill="1"/>
+<hole x="25.4" y="30.48" drill="1"/>
+<hole x="25.4" y="33.02" drill="1"/>
+<hole x="27.94" y="30.48" drill="1"/>
+<hole x="27.94" y="33.02" drill="1"/>
+<hole x="30.48" y="30.48" drill="1"/>
+<hole x="30.48" y="33.02" drill="1"/>
+<circle x="35.56" y="35.56" radius="2.159" width="0.6096" layer="21"/>
+<hole x="2.54" y="2.54" drill="3.2"/>
+<circle x="7.62" y="1.27" radius="0.4064" width="0.4064" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="0" y="4.826"/>
+<vertex x="5.08" y="4.826"/>
+<vertex x="5.08" y="0"/>
+<vertex x="1.016" y="0"/>
+<vertex x="0" y="1.016"/>
+</polygon>
+<hole x="35.56" y="2.54" drill="3.2"/>
+<hole x="40.64" y="2.54" drill="3.2"/>
+<circle x="40.64" y="2.54" radius="2.159" width="0.6096" layer="21"/>
+<hole x="40.64" y="35.56" drill="3.2"/>
+<hole x="73.66" y="35.56" drill="3.2"/>
+<polygon width="0.127" layer="21">
+<vertex x="76.2" y="33.274"/>
+<vertex x="71.12" y="33.274"/>
+<vertex x="71.12" y="38.1"/>
+<vertex x="75.184" y="38.1"/>
+<vertex x="76.2" y="37.084"/>
+</polygon>
+</package>
+<package name="TSOC-BLANK">
+</package>
+<package name="TSOC-BRD_SGL-UP">
+<description>&lt;b&gt;thingSoC "Single" PCB Board Outline &amp; Holes&lt;/b&gt;
+&lt;p&gt;
+Source LBR : http://www.thingsoc.com
+&lt;br&gt;
+Github : https://github.com/thingsoc
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/
+(Creative Commons 4.0)
+&lt;p&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<circle x="7.62" y="1.27" radius="0.4064" width="0.4064" layer="51"/>
+<circle x="2.54" y="35.56" radius="1.626390625" width="0.127" layer="51"/>
+<circle x="35.56" y="35.56" radius="1.626390625" width="0.127" layer="51"/>
+<circle x="2.54" y="2.54" radius="1.626390625" width="0.127" layer="51"/>
+<circle x="35.56" y="2.54" radius="1.626390625" width="0.127" layer="51"/>
+<wire x1="1.27" y1="0" x2="0" y2="1.27" width="0" layer="20"/>
+<wire x1="0" y1="1.27" x2="0" y2="36.83" width="0" layer="20"/>
+<wire x1="0" y1="36.83" x2="1.27" y2="38.1" width="0" layer="20"/>
+<wire x1="1.27" y1="38.1" x2="36.83" y2="38.1" width="0" layer="20"/>
+<wire x1="36.83" y1="38.1" x2="38.1" y2="36.83" width="0" layer="20"/>
+<wire x1="38.1" y1="36.83" x2="38.1" y2="1.27" width="0" layer="20"/>
+<wire x1="38.1" y1="1.27" x2="36.83" y2="0" width="0" layer="20"/>
+<wire x1="36.83" y1="0" x2="1.27" y2="0" width="0" layer="20"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TSOC-BB-40">
@@ -13050,7 +13412,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <text x="-20.32" y="43.18" size="1.778" layer="95" font="vector" align="top-left">&gt;NAME</text>
 <text x="10.16" y="43.18" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
 <pin name="!RST@2B" x="-27.94" y="7.62" length="middle"/>
-<pin name="STAT1@1B" x="-27.94" y="-7.62" length="middle"/>
+<pin name="STAT1@1B" x="-27.94" y="-25.4" length="middle"/>
 <pin name="3C" x="25.4" y="-22.86" length="middle" rot="R180"/>
 <pin name="2C" x="25.4" y="-20.32" length="middle" rot="R180"/>
 <pin name="1C" x="25.4" y="-17.78" length="middle" rot="R180"/>
@@ -15245,14 +15607,14 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <rectangle x1="-17.5133" y1="37.9857" x2="-17.3101" y2="38.0111" layer="94"/>
 <rectangle x1="-17.4879" y1="38.0111" x2="-17.3355" y2="38.0365" layer="94"/>
 <rectangle x1="-17.4625" y1="38.0365" x2="-17.3609" y2="38.0619" layer="94"/>
-<text x="-8.89" y="-5.715" size="1.27" layer="94" font="vector" ratio="15">(15VDC)</text>
-<text x="-8.89" y="12.065" size="1.27" layer="94" font="vector" ratio="15">(3.0VDC)</text>
-<text x="-8.89" y="-8.255" size="1.27" layer="94" font="vector" ratio="15">(Analog)</text>
-<text x="-8.89" y="4.445" size="1.27" layer="94" font="vector" ratio="15">(3.3VDC)</text>
-<text x="-8.89" y="1.905" size="1.27" layer="94" font="vector" ratio="15">(5.0VDC)</text>
-<text x="-8.89" y="-0.635" size="1.27" layer="94" font="vector" ratio="15">(GND)</text>
-<text x="-8.89" y="-3.175" size="1.27" layer="94" font="vector" ratio="15">(GND)</text>
-<text x="-8.89" y="6.985" size="1.27" layer="94" font="vector" ratio="15">(Reset)</text>
+<text x="-11.43" y="-5.715" size="1.27" layer="94" font="vector" ratio="15">(15VDC)</text>
+<text x="-11.43" y="12.065" size="1.27" layer="94" font="vector" ratio="15">(3.0VDC)</text>
+<text x="-11.43" y="-26.035" size="1.27" layer="94" font="vector" ratio="15">(Analog)</text>
+<text x="-11.43" y="4.445" size="1.27" layer="94" font="vector" ratio="15">(3.3VDC)</text>
+<text x="-11.43" y="1.905" size="1.27" layer="94" font="vector" ratio="15">(5.0VDC)</text>
+<text x="-11.43" y="-0.635" size="1.27" layer="94" font="vector" ratio="15">(GND)</text>
+<text x="-11.43" y="-3.175" size="1.27" layer="94" font="vector" ratio="15">(GND)</text>
+<text x="-11.43" y="6.985" size="1.27" layer="94" font="vector" ratio="15">(Reset)</text>
 </symbol>
 <symbol name="TSOC-BB-80">
 <description>&lt;b&gt;thingSoC Eighty (80) Pin Socket&lt;/b&gt;
@@ -24450,6 +24812,100 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <technology name=""/>
 </technologies>
 </device>
+<device name="-D-SMD-TOP" package="TSOC-BB-D40-DIL-SMD-TOP">
+<connects>
+<connect gate="TSOC" pin="!RST@2B" pad="2B"/>
+<connect gate="TSOC" pin="10A" pad="9D"/>
+<connect gate="TSOC" pin="10B" pad="10B"/>
+<connect gate="TSOC" pin="10D" pad="10C"/>
+<connect gate="TSOC" pin="1C" pad="1C"/>
+<connect gate="TSOC" pin="1D" pad="5D"/>
+<connect gate="TSOC" pin="2C" pad="2C"/>
+<connect gate="TSOC" pin="2D" pad="6D"/>
+<connect gate="TSOC" pin="3B" pad="3B"/>
+<connect gate="TSOC" pin="3C" pad="3C"/>
+<connect gate="TSOC" pin="3D" pad="4D"/>
+<connect gate="TSOC" pin="3V3@7B" pad="7B"/>
+<connect gate="TSOC" pin="4B" pad="4B"/>
+<connect gate="TSOC" pin="4C" pad="4C"/>
+<connect gate="TSOC" pin="4D" pad="3D"/>
+<connect gate="TSOC" pin="5B" pad="5B"/>
+<connect gate="TSOC" pin="5C" pad="5C"/>
+<connect gate="TSOC" pin="5D" pad="1D"/>
+<connect gate="TSOC" pin="5V0@7C" pad="7C"/>
+<connect gate="TSOC" pin="6B" pad="6B"/>
+<connect gate="TSOC" pin="6C" pad="6C"/>
+<connect gate="TSOC" pin="6D" pad="2D"/>
+<connect gate="TSOC" pin="7D" pad="7D"/>
+<connect gate="TSOC" pin="9A" pad="10D"/>
+<connect gate="TSOC" pin="9B" pad="9B"/>
+<connect gate="TSOC" pin="9D" pad="9C"/>
+<connect gate="TSOC" pin="A0@1A" pad="1A"/>
+<connect gate="TSOC" pin="A1@2A" pad="2A"/>
+<connect gate="TSOC" pin="A2@3A" pad="3A"/>
+<connect gate="TSOC" pin="A3@4A" pad="4A"/>
+<connect gate="TSOC" pin="A4@5A" pad="5A"/>
+<connect gate="TSOC" pin="A5@6A" pad="6A"/>
+<connect gate="TSOC" pin="AGND@8A" pad="8A"/>
+<connect gate="TSOC" pin="AREF@7A" pad="7A"/>
+<connect gate="TSOC" pin="GND@8B" pad="8B"/>
+<connect gate="TSOC" pin="GND@8C" pad="8C"/>
+<connect gate="TSOC" pin="GND@8D" pad="8D"/>
+<connect gate="TSOC" pin="STAT1@1B" pad="1B"/>
+<connect gate="TSOC" pin="VBAT@9C" pad="9A"/>
+<connect gate="TSOC" pin="VIN@10C" pad="10A"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-D-SMD-BOT" package="TSOC-BB-D40-DIL-SMD-BOT">
+<connects>
+<connect gate="TSOC" pin="!RST@2B" pad="2B"/>
+<connect gate="TSOC" pin="10A" pad="9D"/>
+<connect gate="TSOC" pin="10B" pad="10B"/>
+<connect gate="TSOC" pin="10D" pad="10C"/>
+<connect gate="TSOC" pin="1C" pad="1C"/>
+<connect gate="TSOC" pin="1D" pad="5D"/>
+<connect gate="TSOC" pin="2C" pad="2C"/>
+<connect gate="TSOC" pin="2D" pad="6D"/>
+<connect gate="TSOC" pin="3B" pad="3B"/>
+<connect gate="TSOC" pin="3C" pad="3C"/>
+<connect gate="TSOC" pin="3D" pad="4D"/>
+<connect gate="TSOC" pin="3V3@7B" pad="7B"/>
+<connect gate="TSOC" pin="4B" pad="4B"/>
+<connect gate="TSOC" pin="4C" pad="4C"/>
+<connect gate="TSOC" pin="4D" pad="3D"/>
+<connect gate="TSOC" pin="5B" pad="5B"/>
+<connect gate="TSOC" pin="5C" pad="5C"/>
+<connect gate="TSOC" pin="5D" pad="1D"/>
+<connect gate="TSOC" pin="5V0@7C" pad="7C"/>
+<connect gate="TSOC" pin="6B" pad="6B"/>
+<connect gate="TSOC" pin="6C" pad="6C"/>
+<connect gate="TSOC" pin="6D" pad="2D"/>
+<connect gate="TSOC" pin="7D" pad="7D"/>
+<connect gate="TSOC" pin="9A" pad="10D"/>
+<connect gate="TSOC" pin="9B" pad="9B"/>
+<connect gate="TSOC" pin="9D" pad="9C"/>
+<connect gate="TSOC" pin="A0@1A" pad="1A"/>
+<connect gate="TSOC" pin="A1@2A" pad="2A"/>
+<connect gate="TSOC" pin="A2@3A" pad="3A"/>
+<connect gate="TSOC" pin="A3@4A" pad="4A"/>
+<connect gate="TSOC" pin="A4@5A" pad="5A"/>
+<connect gate="TSOC" pin="A5@6A" pad="6A"/>
+<connect gate="TSOC" pin="AGND@8A" pad="8A"/>
+<connect gate="TSOC" pin="AREF@7A" pad="7A"/>
+<connect gate="TSOC" pin="GND@8B" pad="8B"/>
+<connect gate="TSOC" pin="GND@8C" pad="8C"/>
+<connect gate="TSOC" pin="GND@8D" pad="8D"/>
+<connect gate="TSOC" pin="STAT1@1B" pad="1B"/>
+<connect gate="TSOC" pin="VBAT@9C" pad="9A"/>
+<connect gate="TSOC" pin="VIN@10C" pad="10A"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="TSOC-BB-20">
@@ -25291,6 +25747,11 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <technology name=""/>
 </technologies>
 </device>
+<device name="" package="TSOC-BLANK">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="TSOC-BB-06">
@@ -25442,10 +25903,15 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <technology name=""/>
 </technologies>
 </device>
+<device name="-SGL-EAGLEUP" package="TSOC-BRD_SGL-UP">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="2X10" prefix="J" uservalue="yes">
-<description>&lt;b&gt;thingSoC 2 Rox by 10 Pin 2.54mm Connector&lt;/b&gt;
+<description>&lt;b&gt;thingSoC 2 Row by 10 Pin 2.54mm Connector&lt;/b&gt;
 &lt;p&gt;
 Boards Outlines for Standard Sizes (in the DImension Layer) 
 &lt;br&gt;
