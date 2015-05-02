@@ -24533,31 +24533,31 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <device name="-D-PTH" package="TSOC-BB-D40-DIL-PTH">
 <connects>
 <connect gate="TSOC" pin="!RST@2B" pad="2B"/>
-<connect gate="TSOC" pin="10A" pad="9D"/>
+<connect gate="TSOC" pin="10A" pad="10A"/>
 <connect gate="TSOC" pin="10B" pad="10B"/>
-<connect gate="TSOC" pin="10D" pad="10C"/>
+<connect gate="TSOC" pin="10D" pad="10D"/>
 <connect gate="TSOC" pin="1C" pad="1C"/>
-<connect gate="TSOC" pin="1D" pad="5D"/>
+<connect gate="TSOC" pin="1D" pad="1D"/>
 <connect gate="TSOC" pin="2C" pad="2C"/>
-<connect gate="TSOC" pin="2D" pad="6D"/>
+<connect gate="TSOC" pin="2D" pad="2D"/>
 <connect gate="TSOC" pin="3B" pad="3B"/>
 <connect gate="TSOC" pin="3C" pad="3C"/>
-<connect gate="TSOC" pin="3D" pad="4D"/>
+<connect gate="TSOC" pin="3D" pad="3D"/>
 <connect gate="TSOC" pin="3V3@7B" pad="7B"/>
 <connect gate="TSOC" pin="4B" pad="4B"/>
 <connect gate="TSOC" pin="4C" pad="4C"/>
-<connect gate="TSOC" pin="4D" pad="3D"/>
+<connect gate="TSOC" pin="4D" pad="4D"/>
 <connect gate="TSOC" pin="5B" pad="5B"/>
 <connect gate="TSOC" pin="5C" pad="5C"/>
-<connect gate="TSOC" pin="5D" pad="1D"/>
+<connect gate="TSOC" pin="5D" pad="5D"/>
 <connect gate="TSOC" pin="5V0@7C" pad="7C"/>
 <connect gate="TSOC" pin="6B" pad="6B"/>
 <connect gate="TSOC" pin="6C" pad="6C"/>
-<connect gate="TSOC" pin="6D" pad="2D"/>
+<connect gate="TSOC" pin="6D" pad="6D"/>
 <connect gate="TSOC" pin="7D" pad="7D"/>
-<connect gate="TSOC" pin="9A" pad="10D"/>
+<connect gate="TSOC" pin="9A" pad="9A"/>
 <connect gate="TSOC" pin="9B" pad="9B"/>
-<connect gate="TSOC" pin="9D" pad="9C"/>
+<connect gate="TSOC" pin="9D" pad="9D"/>
 <connect gate="TSOC" pin="A0@1A" pad="1A"/>
 <connect gate="TSOC" pin="A1@2A" pad="2A"/>
 <connect gate="TSOC" pin="A2@3A" pad="3A"/>
@@ -24570,8 +24570,8 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <connect gate="TSOC" pin="GND@8C" pad="8C"/>
 <connect gate="TSOC" pin="GND@8D" pad="8D"/>
 <connect gate="TSOC" pin="STAT1@1B" pad="1B"/>
-<connect gate="TSOC" pin="VBAT@9C" pad="9A"/>
-<connect gate="TSOC" pin="VIN@10C" pad="10A"/>
+<connect gate="TSOC" pin="VBAT@9C" pad="9C"/>
+<connect gate="TSOC" pin="VIN@10C" pad="10C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -24580,31 +24580,31 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <device name="-T-PTH" package="TSOC-BB-T40-DIL-PTH">
 <connects>
 <connect gate="TSOC" pin="!RST@2B" pad="2B"/>
-<connect gate="TSOC" pin="10A" pad="9D"/>
+<connect gate="TSOC" pin="10A" pad="10A"/>
 <connect gate="TSOC" pin="10B" pad="10B"/>
-<connect gate="TSOC" pin="10D" pad="10C"/>
+<connect gate="TSOC" pin="10D" pad="10D"/>
 <connect gate="TSOC" pin="1C" pad="1C"/>
-<connect gate="TSOC" pin="1D" pad="5D"/>
+<connect gate="TSOC" pin="1D" pad="1D"/>
 <connect gate="TSOC" pin="2C" pad="2C"/>
-<connect gate="TSOC" pin="2D" pad="6D"/>
+<connect gate="TSOC" pin="2D" pad="2D"/>
 <connect gate="TSOC" pin="3B" pad="3B"/>
 <connect gate="TSOC" pin="3C" pad="3C"/>
-<connect gate="TSOC" pin="3D" pad="4D"/>
+<connect gate="TSOC" pin="3D" pad="3D"/>
 <connect gate="TSOC" pin="3V3@7B" pad="7B"/>
 <connect gate="TSOC" pin="4B" pad="4B"/>
 <connect gate="TSOC" pin="4C" pad="4C"/>
-<connect gate="TSOC" pin="4D" pad="3D"/>
+<connect gate="TSOC" pin="4D" pad="4D"/>
 <connect gate="TSOC" pin="5B" pad="5B"/>
 <connect gate="TSOC" pin="5C" pad="5C"/>
-<connect gate="TSOC" pin="5D" pad="1D"/>
+<connect gate="TSOC" pin="5D" pad="5D"/>
 <connect gate="TSOC" pin="5V0@7C" pad="7C"/>
 <connect gate="TSOC" pin="6B" pad="6B"/>
 <connect gate="TSOC" pin="6C" pad="6C"/>
-<connect gate="TSOC" pin="6D" pad="2D"/>
+<connect gate="TSOC" pin="6D" pad="6D"/>
 <connect gate="TSOC" pin="7D" pad="7D"/>
-<connect gate="TSOC" pin="9A" pad="10D"/>
+<connect gate="TSOC" pin="9A" pad="9A"/>
 <connect gate="TSOC" pin="9B" pad="9B"/>
-<connect gate="TSOC" pin="9D" pad="9C"/>
+<connect gate="TSOC" pin="9D" pad="9D"/>
 <connect gate="TSOC" pin="A0@1A" pad="1A"/>
 <connect gate="TSOC" pin="A1@2A" pad="2A"/>
 <connect gate="TSOC" pin="A2@3A" pad="3A"/>
@@ -24617,8 +24617,8 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <connect gate="TSOC" pin="GND@8C" pad="8C"/>
 <connect gate="TSOC" pin="GND@8D" pad="8D"/>
 <connect gate="TSOC" pin="STAT1@1B" pad="1B"/>
-<connect gate="TSOC" pin="VBAT@9C" pad="9A"/>
-<connect gate="TSOC" pin="VIN@10C" pad="10A"/>
+<connect gate="TSOC" pin="VBAT@9C" pad="9C"/>
+<connect gate="TSOC" pin="VIN@10C" pad="10C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -24627,31 +24627,31 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <device name="-S-SMD-BOT" package="TSOC-BB-S40-DIL-SMD-BOT">
 <connects>
 <connect gate="TSOC" pin="!RST@2B" pad="2B"/>
-<connect gate="TSOC" pin="10A" pad="9D"/>
+<connect gate="TSOC" pin="10A" pad="10A"/>
 <connect gate="TSOC" pin="10B" pad="10B"/>
-<connect gate="TSOC" pin="10D" pad="10C"/>
+<connect gate="TSOC" pin="10D" pad="10D"/>
 <connect gate="TSOC" pin="1C" pad="1C"/>
-<connect gate="TSOC" pin="1D" pad="5D"/>
+<connect gate="TSOC" pin="1D" pad="1D"/>
 <connect gate="TSOC" pin="2C" pad="2C"/>
-<connect gate="TSOC" pin="2D" pad="6D"/>
+<connect gate="TSOC" pin="2D" pad="2D"/>
 <connect gate="TSOC" pin="3B" pad="3B"/>
 <connect gate="TSOC" pin="3C" pad="3C"/>
-<connect gate="TSOC" pin="3D" pad="4D"/>
+<connect gate="TSOC" pin="3D" pad="3D"/>
 <connect gate="TSOC" pin="3V3@7B" pad="7B"/>
 <connect gate="TSOC" pin="4B" pad="4B"/>
 <connect gate="TSOC" pin="4C" pad="4C"/>
-<connect gate="TSOC" pin="4D" pad="3D"/>
+<connect gate="TSOC" pin="4D" pad="4D"/>
 <connect gate="TSOC" pin="5B" pad="5B"/>
 <connect gate="TSOC" pin="5C" pad="5C"/>
-<connect gate="TSOC" pin="5D" pad="1D"/>
+<connect gate="TSOC" pin="5D" pad="5D"/>
 <connect gate="TSOC" pin="5V0@7C" pad="7C"/>
 <connect gate="TSOC" pin="6B" pad="6B"/>
 <connect gate="TSOC" pin="6C" pad="6C"/>
-<connect gate="TSOC" pin="6D" pad="2D"/>
+<connect gate="TSOC" pin="6D" pad="6D"/>
 <connect gate="TSOC" pin="7D" pad="7D"/>
-<connect gate="TSOC" pin="9A" pad="10D"/>
+<connect gate="TSOC" pin="9A" pad="9A"/>
 <connect gate="TSOC" pin="9B" pad="9B"/>
-<connect gate="TSOC" pin="9D" pad="9C"/>
+<connect gate="TSOC" pin="9D" pad="9D"/>
 <connect gate="TSOC" pin="A0@1A" pad="1A"/>
 <connect gate="TSOC" pin="A1@2A" pad="2A"/>
 <connect gate="TSOC" pin="A2@3A" pad="3A"/>
@@ -24664,8 +24664,8 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <connect gate="TSOC" pin="GND@8C" pad="8C"/>
 <connect gate="TSOC" pin="GND@8D" pad="8D"/>
 <connect gate="TSOC" pin="STAT1@1B" pad="1B"/>
-<connect gate="TSOC" pin="VBAT@9C" pad="9A"/>
-<connect gate="TSOC" pin="VIN@10C" pad="10A"/>
+<connect gate="TSOC" pin="VBAT@9C" pad="9C"/>
+<connect gate="TSOC" pin="VIN@10C" pad="10C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -24674,31 +24674,31 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <device name="-S-PTH" package="TSOC-BB-S40-DIL-PTH">
 <connects>
 <connect gate="TSOC" pin="!RST@2B" pad="2B"/>
-<connect gate="TSOC" pin="10A" pad="9D"/>
+<connect gate="TSOC" pin="10A" pad="10A"/>
 <connect gate="TSOC" pin="10B" pad="10B"/>
-<connect gate="TSOC" pin="10D" pad="10C"/>
+<connect gate="TSOC" pin="10D" pad="10D"/>
 <connect gate="TSOC" pin="1C" pad="1C"/>
-<connect gate="TSOC" pin="1D" pad="5D"/>
+<connect gate="TSOC" pin="1D" pad="1D"/>
 <connect gate="TSOC" pin="2C" pad="2C"/>
-<connect gate="TSOC" pin="2D" pad="6D"/>
+<connect gate="TSOC" pin="2D" pad="2D"/>
 <connect gate="TSOC" pin="3B" pad="3B"/>
 <connect gate="TSOC" pin="3C" pad="3C"/>
-<connect gate="TSOC" pin="3D" pad="4D"/>
+<connect gate="TSOC" pin="3D" pad="3D"/>
 <connect gate="TSOC" pin="3V3@7B" pad="7B"/>
 <connect gate="TSOC" pin="4B" pad="4B"/>
 <connect gate="TSOC" pin="4C" pad="4C"/>
-<connect gate="TSOC" pin="4D" pad="3D"/>
+<connect gate="TSOC" pin="4D" pad="4D"/>
 <connect gate="TSOC" pin="5B" pad="5B"/>
 <connect gate="TSOC" pin="5C" pad="5C"/>
-<connect gate="TSOC" pin="5D" pad="1D"/>
+<connect gate="TSOC" pin="5D" pad="5D"/>
 <connect gate="TSOC" pin="5V0@7C" pad="7C"/>
 <connect gate="TSOC" pin="6B" pad="6B"/>
 <connect gate="TSOC" pin="6C" pad="6C"/>
-<connect gate="TSOC" pin="6D" pad="2D"/>
+<connect gate="TSOC" pin="6D" pad="6D"/>
 <connect gate="TSOC" pin="7D" pad="7D"/>
-<connect gate="TSOC" pin="9A" pad="10D"/>
+<connect gate="TSOC" pin="9A" pad="9A"/>
 <connect gate="TSOC" pin="9B" pad="9B"/>
-<connect gate="TSOC" pin="9D" pad="9C"/>
+<connect gate="TSOC" pin="9D" pad="9D"/>
 <connect gate="TSOC" pin="A0@1A" pad="1A"/>
 <connect gate="TSOC" pin="A1@2A" pad="2A"/>
 <connect gate="TSOC" pin="A2@3A" pad="3A"/>
@@ -24711,8 +24711,8 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <connect gate="TSOC" pin="GND@8C" pad="8C"/>
 <connect gate="TSOC" pin="GND@8D" pad="8D"/>
 <connect gate="TSOC" pin="STAT1@1B" pad="1B"/>
-<connect gate="TSOC" pin="VBAT@9C" pad="9A"/>
-<connect gate="TSOC" pin="VIN@10C" pad="10A"/>
+<connect gate="TSOC" pin="VBAT@9C" pad="9C"/>
+<connect gate="TSOC" pin="VIN@10C" pad="10C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -24721,31 +24721,31 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <device name="-T-PTH-HOLES" package="TSOC-BB-T40-DIL-PTH-HOLES">
 <connects>
 <connect gate="TSOC" pin="!RST@2B" pad="2B"/>
-<connect gate="TSOC" pin="10A" pad="9D"/>
+<connect gate="TSOC" pin="10A" pad="10A"/>
 <connect gate="TSOC" pin="10B" pad="10B"/>
-<connect gate="TSOC" pin="10D" pad="10C"/>
+<connect gate="TSOC" pin="10D" pad="10D"/>
 <connect gate="TSOC" pin="1C" pad="1C"/>
-<connect gate="TSOC" pin="1D" pad="5D"/>
+<connect gate="TSOC" pin="1D" pad="1D"/>
 <connect gate="TSOC" pin="2C" pad="2C"/>
-<connect gate="TSOC" pin="2D" pad="6D"/>
+<connect gate="TSOC" pin="2D" pad="2D"/>
 <connect gate="TSOC" pin="3B" pad="3B"/>
 <connect gate="TSOC" pin="3C" pad="3C"/>
-<connect gate="TSOC" pin="3D" pad="4D"/>
+<connect gate="TSOC" pin="3D" pad="3D"/>
 <connect gate="TSOC" pin="3V3@7B" pad="7B"/>
 <connect gate="TSOC" pin="4B" pad="4B"/>
 <connect gate="TSOC" pin="4C" pad="4C"/>
-<connect gate="TSOC" pin="4D" pad="3D"/>
+<connect gate="TSOC" pin="4D" pad="4D"/>
 <connect gate="TSOC" pin="5B" pad="5B"/>
 <connect gate="TSOC" pin="5C" pad="5C"/>
-<connect gate="TSOC" pin="5D" pad="1D"/>
+<connect gate="TSOC" pin="5D" pad="5D"/>
 <connect gate="TSOC" pin="5V0@7C" pad="7C"/>
 <connect gate="TSOC" pin="6B" pad="6B"/>
 <connect gate="TSOC" pin="6C" pad="6C"/>
-<connect gate="TSOC" pin="6D" pad="2D"/>
+<connect gate="TSOC" pin="6D" pad="6D"/>
 <connect gate="TSOC" pin="7D" pad="7D"/>
-<connect gate="TSOC" pin="9A" pad="10D"/>
+<connect gate="TSOC" pin="9A" pad="9A"/>
 <connect gate="TSOC" pin="9B" pad="9B"/>
-<connect gate="TSOC" pin="9D" pad="9C"/>
+<connect gate="TSOC" pin="9D" pad="9D"/>
 <connect gate="TSOC" pin="A0@1A" pad="1A"/>
 <connect gate="TSOC" pin="A1@2A" pad="2A"/>
 <connect gate="TSOC" pin="A2@3A" pad="3A"/>
@@ -24758,8 +24758,8 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <connect gate="TSOC" pin="GND@8C" pad="8C"/>
 <connect gate="TSOC" pin="GND@8D" pad="8D"/>
 <connect gate="TSOC" pin="STAT1@1B" pad="1B"/>
-<connect gate="TSOC" pin="VBAT@9C" pad="9A"/>
-<connect gate="TSOC" pin="VIN@10C" pad="10A"/>
+<connect gate="TSOC" pin="VBAT@9C" pad="9C"/>
+<connect gate="TSOC" pin="VIN@10C" pad="10C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -24768,31 +24768,31 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <device name="-S-SMD-TOP" package="TSOC-BB-S40-DIL-SMD-TOP">
 <connects>
 <connect gate="TSOC" pin="!RST@2B" pad="2B"/>
-<connect gate="TSOC" pin="10A" pad="9D"/>
+<connect gate="TSOC" pin="10A" pad="10A"/>
 <connect gate="TSOC" pin="10B" pad="10B"/>
-<connect gate="TSOC" pin="10D" pad="10C"/>
+<connect gate="TSOC" pin="10D" pad="10D"/>
 <connect gate="TSOC" pin="1C" pad="1C"/>
-<connect gate="TSOC" pin="1D" pad="5D"/>
+<connect gate="TSOC" pin="1D" pad="1D"/>
 <connect gate="TSOC" pin="2C" pad="2C"/>
-<connect gate="TSOC" pin="2D" pad="6D"/>
+<connect gate="TSOC" pin="2D" pad="2D"/>
 <connect gate="TSOC" pin="3B" pad="3B"/>
 <connect gate="TSOC" pin="3C" pad="3C"/>
-<connect gate="TSOC" pin="3D" pad="4D"/>
+<connect gate="TSOC" pin="3D" pad="3D"/>
 <connect gate="TSOC" pin="3V3@7B" pad="7B"/>
 <connect gate="TSOC" pin="4B" pad="4B"/>
 <connect gate="TSOC" pin="4C" pad="4C"/>
-<connect gate="TSOC" pin="4D" pad="3D"/>
+<connect gate="TSOC" pin="4D" pad="4D"/>
 <connect gate="TSOC" pin="5B" pad="5B"/>
 <connect gate="TSOC" pin="5C" pad="5C"/>
-<connect gate="TSOC" pin="5D" pad="1D"/>
+<connect gate="TSOC" pin="5D" pad="5D"/>
 <connect gate="TSOC" pin="5V0@7C" pad="7C"/>
 <connect gate="TSOC" pin="6B" pad="6B"/>
 <connect gate="TSOC" pin="6C" pad="6C"/>
-<connect gate="TSOC" pin="6D" pad="2D"/>
+<connect gate="TSOC" pin="6D" pad="6D"/>
 <connect gate="TSOC" pin="7D" pad="7D"/>
-<connect gate="TSOC" pin="9A" pad="10D"/>
+<connect gate="TSOC" pin="9A" pad="9A"/>
 <connect gate="TSOC" pin="9B" pad="9B"/>
-<connect gate="TSOC" pin="9D" pad="9C"/>
+<connect gate="TSOC" pin="9D" pad="9D"/>
 <connect gate="TSOC" pin="A0@1A" pad="1A"/>
 <connect gate="TSOC" pin="A1@2A" pad="2A"/>
 <connect gate="TSOC" pin="A2@3A" pad="3A"/>
@@ -24805,8 +24805,8 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <connect gate="TSOC" pin="GND@8C" pad="8C"/>
 <connect gate="TSOC" pin="GND@8D" pad="8D"/>
 <connect gate="TSOC" pin="STAT1@1B" pad="1B"/>
-<connect gate="TSOC" pin="VBAT@9C" pad="9A"/>
-<connect gate="TSOC" pin="VIN@10C" pad="10A"/>
+<connect gate="TSOC" pin="VBAT@9C" pad="9C"/>
+<connect gate="TSOC" pin="VIN@10C" pad="10C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -24815,31 +24815,31 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <device name="-D-SMD-TOP" package="TSOC-BB-D40-DIL-SMD-TOP">
 <connects>
 <connect gate="TSOC" pin="!RST@2B" pad="2B"/>
-<connect gate="TSOC" pin="10A" pad="9D"/>
+<connect gate="TSOC" pin="10A" pad="10A"/>
 <connect gate="TSOC" pin="10B" pad="10B"/>
-<connect gate="TSOC" pin="10D" pad="10C"/>
+<connect gate="TSOC" pin="10D" pad="10D"/>
 <connect gate="TSOC" pin="1C" pad="1C"/>
-<connect gate="TSOC" pin="1D" pad="5D"/>
+<connect gate="TSOC" pin="1D" pad="1D"/>
 <connect gate="TSOC" pin="2C" pad="2C"/>
-<connect gate="TSOC" pin="2D" pad="6D"/>
+<connect gate="TSOC" pin="2D" pad="2D"/>
 <connect gate="TSOC" pin="3B" pad="3B"/>
 <connect gate="TSOC" pin="3C" pad="3C"/>
-<connect gate="TSOC" pin="3D" pad="4D"/>
+<connect gate="TSOC" pin="3D" pad="3D"/>
 <connect gate="TSOC" pin="3V3@7B" pad="7B"/>
 <connect gate="TSOC" pin="4B" pad="4B"/>
 <connect gate="TSOC" pin="4C" pad="4C"/>
-<connect gate="TSOC" pin="4D" pad="3D"/>
+<connect gate="TSOC" pin="4D" pad="4D"/>
 <connect gate="TSOC" pin="5B" pad="5B"/>
 <connect gate="TSOC" pin="5C" pad="5C"/>
-<connect gate="TSOC" pin="5D" pad="1D"/>
+<connect gate="TSOC" pin="5D" pad="5D"/>
 <connect gate="TSOC" pin="5V0@7C" pad="7C"/>
 <connect gate="TSOC" pin="6B" pad="6B"/>
 <connect gate="TSOC" pin="6C" pad="6C"/>
-<connect gate="TSOC" pin="6D" pad="2D"/>
+<connect gate="TSOC" pin="6D" pad="6D"/>
 <connect gate="TSOC" pin="7D" pad="7D"/>
-<connect gate="TSOC" pin="9A" pad="10D"/>
+<connect gate="TSOC" pin="9A" pad="9A"/>
 <connect gate="TSOC" pin="9B" pad="9B"/>
-<connect gate="TSOC" pin="9D" pad="9C"/>
+<connect gate="TSOC" pin="9D" pad="9D"/>
 <connect gate="TSOC" pin="A0@1A" pad="1A"/>
 <connect gate="TSOC" pin="A1@2A" pad="2A"/>
 <connect gate="TSOC" pin="A2@3A" pad="3A"/>
@@ -24852,8 +24852,8 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <connect gate="TSOC" pin="GND@8C" pad="8C"/>
 <connect gate="TSOC" pin="GND@8D" pad="8D"/>
 <connect gate="TSOC" pin="STAT1@1B" pad="1B"/>
-<connect gate="TSOC" pin="VBAT@9C" pad="9A"/>
-<connect gate="TSOC" pin="VIN@10C" pad="10A"/>
+<connect gate="TSOC" pin="VBAT@9C" pad="9C"/>
+<connect gate="TSOC" pin="VIN@10C" pad="10C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -24862,31 +24862,31 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <device name="-D-SMD-BOT" package="TSOC-BB-D40-DIL-SMD-BOT">
 <connects>
 <connect gate="TSOC" pin="!RST@2B" pad="2B"/>
-<connect gate="TSOC" pin="10A" pad="9D"/>
+<connect gate="TSOC" pin="10A" pad="10A"/>
 <connect gate="TSOC" pin="10B" pad="10B"/>
-<connect gate="TSOC" pin="10D" pad="10C"/>
+<connect gate="TSOC" pin="10D" pad="10D"/>
 <connect gate="TSOC" pin="1C" pad="1C"/>
-<connect gate="TSOC" pin="1D" pad="5D"/>
+<connect gate="TSOC" pin="1D" pad="1D"/>
 <connect gate="TSOC" pin="2C" pad="2C"/>
-<connect gate="TSOC" pin="2D" pad="6D"/>
+<connect gate="TSOC" pin="2D" pad="2D"/>
 <connect gate="TSOC" pin="3B" pad="3B"/>
 <connect gate="TSOC" pin="3C" pad="3C"/>
-<connect gate="TSOC" pin="3D" pad="4D"/>
+<connect gate="TSOC" pin="3D" pad="3D"/>
 <connect gate="TSOC" pin="3V3@7B" pad="7B"/>
 <connect gate="TSOC" pin="4B" pad="4B"/>
 <connect gate="TSOC" pin="4C" pad="4C"/>
-<connect gate="TSOC" pin="4D" pad="3D"/>
+<connect gate="TSOC" pin="4D" pad="4D"/>
 <connect gate="TSOC" pin="5B" pad="5B"/>
 <connect gate="TSOC" pin="5C" pad="5C"/>
-<connect gate="TSOC" pin="5D" pad="1D"/>
+<connect gate="TSOC" pin="5D" pad="5D"/>
 <connect gate="TSOC" pin="5V0@7C" pad="7C"/>
 <connect gate="TSOC" pin="6B" pad="6B"/>
 <connect gate="TSOC" pin="6C" pad="6C"/>
-<connect gate="TSOC" pin="6D" pad="2D"/>
+<connect gate="TSOC" pin="6D" pad="6D"/>
 <connect gate="TSOC" pin="7D" pad="7D"/>
-<connect gate="TSOC" pin="9A" pad="10D"/>
+<connect gate="TSOC" pin="9A" pad="9A"/>
 <connect gate="TSOC" pin="9B" pad="9B"/>
-<connect gate="TSOC" pin="9D" pad="9C"/>
+<connect gate="TSOC" pin="9D" pad="9D"/>
 <connect gate="TSOC" pin="A0@1A" pad="1A"/>
 <connect gate="TSOC" pin="A1@2A" pad="2A"/>
 <connect gate="TSOC" pin="A2@3A" pad="3A"/>
@@ -24899,8 +24899,8 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <connect gate="TSOC" pin="GND@8C" pad="8C"/>
 <connect gate="TSOC" pin="GND@8D" pad="8D"/>
 <connect gate="TSOC" pin="STAT1@1B" pad="1B"/>
-<connect gate="TSOC" pin="VBAT@9C" pad="9A"/>
-<connect gate="TSOC" pin="VIN@10C" pad="10A"/>
+<connect gate="TSOC" pin="VBAT@9C" pad="9C"/>
+<connect gate="TSOC" pin="VIN@10C" pad="10C"/>
 </connects>
 <technologies>
 <technology name=""/>
