@@ -5,16 +5,13 @@
 
 **thingSoC Reference Designs** are example thingSoC implementations that implement
 various reference and testing circuits for demonstrating the use of the thingSoC libraries.
-These reference designs can serve as starting templates for user designs.
+These reference designs are complete designs and can also serve as starting templates for users to customize.
 
 **TSOC-ESP8266-EM** includes an ESP8266-07/12 format Wi-Fi module, 
 along with an I2C NVSRAM (or EEPROM) for storing the board configuration information,
 RGB LED for status, TMP102 Temperature Sensor, and an ATECC108 Authentication device.
 
 ---------------------------------------
-
-For ESP8266 Documentation (esp. toolchain info) see [NurdSpace](https://nurdspace.nl/ESP8266)
-
 
 [![thingSoC TSOC-ESP8266-EM](http://thingsoc.github.io/img/projects/TSOC-ESP8266-EM/TSOC-ESP8266-EM_top.png)  
 *TSOC-ESP8266-EM*](https://github.com/thingSoC/TSOC-ESP8266-EM)
@@ -36,6 +33,8 @@ For ESP8266 Documentation (esp. toolchain info) see [NurdSpace](https://nurdspac
 ---------------------------------------
 
 ## Documentation Index <a name="documentation_index"/>
+
+For ESP8266 Documentation (esp. toolchain info) see [NurdSpace](https://nurdspace.nl/ESP8266)
 
 [thingSoC Organization Website](http://thingSoC.github.io)
 
