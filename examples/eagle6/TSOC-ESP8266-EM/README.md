@@ -7,8 +7,9 @@
 various reference and testing circuits for demonstrating the use of the thingSoC libraries.
 These reference designs can serve as starting templates for user designs.
 
-**TSOC-ESP8266-EM** includes an ESP8266-07 format Wi-Fi module, along with an I2C EEPROM for storing the board configuration information,
-and status LED's. 
+**TSOC-ESP8266-EM** includes an ESP8266-07/12 format Wi-Fi module, 
+along with an I2C NVSRAM (or EEPROM) for storing the board configuration information,
+RGB LED for status, TMP102 Temperature Sensor, and an ATECC108 Authentication device.
 
 ---------------------------------------
 
@@ -17,6 +18,20 @@ For ESP8266 Documentation (esp. toolchain info) see [NurdSpace](https://nurdspac
 
 [![thingSoC TSOC-ESP8266-EM](http://thingsoc.github.io/img/projects/TSOC-ESP8266-EM/TSOC-ESP8266-EM_top.png)  
 *TSOC-ESP8266-EM*](https://github.com/thingSoC/TSOC-ESP8266-EM)
+
+* [Supported by the Arduino IDE](https://www.arduino.cc/) 
+* Wi-Fi and OTA (Over the Air) Program Upgrade/Download
+* thingSoC Compliant Module
+* [Mikrobus Compatible Module](http://www.mikroe.com/mikrobus/) 
+* ESP8266 Wi-Fi Module 802.11 b/g/n
+* +19.5dBm output power in 802.11b mode
+* Wi-Fi Direct (P2P), soft-AP
+* Integrated TCP/IP protocol stack
+* Internal Antenna and U.FL external Antenna Support
+* RGB Color LED for status
+* Optional EEPROM/NVSRAM (SOIC8) Socket
+* Optional TMP102 I2C Temperature Sensor Socket
+* Optional ATECC108 Authentication CoProcessor Socket
 
 ---------------------------------------
 
