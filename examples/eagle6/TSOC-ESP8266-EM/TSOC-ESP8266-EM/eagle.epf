@@ -1,0 +1,37 @@
+[Eagle]
+Version="06 06 00"
+Platform="Linux"
+Serial="7212E3F38F-LSR-WLM-1CP"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/home/moxon/github/PCB_Libraries/eagle6/lbr/PatternAgents-Beautify.lbr"
+UsedLibrary="/home/moxon/github/PCB_Libraries/eagle6/lbr/PatternAgents-Enclosures.lbr"
+UsedLibrary="/home/moxon/github/PCB_Libraries/eagle6/lbr/PatternAgents-Interface.lbr"
+UsedLibrary="/home/moxon/github/PCB_Libraries/eagle6/lbr/PatternAgents-JTAG.lbr"
+UsedLibrary="/home/moxon/github/PCB_Libraries/eagle6/lbr/PatternAgents-Logos.lbr"
+UsedLibrary="/home/moxon/github/PCB_Libraries/eagle6/lbr/PatternAgents-Molex.lbr"
+UsedLibrary="/home/moxon/github/PCB_Libraries/eagle6/lbr/PatternAgents-OnSemi.lbr"
+UsedLibrary="/home/moxon/github/PCB_Libraries/eagle6/lbr/PatternAgents-ProtoPads.lbr"
+UsedLibrary="/home/moxon/github/PCB_Libraries/eagle6/lbr/PatternAgents-TI-Tiva.lbr"
+UsedLibrary="/home/moxon/github/PCB_Libraries/eagle6/lbr/PatternAgents_RFmodules.lbr"
+UsedLibrary="/home/moxon/github/thingSoC/libraries/eagle6/lbr/thingSoC.lbr"
+UsedLibrary="/data/customers/moxondesign/github/PCB_Libraries/eagle6/lbr/PatternAgents-Beautify.lbr"
+UsedLibrary="/data/customers/moxondesign/github/PCB_Libraries/eagle6/lbr/PatternAgents-Interface.lbr"
+UsedLibrary="/data/customers/moxondesign/github/PCB_Libraries/eagle6/lbr/PatternAgents-Logos.lbr"
+UsedLibrary="/data/customers/moxondesign/github/PCB_Libraries/eagle6/lbr/PatternAgents-TouchWidgets.lbr"
+UsedLibrary="/data/vendors/eagle/third_party/sparkfun/SparkFun-Eagle-Libraries-master/SparkFun-Eagle-Libraries-master/SparkFun-DiscreteSemi.lbr"
+UsedLibrary="/data/vendors/eagle/third_party/sparkfun/SparkFun-Eagle-Libraries-master/SparkFun-Eagle-Libraries-master/SparkFun-LED.lbr"
+UsedLibrary="/data/vendors/eagle/third_party/sparkfun/SparkFun-Eagle-Libraries-master/SparkFun-Eagle-Libraries-master/SparkFun-DigitalIC.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="1966 37 3454 910"
+State=2
+Number=0
+
+[Desktop]
+Screen="3840 1080"
+Window="Win_1"
