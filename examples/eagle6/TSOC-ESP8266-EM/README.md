@@ -1,5 +1,4 @@
 # TSOC-ESP8266-EM
-=============
 
 **TSOC-ESP8266-EM** is a Wi-Fi Embedded Module, **thingSoC Reference Design.** 
 
