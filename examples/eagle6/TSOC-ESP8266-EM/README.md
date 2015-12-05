@@ -13,7 +13,7 @@ RGB LED for status, TMP102 Temperature Sensor, and an ATECC108 Authentication de
 ---------------------------------------
 
 [![thingSoC TSOC-ESP8266-EM](http://thingsoc.github.io/img/projects/TSOC-ESP8266-EM/TSOC-ESP8266-EM_top.png)  
-*TSOC-ESP8266-EM*](https://github.com/thingSoC/TSOC-ESP8266-EM)
+*TSOC-ESP8266-EM*](https://github.com/thingSoC/thingSoC/tree/master/examples/eagle6/TSOC-ESP8266-EM)
 
 * [Supported by the Arduino IDE](https://www.arduino.cc/) 
 * Wi-Fi and OTA (Over the Air) Program Upgrade/Download
