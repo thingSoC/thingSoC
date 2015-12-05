@@ -25,9 +25,9 @@ RGB LED for status, TMP102 Temperature Sensor, and an ATECC108 Authentication de
 * Integrated TCP/IP protocol stack
 * Internal Antenna and U.FL external Antenna Support
 * RGB Color LED for status
-* Optional EEPROM/NVSRAM (SOIC8) Socket
-* Optional TMP102 I2C Temperature Sensor Socket
-* Optional ATECC108 Authentication CoProcessor Socket
+* [Optional EEPROM/NVSRAM (SOIC8) Socket](http://www.cypress.com/file/41666/download)
+* [Optional TMP102 I2C Temperature Sensor Socket](http://www.ti.com/lit/ds/symlink/tmp102.pdf)
+* [Optional ATECC108 Authentication CoProcessor Socket](http://www.atmel.com/Images/Atmel-8873S-CryptoAuth-ATECC108-Datasheet-Summary.pdf)
 
 ---------------------------------------
 
