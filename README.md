@@ -13,6 +13,9 @@ but adds features and capabilites that make building new IoT devices much easier
 The **thingSoC** virtual platform definition supports a number of different System-on-Chip platforms and peripherals,
 such as cell modems, packet radios, Wi-Fi, Bluetooth, and more. 
 
+[![Image](http://thingsoc.github.io/img/projects/thingSoC/thingSoC_cat.png?raw=true)  
+*thingSoC*](http://thingsoc.github.io)
+
 ---------------------------------------
 
 ## Documentation Index <a name="documentation_index"/>
