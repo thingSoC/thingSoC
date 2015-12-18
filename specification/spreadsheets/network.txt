@@ -1,0 +1,34 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# NFS Mount Example
+#192.168.1.16:/data        /data2          nfs  rsize=8192,wsize=8192,timeo=14,intr
+#
+# "/" root partition mount
+/dev/mapper/taiga--vg-root /               ext4    errors=remount-ro 0       1
+#
+# "/boot" was on /dev/sda1 during installation
+# but we'll use UUID mount to be certain
+UUID=65001826-3b77-4057-9cc5-a1eb6f70d324 /boot           ext2    defaults        0       2
+#
+# "swap" space
+/dev/mapper/taiga--vg-swap_1 none            swap    sw              0       0
+#
+# "cdrom" mount
+/dev/sr0        /media/cdrom0   udf,iso9660 user,noauto     0       0
+#
+# Buffalo NAS File Server SMB Mounts to /data/"share"
+#
+//192.168.1.90/customers  /data/customers cifs rw,user=moxon,password=smbpasswd,uid=1000,gid=1000 0 0
+//192.168.1.90/downloads  /data/downloads cifs rw,user=moxon,password=smbpasswd,uid=1000,gid=1000 0 0
+//192.168.1.90/music      /data/music     cifs rw,user=moxon,password=smbpasswd,uid=1000,gid=1000 0 0
+//192.168.1.90/pictures   /data/pictures  cifs rw,user=moxon,password=smbpasswd,uid=1000,gid=1000 0 0
+//192.168.1.90/videos     /data/videos    cifs rw,user=moxon,password=smbpasswd,uid=1000,gid=1000 0 0
+//192.168.1.90/vendors    /data/vendors   cifs rw,user=moxon,password=smbpasswd,uid=1000,gid=1000 0 0
+#
+# Angel Mounts
+//192.168.1.15/videos     /data2/videos   cifs rw,user=moxon,password=L33lad0g,uid=1000,gid=1000 0 0
