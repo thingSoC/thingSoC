@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -7973,8 +7973,8 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <wire x1="1.778" y1="44.45" x2="0" y2="42.672" width="0" layer="20" curve="90"/>
 <wire x1="0" y1="1.778" x2="1.778" y2="0" width="0" layer="20" curve="90"/>
 <wire x1="28.702" y1="0" x2="30.48" y2="1.778" width="0" layer="20" curve="90"/>
-<hole x="1.905" y="42.672" drill="2"/>
-<hole x="28.575" y="42.672" drill="2"/>
+<hole x="1.905" y="42.545" drill="2"/>
+<hole x="28.575" y="42.545" drill="2"/>
 <wire x1="1.778" y1="44.45" x2="4.164190625" y2="44.45" width="0" layer="20"/>
 <wire x1="4.164190625" y1="44.45" x2="5.08" y2="45.365809375" width="0" layer="20" curve="90"/>
 <wire x1="5.08" y1="45.365809375" x2="5.08" y2="49.884190625" width="0" layer="20"/>
