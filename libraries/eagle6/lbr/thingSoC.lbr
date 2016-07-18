@@ -7198,10 +7198,10 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="-19.05" y1="-11.43" x2="-19.05" y2="11.43" width="0" layer="20"/>
-<wire x1="-19.05" y1="11.43" x2="19.05" y2="11.43" width="0" layer="20"/>
-<wire x1="19.05" y1="11.43" x2="19.05" y2="-11.43" width="0" layer="20"/>
-<wire x1="19.05" y1="-11.43" x2="-19.05" y2="-11.43" width="0" layer="20"/>
+<wire x1="11.43" y1="-19.05" x2="-11.43" y2="-19.05" width="0" layer="20"/>
+<wire x1="-11.43" y1="-19.05" x2="-11.43" y2="19.05" width="0" layer="20"/>
+<wire x1="-11.43" y1="19.05" x2="11.43" y2="19.05" width="0" layer="20"/>
+<wire x1="11.43" y1="19.05" x2="11.43" y2="-19.05" width="0" layer="20"/>
 </package>
 <package name="TSOC-EM-S32">
 <description>&lt;b&gt;thingSoC Embedded Module Thirty-Two(32) Pin Socket&lt;/b&gt;
@@ -7501,35 +7501,14 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="0" y1="30.48" x2="1.27" y2="31.75" width="0" layer="20"/>
-<wire x1="0" y1="30.48" x2="0" y2="7.62" width="0" layer="20"/>
-<wire x1="78.74" y1="6.35" x2="1.27" y2="6.35" width="0" layer="20"/>
-<wire x1="1.27" y1="6.35" x2="0" y2="7.62" width="0" layer="20"/>
-<wire x1="78.74" y1="6.35" x2="80.01" y2="7.62" width="0" layer="20"/>
-<wire x1="80.01" y1="7.62" x2="80.01" y2="30.48" width="0" layer="20"/>
-<wire x1="80.01" y1="30.48" x2="78.74" y2="31.75" width="0" layer="20"/>
-<wire x1="78.74" y1="31.75" x2="1.27" y2="31.75" width="0" layer="20"/>
-</package>
-<package name="TSOC-EM-BRD-DBL-CUT">
-<description>&lt;b&gt;thingSoC "Double" PCB Board Outline for "Cut" modules&lt;/b&gt;
-&lt;p&gt;
-Source LBR : http://www.thingsoc.com
-&lt;br&gt;
-Github : https://github.com/thingsoc
-&lt;br&gt;
-License : http://creativecommons.org/licenses/by-sa/4.0/
-(Creative Commons 4.0)
-&lt;p&gt;
-THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
-&lt;P&gt;</description>
-<wire x1="0" y1="29.21" x2="1.27" y2="30.48" width="0" layer="20"/>
-<wire x1="0" y1="29.21" x2="0" y2="8.89" width="0" layer="20"/>
-<wire x1="78.74" y1="7.62" x2="1.27" y2="7.62" width="0" layer="20"/>
-<wire x1="1.27" y1="7.62" x2="0" y2="8.89" width="0" layer="20"/>
-<wire x1="78.74" y1="7.62" x2="80.01" y2="8.89" width="0" layer="20"/>
-<wire x1="80.01" y1="8.89" x2="80.01" y2="29.21" width="0" layer="20"/>
-<wire x1="80.01" y1="29.21" x2="78.74" y2="30.48" width="0" layer="20"/>
-<wire x1="78.74" y1="30.48" x2="1.27" y2="30.48" width="0" layer="20"/>
+<wire x1="-11.43" y1="-25.908" x2="-12.7" y2="-24.638" width="0" layer="20"/>
+<wire x1="-11.43" y1="-25.908" x2="11.43" y2="-25.908" width="0" layer="20"/>
+<wire x1="12.7" y1="52.832" x2="12.7" y2="-24.638" width="0" layer="20"/>
+<wire x1="12.7" y1="-24.638" x2="11.43" y2="-25.908" width="0" layer="20"/>
+<wire x1="12.7" y1="52.832" x2="11.43" y2="54.102" width="0" layer="20"/>
+<wire x1="11.43" y1="54.102" x2="-11.43" y2="54.102" width="0" layer="20"/>
+<wire x1="-11.43" y1="54.102" x2="-12.7" y2="52.832" width="0" layer="20"/>
+<wire x1="-12.7" y1="52.832" x2="-12.7" y2="-24.638" width="0" layer="20"/>
 </package>
 <package name="TSOC-EM-BB">
 <description>&lt;b&gt;thingSoC "Single" PCB Board Outline For Embedded Modules - BreadBoard Friendly Size&lt;/b&gt;
@@ -7984,6 +7963,39 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <wire x1="25.4" y1="49.884190625" x2="25.4" y2="45.365809375" width="0" layer="20"/>
 <wire x1="25.4" y1="45.365809375" x2="26.315809375" y2="44.45" width="0" layer="20" curve="90"/>
 <wire x1="26.315809375" y1="44.45" x2="28.702" y2="44.45" width="0" layer="20"/>
+</package>
+<package name="TSOC-BB-BRD-CUT-PLUS">
+<description>&lt;b&gt;thingSoC "Single" PCB Board Outline &amp; Holes&lt;/b&gt;
+&lt;p&gt;
+Source LBR : http://www.thingsoc.com
+&lt;br&gt;
+Github : https://github.com/thingsoc
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/
+(Creative Commons 4.0)
+&lt;p&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<wire x1="30.48" y1="1.778" x2="30.48" y2="51.562" width="0" layer="20"/>
+<wire x1="0" y1="51.562" x2="0" y2="1.778" width="0" layer="20"/>
+<hole x="1.905" y="10.795" drill="2"/>
+<hole x="28.575" y="10.795" drill="2"/>
+<wire x1="1.778" y1="0" x2="28.702" y2="0" width="0" layer="20"/>
+<wire x1="30.48" y1="51.562" x2="28.702" y2="53.34" width="0" layer="20" curve="90"/>
+<wire x1="1.778" y1="53.34" x2="0" y2="51.562" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="1.778" x2="1.778" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="28.702" y1="0" x2="30.48" y2="1.778" width="0" layer="20" curve="90"/>
+<hole x="1.905" y="51.435" drill="2"/>
+<hole x="28.575" y="51.435" drill="2"/>
+<wire x1="1.778" y1="53.34" x2="4.164190625" y2="53.34" width="0" layer="20"/>
+<wire x1="4.164190625" y1="53.34" x2="5.08" y2="54.255809375" width="0" layer="20" curve="90"/>
+<wire x1="5.08" y1="54.255809375" x2="5.08" y2="58.774190625" width="0" layer="20"/>
+<wire x1="5.08" y1="58.774190625" x2="5.995809375" y2="59.69" width="0" layer="20" curve="-90"/>
+<wire x1="5.995809375" y1="59.69" x2="24.484190625" y2="59.69" width="0" layer="20"/>
+<wire x1="24.484190625" y1="59.69" x2="25.4" y2="58.774190625" width="0" layer="20" curve="-90"/>
+<wire x1="25.4" y1="58.774190625" x2="25.4" y2="54.255809375" width="0" layer="20"/>
+<wire x1="25.4" y1="54.255809375" x2="26.315809375" y2="53.34" width="0" layer="20" curve="90"/>
+<wire x1="26.315809375" y1="53.34" x2="28.702" y2="53.34" width="0" layer="20"/>
 </package>
 </packages>
 <symbols>
@@ -21298,11 +21310,6 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <technology name=""/>
 </technologies>
 </device>
-<device name="-EM-DBL-CUT" package="TSOC-EM-BRD-DBL-CUT">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="-EM-BB" package="TSOC-EM-BB">
 <technologies>
 <technology name=""/>
@@ -21314,6 +21321,11 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </technologies>
 </device>
 <device name="-PLUSCUT" package="TSOC-BB-BRD-PLUS-CUT">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CUTPLUS" package="TSOC-BB-BRD-CUT-PLUS">
 <technologies>
 <technology name=""/>
 </technologies>
