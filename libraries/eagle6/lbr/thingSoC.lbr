@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -6705,7 +6705,7 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
 </package>
-<package name="TSOC-BB-BRD-HALF">
+<package name="TSOC-BB-BRD-HALF-DIM">
 <description>&lt;b&gt;thingSoC "Single" PCB Board Outline &amp; Holes&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.thingsoc.com
@@ -6717,18 +6717,18 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="30.48" y1="1.778" x2="30.48" y2="21.082" width="0.1524" layer="20"/>
-<wire x1="28.702" y1="22.86" x2="1.778" y2="22.86" width="0.1524" layer="20"/>
-<wire x1="0" y1="21.082" x2="0" y2="1.778" width="0.1524" layer="20"/>
-<hole x="1.905" y="1.905" drill="2"/>
-<hole x="28.575" y="1.905" drill="2"/>
-<wire x1="1.778" y1="0" x2="28.702" y2="0" width="0.1524" layer="20"/>
-<wire x1="30.48" y1="21.082" x2="28.702" y2="22.86" width="0.1524" layer="20" curve="90"/>
-<wire x1="1.778" y1="22.86" x2="0" y2="21.082" width="0.1524" layer="20" curve="90"/>
-<wire x1="0" y1="1.778" x2="1.778" y2="0" width="0.1524" layer="20" curve="90"/>
-<wire x1="28.702" y1="0" x2="30.48" y2="1.778" width="0.1524" layer="20" curve="90"/>
+<wire x1="15.24" y1="-24.13" x2="15.24" y2="-4.826" width="0.1524" layer="20"/>
+<wire x1="13.462" y1="-3.048" x2="-13.462" y2="-3.048" width="0.1524" layer="20"/>
+<wire x1="-15.24" y1="-4.826" x2="-15.24" y2="-24.13" width="0.1524" layer="20"/>
+<hole x="-13.335" y="-24.003" drill="2"/>
+<hole x="13.335" y="-24.003" drill="2"/>
+<wire x1="-13.462" y1="-25.908" x2="13.462" y2="-25.908" width="0.1524" layer="20"/>
+<wire x1="15.24" y1="-4.826" x2="13.462" y2="-3.048" width="0.1524" layer="20" curve="90"/>
+<wire x1="-13.462" y1="-3.048" x2="-15.24" y2="-4.826" width="0.1524" layer="20" curve="90"/>
+<wire x1="-15.24" y1="-24.13" x2="-13.462" y2="-25.908" width="0.1524" layer="20" curve="90"/>
+<wire x1="13.462" y1="-25.908" x2="15.24" y2="-24.13" width="0.1524" layer="20" curve="90"/>
 </package>
-<package name="TSOC-BB-BRD">
+<package name="TSOC-BB-BRD-DIM">
 <description>&lt;b&gt;thingSoC "Single" PCB Board Outline &amp; Holes&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.thingsoc.com
@@ -6740,20 +6740,20 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="30.48" y1="1.778" x2="30.48" y2="42.672" width="0.1524" layer="20"/>
-<wire x1="28.702" y1="44.45" x2="1.778" y2="44.45" width="0.1524" layer="20"/>
-<wire x1="0" y1="42.672" x2="0" y2="1.778" width="0.1524" layer="20"/>
-<hole x="1.905" y="1.905" drill="2"/>
-<hole x="28.575" y="1.905" drill="2"/>
-<wire x1="1.778" y1="0" x2="28.702" y2="0" width="0.1524" layer="20"/>
-<wire x1="30.48" y1="42.672" x2="28.702" y2="44.45" width="0.1524" layer="20" curve="90"/>
-<wire x1="1.778" y1="44.45" x2="0" y2="42.672" width="0.1524" layer="20" curve="90"/>
-<wire x1="0" y1="1.778" x2="1.778" y2="0" width="0.1524" layer="20" curve="90"/>
-<wire x1="28.702" y1="0" x2="30.48" y2="1.778" width="0.1524" layer="20" curve="90"/>
-<hole x="1.905" y="42.545" drill="2"/>
-<hole x="28.575" y="42.545" drill="2"/>
+<wire x1="-15.24" y1="16.764" x2="-15.24" y2="-24.13" width="0.1524" layer="20"/>
+<wire x1="-13.462" y1="-25.908" x2="13.462" y2="-25.908" width="0.1524" layer="20"/>
+<wire x1="15.24" y1="-24.13" x2="15.24" y2="16.764" width="0.1524" layer="20"/>
+<hole x="13.335" y="16.637" drill="2"/>
+<hole x="-13.335" y="16.637" drill="2"/>
+<wire x1="13.462" y1="18.542" x2="-13.462" y2="18.542" width="0.1524" layer="20"/>
+<wire x1="-15.24" y1="-24.13" x2="-13.462" y2="-25.908" width="0.1524" layer="20" curve="90"/>
+<wire x1="13.462" y1="-25.908" x2="15.24" y2="-24.13" width="0.1524" layer="20" curve="90"/>
+<wire x1="15.24" y1="16.764" x2="13.462" y2="18.542" width="0.1524" layer="20" curve="90"/>
+<wire x1="-13.462" y1="18.542" x2="-15.24" y2="16.764" width="0.1524" layer="20" curve="90"/>
+<hole x="13.335" y="-24.003" drill="2"/>
+<hole x="-13.335" y="-24.003" drill="2"/>
 </package>
-<package name="TS0C-BB-BRD-DBL">
+<package name="TS0C-BB-BRD-DBL-DIM">
 <description>&lt;b&gt;thingSoC "Double" PCB Board Outline &amp; Holes&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.thingsoc.com
@@ -6765,22 +6765,22 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="30.48" y1="1.778" x2="30.48" y2="87.122" width="0.1524" layer="20"/>
-<wire x1="28.702" y1="88.9" x2="1.778" y2="88.9" width="0.1524" layer="20"/>
-<wire x1="0" y1="87.122" x2="0" y2="1.778" width="0.1524" layer="20"/>
-<hole x="28.575" y="86.995" drill="2"/>
-<hole x="1.905" y="86.995" drill="2"/>
-<hole x="1.905" y="1.905" drill="2"/>
-<hole x="28.575" y="1.905" drill="2"/>
-<wire x1="1.778" y1="0" x2="28.702" y2="0" width="0.1524" layer="20"/>
-<wire x1="30.48" y1="87.122" x2="28.702" y2="88.9" width="0.1524" layer="20" curve="90"/>
-<wire x1="1.778" y1="88.9" x2="0" y2="87.122" width="0.1524" layer="20" curve="90"/>
-<wire x1="0" y1="1.778" x2="1.778" y2="0" width="0.1524" layer="20" curve="90"/>
-<wire x1="28.702" y1="0" x2="30.48" y2="1.778" width="0.1524" layer="20" curve="90"/>
-<hole x="1.905" y="42.672" drill="2"/>
-<hole x="28.575" y="42.672" drill="2"/>
-<hole x="1.905" y="46.355" drill="2"/>
-<hole x="28.575" y="46.355" drill="2"/>
+<wire x1="15.24" y1="-24.13" x2="15.24" y2="61.214" width="0.1524" layer="20"/>
+<wire x1="13.462" y1="62.992" x2="-13.462" y2="62.992" width="0.1524" layer="20"/>
+<wire x1="-15.24" y1="61.214" x2="-15.24" y2="-24.13" width="0.1524" layer="20"/>
+<hole x="13.335" y="61.087" drill="2"/>
+<hole x="-13.335" y="61.087" drill="2"/>
+<hole x="-13.335" y="-24.003" drill="2"/>
+<hole x="13.335" y="-24.003" drill="2"/>
+<wire x1="-13.462" y1="-25.908" x2="13.462" y2="-25.908" width="0.1524" layer="20"/>
+<wire x1="15.24" y1="61.214" x2="13.462" y2="62.992" width="0.1524" layer="20" curve="90"/>
+<wire x1="-13.462" y1="62.992" x2="-15.24" y2="61.214" width="0.1524" layer="20" curve="90"/>
+<wire x1="-15.24" y1="-24.13" x2="-13.462" y2="-25.908" width="0.1524" layer="20" curve="90"/>
+<wire x1="13.462" y1="-25.908" x2="15.24" y2="-24.13" width="0.1524" layer="20" curve="90"/>
+<hole x="-13.335" y="16.764" drill="2"/>
+<hole x="13.335" y="16.764" drill="2"/>
+<hole x="-13.335" y="20.447" drill="2"/>
+<hole x="13.335" y="20.447" drill="2"/>
 </package>
 <package name="TSOC-EM-S24">
 <description>&lt;b&gt;thingSoC Embedded Module Twenty-Four(24) Pin Socket&lt;/b&gt;
@@ -6794,55 +6794,55 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<pad name="1B" x="-11.43" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="2B" x="-8.89" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="3B" x="-6.35" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="4B" x="-3.81" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="5B" x="-1.27" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="6B" x="1.27" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="7B" x="3.81" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="8B" x="6.35" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<text x="-6.35" y="-8.382" size="1.27" layer="25" font="vector" ratio="10" rot="R180">&gt;NAME</text>
-<rectangle x1="3.556" y1="-11.684" x2="4.064" y2="-11.176" layer="51"/>
-<rectangle x1="1.016" y1="-11.684" x2="1.524" y2="-11.176" layer="51"/>
-<rectangle x1="-1.524" y1="-11.684" x2="-1.016" y2="-11.176" layer="51"/>
-<rectangle x1="-4.064" y1="-11.684" x2="-3.556" y2="-11.176" layer="51"/>
-<rectangle x1="-6.604" y1="-11.684" x2="-6.096" y2="-11.176" layer="51"/>
-<rectangle x1="-9.144" y1="-11.684" x2="-8.636" y2="-11.176" layer="51"/>
-<rectangle x1="-11.684" y1="-11.684" x2="-11.176" y2="-11.176" layer="51"/>
-<rectangle x1="6.096" y1="-11.684" x2="6.604" y2="-11.176" layer="51"/>
-<pad name="1C" x="-11.43" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="2C" x="-8.89" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="3C" x="-6.35" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="4C" x="-3.81" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="5C" x="-1.27" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="6C" x="1.27" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="7C" x="3.81" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="8C" x="6.35" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="3.556" y1="11.176" x2="4.064" y2="11.684" layer="51"/>
-<rectangle x1="1.016" y1="11.176" x2="1.524" y2="11.684" layer="51"/>
-<rectangle x1="-1.524" y1="11.176" x2="-1.016" y2="11.684" layer="51"/>
-<rectangle x1="-4.064" y1="11.176" x2="-3.556" y2="11.684" layer="51"/>
-<rectangle x1="-6.604" y1="11.176" x2="-6.096" y2="11.684" layer="51"/>
-<rectangle x1="-9.144" y1="11.176" x2="-8.636" y2="11.684" layer="51"/>
-<rectangle x1="-11.684" y1="11.176" x2="-11.176" y2="11.684" layer="51"/>
-<rectangle x1="6.096" y1="11.176" x2="6.604" y2="11.684" layer="51"/>
-<pad name="10B" x="11.43" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="11.176" y1="-11.684" x2="11.684" y2="-11.176" layer="51"/>
-<pad name="9B" x="8.89" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="8.636" y1="-11.684" x2="9.144" y2="-11.176" layer="51"/>
-<pad name="9C" x="8.89" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="8.636" y1="11.176" x2="9.144" y2="11.684" layer="51"/>
-<pad name="10C" x="11.43" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="11.176" y1="11.176" x2="11.684" y2="11.684" layer="51"/>
-<pad name="11C" x="13.97" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="13.716" y1="11.176" x2="14.224" y2="11.684" layer="51"/>
-<pad name="12C" x="16.51" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="16.256" y1="11.176" x2="16.764" y2="11.684" layer="51"/>
-<pad name="11B" x="13.97" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="13.716" y1="-11.684" x2="14.224" y2="-11.176" layer="51"/>
-<pad name="12B" x="16.51" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="16.256" y1="-11.684" x2="16.764" y2="-11.176" layer="51"/>
+<pad name="1B" x="-11.43" y="11.43" drill="1.016" shape="long"/>
+<pad name="2B" x="-11.43" y="8.89" drill="1.016" shape="long"/>
+<pad name="3B" x="-11.43" y="6.35" drill="1.016" shape="long"/>
+<pad name="4B" x="-11.43" y="3.81" drill="1.016" shape="long"/>
+<pad name="5B" x="-11.43" y="1.27" drill="1.016" shape="long"/>
+<pad name="6B" x="-11.43" y="-1.27" drill="1.016" shape="long"/>
+<pad name="7B" x="-11.43" y="-3.81" drill="1.016" shape="long"/>
+<pad name="8B" x="-11.43" y="-6.35" drill="1.016" shape="long"/>
+<text x="-8.382" y="6.35" size="1.27" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<rectangle x1="-11.684" y1="-4.064" x2="-11.176" y2="-3.556" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="-1.524" x2="-11.176" y2="-1.016" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="1.016" x2="-11.176" y2="1.524" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="3.556" x2="-11.176" y2="4.064" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="6.096" x2="-11.176" y2="6.604" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="8.636" x2="-11.176" y2="9.144" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="11.176" x2="-11.176" y2="11.684" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="-6.604" x2="-11.176" y2="-6.096" layer="51" rot="R270"/>
+<pad name="1C" x="11.43" y="11.43" drill="1.016" shape="long"/>
+<pad name="2C" x="11.43" y="8.89" drill="1.016" shape="long"/>
+<pad name="3C" x="11.43" y="6.35" drill="1.016" shape="long"/>
+<pad name="4C" x="11.43" y="3.81" drill="1.016" shape="long"/>
+<pad name="5C" x="11.43" y="1.27" drill="1.016" shape="long"/>
+<pad name="6C" x="11.43" y="-1.27" drill="1.016" shape="long"/>
+<pad name="7C" x="11.43" y="-3.81" drill="1.016" shape="long"/>
+<pad name="8C" x="11.43" y="-6.35" drill="1.016" shape="long"/>
+<rectangle x1="11.176" y1="-4.064" x2="11.684" y2="-3.556" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-1.524" x2="11.684" y2="-1.016" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="1.016" x2="11.684" y2="1.524" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="3.556" x2="11.684" y2="4.064" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="6.096" x2="11.684" y2="6.604" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="8.636" x2="11.684" y2="9.144" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="11.176" x2="11.684" y2="11.684" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-6.604" x2="11.684" y2="-6.096" layer="51" rot="R270"/>
+<pad name="10B" x="-11.43" y="-11.43" drill="1.016" shape="long"/>
+<rectangle x1="-11.684" y1="-11.684" x2="-11.176" y2="-11.176" layer="51" rot="R270"/>
+<pad name="9B" x="-11.43" y="-8.89" drill="1.016" shape="long"/>
+<rectangle x1="-11.684" y1="-9.144" x2="-11.176" y2="-8.636" layer="51" rot="R270"/>
+<pad name="9C" x="11.43" y="-8.89" drill="1.016" shape="long"/>
+<rectangle x1="11.176" y1="-9.144" x2="11.684" y2="-8.636" layer="51" rot="R270"/>
+<pad name="10C" x="11.43" y="-11.43" drill="1.016" shape="long"/>
+<rectangle x1="11.176" y1="-11.684" x2="11.684" y2="-11.176" layer="51" rot="R270"/>
+<pad name="11C" x="11.43" y="-13.97" drill="1.016" shape="long"/>
+<rectangle x1="11.176" y1="-14.224" x2="11.684" y2="-13.716" layer="51" rot="R270"/>
+<pad name="12C" x="11.43" y="-16.51" drill="1.016" shape="long"/>
+<rectangle x1="11.176" y1="-16.764" x2="11.684" y2="-16.256" layer="51" rot="R270"/>
+<pad name="11B" x="-11.43" y="-13.97" drill="1.016" shape="long"/>
+<rectangle x1="-11.684" y1="-14.224" x2="-11.176" y2="-13.716" layer="51" rot="R270"/>
+<pad name="12B" x="-11.43" y="-16.51" drill="1.016" shape="long"/>
+<rectangle x1="-11.684" y1="-16.764" x2="-11.176" y2="-16.256" layer="51" rot="R270"/>
 </package>
 <package name="TSOC-EM-S04">
 <description>&lt;b&gt;thingSoC Four(4) Pin Socket&lt;/b&gt;
@@ -6856,15 +6856,15 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<text x="17.78" y="14.478" size="1.27" layer="25" font="vector" ratio="10" rot="R180">&gt;NAME</text>
-<pad name="9C" x="8.89" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="8.636" y1="11.176" x2="9.144" y2="11.684" layer="51"/>
-<pad name="10C" x="11.43" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="11.176" y1="11.176" x2="11.684" y2="11.684" layer="51"/>
-<pad name="11C" x="13.97" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="13.716" y1="11.176" x2="14.224" y2="11.684" layer="51"/>
-<pad name="12C" x="16.51" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="16.256" y1="11.176" x2="16.764" y2="11.684" layer="51"/>
+<text x="14.478" y="-17.78" size="1.27" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<pad name="9C" x="11.43" y="-8.89" drill="1.016" shape="long"/>
+<rectangle x1="11.176" y1="-9.144" x2="11.684" y2="-8.636" layer="51" rot="R270"/>
+<pad name="10C" x="11.43" y="-11.43" drill="1.016" shape="long"/>
+<rectangle x1="11.176" y1="-11.684" x2="11.684" y2="-11.176" layer="51" rot="R270"/>
+<pad name="11C" x="11.43" y="-13.97" drill="1.016" shape="long"/>
+<rectangle x1="11.176" y1="-14.224" x2="11.684" y2="-13.716" layer="51" rot="R270"/>
+<pad name="12C" x="11.43" y="-16.51" drill="1.016" shape="long"/>
+<rectangle x1="11.176" y1="-16.764" x2="11.684" y2="-16.256" layer="51" rot="R270"/>
 </package>
 <package name="TSOC-BB-S24-SMD-TOPA">
 <description>&lt;b&gt;thingSoC Single Twenty-Four(24) Pin SIngle-in-Line SMD Socket - TOP layer metal&lt;/b&gt;
@@ -6878,138 +6878,138 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="-12.8" y1="-12.68" x2="-12.8" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="17.88" y1="-10.18" x2="17.88" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="-12.28" y1="-12.68" x2="-12.8" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="17.88" y1="-12.68" x2="12.153" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="12.28" y1="-10.18" x2="17.88" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="-12.8" y1="-10.18" x2="-12.153" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="3.107" y1="-12.68" x2="1.973" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="-10.641" y1="-10.18" x2="-9.679" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="-8.101" y1="-10.18" x2="-7.139" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="-5.561" y1="-10.18" x2="-4.599" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="-3.021" y1="-10.18" x2="-2.059" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="-0.481" y1="-10.18" x2="0.481" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="2.059" y1="-10.18" x2="3.021" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="4.599" y1="-10.18" x2="5.561" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="5.647" y1="-12.68" x2="4.513" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="0.567" y1="-12.68" x2="-0.567" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="-1.973" y1="-12.68" x2="-3.107" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="-4.513" y1="-12.68" x2="-5.647" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="-7.053" y1="-12.68" x2="-8.187" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="-9.593" y1="-12.68" x2="-10.727" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="7.139" y1="-10.18" x2="8.101" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="9.679" y1="-10.18" x2="10.641" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="8.187" y1="-12.68" x2="7.053" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="10.727" y1="-12.68" x2="9.593" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="-12.8" y1="10.18" x2="-12.8" y2="12.68" width="0.127" layer="21"/>
-<wire x1="17.88" y1="12.68" x2="17.88" y2="10.18" width="0.127" layer="21"/>
-<wire x1="-12.28" y1="10.18" x2="-12.8" y2="10.18" width="0.127" layer="21"/>
-<wire x1="17.88" y1="10.18" x2="12.153" y2="10.18" width="0.127" layer="21"/>
-<wire x1="12.28" y1="12.68" x2="17.88" y2="12.68" width="0.127" layer="21"/>
-<wire x1="-12.8" y1="12.68" x2="-12.153" y2="12.68" width="0.127" layer="21"/>
-<wire x1="3.107" y1="10.18" x2="1.973" y2="10.18" width="0.127" layer="21"/>
-<wire x1="-10.641" y1="12.68" x2="-9.679" y2="12.68" width="0.127" layer="21"/>
-<wire x1="-8.101" y1="12.68" x2="-7.139" y2="12.68" width="0.127" layer="21"/>
-<wire x1="-5.561" y1="12.68" x2="-4.599" y2="12.68" width="0.127" layer="21"/>
-<wire x1="-3.021" y1="12.68" x2="-2.059" y2="12.68" width="0.127" layer="21"/>
-<wire x1="-0.481" y1="12.68" x2="0.481" y2="12.68" width="0.127" layer="21"/>
-<wire x1="2.059" y1="12.68" x2="3.021" y2="12.68" width="0.127" layer="21"/>
-<wire x1="4.599" y1="12.68" x2="5.561" y2="12.68" width="0.127" layer="21"/>
-<wire x1="5.647" y1="10.18" x2="4.513" y2="10.18" width="0.127" layer="21"/>
-<wire x1="0.567" y1="10.18" x2="-0.567" y2="10.18" width="0.127" layer="21"/>
-<wire x1="-1.973" y1="10.18" x2="-3.107" y2="10.18" width="0.127" layer="21"/>
-<wire x1="-4.513" y1="10.18" x2="-5.647" y2="10.18" width="0.127" layer="21"/>
-<wire x1="-7.053" y1="10.18" x2="-8.187" y2="10.18" width="0.127" layer="21"/>
-<wire x1="-9.593" y1="10.18" x2="-10.727" y2="10.18" width="0.127" layer="21"/>
-<wire x1="7.139" y1="12.68" x2="8.101" y2="12.68" width="0.127" layer="21"/>
-<wire x1="9.679" y1="12.68" x2="10.641" y2="12.68" width="0.127" layer="21"/>
-<wire x1="8.187" y1="10.18" x2="7.053" y2="10.18" width="0.127" layer="21"/>
-<wire x1="10.727" y1="10.18" x2="9.593" y2="10.18" width="0.127" layer="21"/>
-<smd name="1B" x="-11.43" y="-11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="2B" x="-8.89" y="-11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="3B" x="-6.35" y="-11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="4B" x="-3.81" y="-11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="5B" x="-1.27" y="-11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="6B" x="1.27" y="-11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="7B" x="3.81" y="-11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="8B" x="6.35" y="-11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="9B" x="8.89" y="-11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="10B" x="11.43" y="-11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="10C" x="11.43" y="11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="9C" x="8.89" y="11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="8C" x="6.35" y="11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="7C" x="3.81" y="11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="6C" x="1.27" y="11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="5C" x="-1.27" y="11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="4C" x="-3.81" y="11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="3C" x="-6.35" y="11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="2C" x="-8.89" y="11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="1C" x="-11.43" y="11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<wire x1="17.78" y1="-12.68" x2="17.78" y2="-10.18" width="0.127" layer="51"/>
-<wire x1="17.78" y1="-10.18" x2="-12.7" y2="-10.18" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="-10.18" x2="-12.7" y2="-12.68" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="-12.68" x2="17.78" y2="-12.68" width="0.127" layer="51"/>
-<circle x="11.43" y="-11.43" radius="0.64" width="0.127" layer="51"/>
-<circle x="8.89" y="-11.43" radius="0.64" width="0.127" layer="51"/>
-<circle x="6.35" y="-11.43" radius="0.64" width="0.127" layer="51"/>
-<circle x="3.81" y="-11.43" radius="0.64" width="0.127" layer="51"/>
-<circle x="1.27" y="-11.43" radius="0.64" width="0.127" layer="51"/>
-<circle x="-1.27" y="-11.43" radius="0.64" width="0.127" layer="51"/>
-<rectangle x1="11.11" y1="-14.18" x2="11.75" y2="-11.43" layer="51" rot="R180"/>
-<rectangle x1="6.03" y1="-14.18" x2="6.67" y2="-11.43" layer="51" rot="R180"/>
-<rectangle x1="0.95" y1="-14.18" x2="1.59" y2="-11.43" layer="51" rot="R180"/>
-<rectangle x1="8.57" y1="-11.43" x2="9.21" y2="-8.68" layer="51"/>
-<rectangle x1="3.49" y1="-11.43" x2="4.13" y2="-8.68" layer="51"/>
-<rectangle x1="-1.59" y1="-11.43" x2="-0.95" y2="-8.68" layer="51"/>
-<circle x="-3.81" y="-11.43" radius="0.64" width="0.127" layer="51"/>
-<circle x="-6.35" y="-11.43" radius="0.64" width="0.127" layer="51"/>
-<rectangle x1="-4.13" y1="-14.18" x2="-3.49" y2="-11.43" layer="51" rot="R180"/>
-<rectangle x1="-6.67" y1="-11.43" x2="-6.03" y2="-8.68" layer="51"/>
-<rectangle x1="-11.75" y1="-11.43" x2="-11.11" y2="-8.68" layer="51"/>
-<rectangle x1="-9.21" y1="-14.18" x2="-8.57" y2="-11.43" layer="51" rot="R180"/>
-<circle x="-8.89" y="-11.43" radius="0.64" width="0.127" layer="51"/>
+<wire x1="-12.68" y1="12.8" x2="-10.18" y2="12.8" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="-17.88" x2="-12.68" y2="-17.88" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="12.28" x2="-12.68" y2="12.8" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="-17.88" x2="-12.68" y2="-12.153" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="-12.28" x2="-10.18" y2="-17.88" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="12.8" x2="-10.18" y2="12.153" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="-3.107" x2="-12.68" y2="-1.973" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="10.641" x2="-10.18" y2="9.679" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="8.101" x2="-10.18" y2="7.139" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="5.561" x2="-10.18" y2="4.599" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="3.021" x2="-10.18" y2="2.059" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="0.481" x2="-10.18" y2="-0.481" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="-2.059" x2="-10.18" y2="-3.021" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="-4.599" x2="-10.18" y2="-5.561" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="-5.647" x2="-12.68" y2="-4.513" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="-0.567" x2="-12.68" y2="0.567" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="1.973" x2="-12.68" y2="3.107" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="4.513" x2="-12.68" y2="5.647" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="7.053" x2="-12.68" y2="8.187" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="9.593" x2="-12.68" y2="10.727" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="-7.139" x2="-10.18" y2="-8.101" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="-9.679" x2="-10.18" y2="-10.641" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="-8.187" x2="-12.68" y2="-7.053" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="-10.727" x2="-12.68" y2="-9.593" width="0.127" layer="21"/>
+<wire x1="10.18" y1="12.8" x2="12.68" y2="12.8" width="0.127" layer="21"/>
+<wire x1="12.68" y1="-17.88" x2="10.18" y2="-17.88" width="0.127" layer="21"/>
+<wire x1="10.18" y1="12.28" x2="10.18" y2="12.8" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-17.88" x2="10.18" y2="-12.153" width="0.127" layer="21"/>
+<wire x1="12.68" y1="-12.28" x2="12.68" y2="-17.88" width="0.127" layer="21"/>
+<wire x1="12.68" y1="12.8" x2="12.68" y2="12.153" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-3.107" x2="10.18" y2="-1.973" width="0.127" layer="21"/>
+<wire x1="12.68" y1="10.641" x2="12.68" y2="9.679" width="0.127" layer="21"/>
+<wire x1="12.68" y1="8.101" x2="12.68" y2="7.139" width="0.127" layer="21"/>
+<wire x1="12.68" y1="5.561" x2="12.68" y2="4.599" width="0.127" layer="21"/>
+<wire x1="12.68" y1="3.021" x2="12.68" y2="2.059" width="0.127" layer="21"/>
+<wire x1="12.68" y1="0.481" x2="12.68" y2="-0.481" width="0.127" layer="21"/>
+<wire x1="12.68" y1="-2.059" x2="12.68" y2="-3.021" width="0.127" layer="21"/>
+<wire x1="12.68" y1="-4.599" x2="12.68" y2="-5.561" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-5.647" x2="10.18" y2="-4.513" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-0.567" x2="10.18" y2="0.567" width="0.127" layer="21"/>
+<wire x1="10.18" y1="1.973" x2="10.18" y2="3.107" width="0.127" layer="21"/>
+<wire x1="10.18" y1="4.513" x2="10.18" y2="5.647" width="0.127" layer="21"/>
+<wire x1="10.18" y1="7.053" x2="10.18" y2="8.187" width="0.127" layer="21"/>
+<wire x1="10.18" y1="9.593" x2="10.18" y2="10.727" width="0.127" layer="21"/>
+<wire x1="12.68" y1="-7.139" x2="12.68" y2="-8.101" width="0.127" layer="21"/>
+<wire x1="12.68" y1="-9.679" x2="12.68" y2="-10.641" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-8.187" x2="10.18" y2="-7.053" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-10.727" x2="10.18" y2="-9.593" width="0.127" layer="21"/>
+<smd name="1B" x="-11.43" y="11.43" dx="5.4" dy="1" layer="1"/>
+<smd name="2B" x="-11.43" y="8.89" dx="5.4" dy="1" layer="1"/>
+<smd name="3B" x="-11.43" y="6.35" dx="5.4" dy="1" layer="1"/>
+<smd name="4B" x="-11.43" y="3.81" dx="5.4" dy="1" layer="1"/>
+<smd name="5B" x="-11.43" y="1.27" dx="5.4" dy="1" layer="1"/>
+<smd name="6B" x="-11.43" y="-1.27" dx="5.4" dy="1" layer="1"/>
+<smd name="7B" x="-11.43" y="-3.81" dx="5.4" dy="1" layer="1"/>
+<smd name="8B" x="-11.43" y="-6.35" dx="5.4" dy="1" layer="1"/>
+<smd name="9B" x="-11.43" y="-8.89" dx="5.4" dy="1" layer="1"/>
+<smd name="10B" x="-11.43" y="-11.43" dx="5.4" dy="1" layer="1"/>
+<smd name="10C" x="11.43" y="-11.43" dx="5.4" dy="1" layer="1"/>
+<smd name="9C" x="11.43" y="-8.89" dx="5.4" dy="1" layer="1"/>
+<smd name="8C" x="11.43" y="-6.35" dx="5.4" dy="1" layer="1"/>
+<smd name="7C" x="11.43" y="-3.81" dx="5.4" dy="1" layer="1"/>
+<smd name="6C" x="11.43" y="-1.27" dx="5.4" dy="1" layer="1"/>
+<smd name="5C" x="11.43" y="1.27" dx="5.4" dy="1" layer="1"/>
+<smd name="4C" x="11.43" y="3.81" dx="5.4" dy="1" layer="1"/>
+<smd name="3C" x="11.43" y="6.35" dx="5.4" dy="1" layer="1"/>
+<smd name="2C" x="11.43" y="8.89" dx="5.4" dy="1" layer="1"/>
+<smd name="1C" x="11.43" y="11.43" dx="5.4" dy="1" layer="1"/>
+<wire x1="-12.68" y1="-17.78" x2="-10.18" y2="-17.78" width="0.127" layer="51"/>
+<wire x1="-10.18" y1="-17.78" x2="-10.18" y2="12.7" width="0.127" layer="51"/>
+<wire x1="-10.18" y1="12.7" x2="-12.68" y2="12.7" width="0.127" layer="51"/>
+<wire x1="-12.68" y1="12.7" x2="-12.68" y2="-17.78" width="0.127" layer="51"/>
 <circle x="-11.43" y="-11.43" radius="0.64" width="0.127" layer="51"/>
-<wire x1="17.78" y1="10.18" x2="17.78" y2="12.68" width="0.127" layer="51"/>
-<wire x1="17.78" y1="12.68" x2="-12.7" y2="12.68" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="12.68" x2="-12.7" y2="10.18" width="0.127" layer="51"/>
-<wire x1="-12.7" y1="10.18" x2="17.78" y2="10.18" width="0.127" layer="51"/>
-<circle x="11.43" y="11.43" radius="0.64" width="0.127" layer="51"/>
-<circle x="8.89" y="11.43" radius="0.64" width="0.127" layer="51"/>
-<circle x="6.35" y="11.43" radius="0.64" width="0.127" layer="51"/>
-<circle x="3.81" y="11.43" radius="0.64" width="0.127" layer="51"/>
-<circle x="1.27" y="11.43" radius="0.64" width="0.127" layer="51"/>
-<circle x="-1.27" y="11.43" radius="0.64" width="0.127" layer="51"/>
-<rectangle x1="11.11" y1="8.68" x2="11.75" y2="11.43" layer="51" rot="R180"/>
-<rectangle x1="6.03" y1="8.68" x2="6.67" y2="11.43" layer="51" rot="R180"/>
-<rectangle x1="0.95" y1="8.68" x2="1.59" y2="11.43" layer="51" rot="R180"/>
-<rectangle x1="8.57" y1="11.43" x2="9.21" y2="14.18" layer="51"/>
-<rectangle x1="3.49" y1="11.43" x2="4.13" y2="14.18" layer="51"/>
-<rectangle x1="-1.59" y1="11.43" x2="-0.95" y2="14.18" layer="51"/>
-<circle x="-3.81" y="11.43" radius="0.64" width="0.127" layer="51"/>
-<circle x="-6.35" y="11.43" radius="0.64" width="0.127" layer="51"/>
-<rectangle x1="-4.13" y1="8.68" x2="-3.49" y2="11.43" layer="51" rot="R180"/>
-<rectangle x1="-6.67" y1="11.43" x2="-6.03" y2="14.18" layer="51"/>
-<rectangle x1="-11.75" y1="11.43" x2="-11.11" y2="14.18" layer="51"/>
-<rectangle x1="-9.21" y1="8.68" x2="-8.57" y2="11.43" layer="51" rot="R180"/>
-<circle x="-8.89" y="11.43" radius="0.64" width="0.127" layer="51"/>
+<circle x="-11.43" y="-8.89" radius="0.64" width="0.127" layer="51"/>
+<circle x="-11.43" y="-6.35" radius="0.64" width="0.127" layer="51"/>
+<circle x="-11.43" y="-3.81" radius="0.64" width="0.127" layer="51"/>
+<circle x="-11.43" y="-1.27" radius="0.64" width="0.127" layer="51"/>
+<circle x="-11.43" y="1.27" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="-13.125" y1="-12.805" x2="-12.485" y2="-10.055" layer="51" rot="R90"/>
+<rectangle x1="-13.125" y1="-7.725" x2="-12.485" y2="-4.975" layer="51" rot="R90"/>
+<rectangle x1="-13.125" y1="-2.645" x2="-12.485" y2="0.105" layer="51" rot="R90"/>
+<rectangle x1="-10.375" y1="-10.265" x2="-9.735" y2="-7.515" layer="51" rot="R270"/>
+<rectangle x1="-10.375" y1="-5.185" x2="-9.735" y2="-2.435" layer="51" rot="R270"/>
+<rectangle x1="-10.375" y1="-0.105" x2="-9.735" y2="2.645" layer="51" rot="R270"/>
+<circle x="-11.43" y="3.81" radius="0.64" width="0.127" layer="51"/>
+<circle x="-11.43" y="6.35" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="-13.125" y1="2.435" x2="-12.485" y2="5.185" layer="51" rot="R90"/>
+<rectangle x1="-10.375" y1="4.975" x2="-9.735" y2="7.725" layer="51" rot="R270"/>
+<rectangle x1="-10.375" y1="10.055" x2="-9.735" y2="12.805" layer="51" rot="R270"/>
+<rectangle x1="-13.125" y1="7.515" x2="-12.485" y2="10.265" layer="51" rot="R90"/>
+<circle x="-11.43" y="8.89" radius="0.64" width="0.127" layer="51"/>
 <circle x="-11.43" y="11.43" radius="0.64" width="0.127" layer="51"/>
+<wire x1="10.18" y1="-17.78" x2="12.68" y2="-17.78" width="0.127" layer="51"/>
+<wire x1="12.68" y1="-17.78" x2="12.68" y2="12.7" width="0.127" layer="51"/>
+<wire x1="12.68" y1="12.7" x2="10.18" y2="12.7" width="0.127" layer="51"/>
+<wire x1="10.18" y1="12.7" x2="10.18" y2="-17.78" width="0.127" layer="51"/>
+<circle x="11.43" y="-11.43" radius="0.64" width="0.127" layer="51"/>
+<circle x="11.43" y="-8.89" radius="0.64" width="0.127" layer="51"/>
+<circle x="11.43" y="-6.35" radius="0.64" width="0.127" layer="51"/>
+<circle x="11.43" y="-3.81" radius="0.64" width="0.127" layer="51"/>
+<circle x="11.43" y="-1.27" radius="0.64" width="0.127" layer="51"/>
+<circle x="11.43" y="1.27" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="9.735" y1="-12.805" x2="10.375" y2="-10.055" layer="51" rot="R90"/>
+<rectangle x1="9.735" y1="-7.725" x2="10.375" y2="-4.975" layer="51" rot="R90"/>
+<rectangle x1="9.735" y1="-2.645" x2="10.375" y2="0.105" layer="51" rot="R90"/>
+<rectangle x1="12.485" y1="-10.265" x2="13.125" y2="-7.515" layer="51" rot="R270"/>
+<rectangle x1="12.485" y1="-5.185" x2="13.125" y2="-2.435" layer="51" rot="R270"/>
+<rectangle x1="12.485" y1="-0.105" x2="13.125" y2="2.645" layer="51" rot="R270"/>
+<circle x="11.43" y="3.81" radius="0.64" width="0.127" layer="51"/>
+<circle x="11.43" y="6.35" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="9.735" y1="2.435" x2="10.375" y2="5.185" layer="51" rot="R90"/>
+<rectangle x1="12.485" y1="4.975" x2="13.125" y2="7.725" layer="51" rot="R270"/>
+<rectangle x1="12.485" y1="10.055" x2="13.125" y2="12.805" layer="51" rot="R270"/>
+<rectangle x1="9.735" y1="7.515" x2="10.375" y2="10.265" layer="51" rot="R90"/>
+<circle x="11.43" y="8.89" radius="0.64" width="0.127" layer="51"/>
 <circle x="11.43" y="11.43" radius="0.64" width="0.127" layer="51"/>
-<circle x="13.97" y="11.43" radius="0.64" width="0.127" layer="51"/>
-<circle x="16.51" y="11.176" radius="0.64" width="0.127" layer="51"/>
-<rectangle x1="13.65" y1="11.474" x2="14.29" y2="14.224" layer="51" rot="R180"/>
-<rectangle x1="16.19" y1="8.426" x2="16.83" y2="11.176" layer="51" rot="R180"/>
-<smd name="11C" x="13.97" y="11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="12C" x="16.51" y="11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="11B" x="13.97" y="-11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<smd name="12B" x="16.51" y="-11.43" dx="5.4" dy="1" layer="1" rot="R90"/>
-<rectangle x1="16.19" y1="-14.18" x2="16.83" y2="-11.43" layer="51" rot="R180"/>
-<rectangle x1="13.65" y1="-11.43" x2="14.29" y2="-8.68" layer="51"/>
-<circle x="13.97" y="-11.43" radius="0.64" width="0.127" layer="51"/>
-<circle x="16.51" y="-11.43" radius="0.64" width="0.127" layer="51"/>
+<circle x="11.43" y="-11.43" radius="0.64" width="0.127" layer="51"/>
+<circle x="11.43" y="-13.97" radius="0.64" width="0.127" layer="51"/>
+<circle x="11.176" y="-16.51" radius="0.64" width="0.127" layer="51"/>
+<rectangle x1="12.529" y1="-15.345" x2="13.169" y2="-12.595" layer="51" rot="R90"/>
+<rectangle x1="9.481" y1="-17.885" x2="10.121" y2="-15.135" layer="51" rot="R90"/>
+<smd name="11C" x="11.43" y="-13.97" dx="5.4" dy="1" layer="1"/>
+<smd name="12C" x="11.43" y="-16.51" dx="5.4" dy="1" layer="1"/>
+<smd name="11B" x="-11.43" y="-13.97" dx="5.4" dy="1" layer="1"/>
+<smd name="12B" x="-11.43" y="-16.51" dx="5.4" dy="1" layer="1"/>
+<rectangle x1="-13.125" y1="-17.885" x2="-12.485" y2="-15.135" layer="51" rot="R90"/>
+<rectangle x1="-10.375" y1="-15.345" x2="-9.735" y2="-12.595" layer="51" rot="R270"/>
+<circle x="-11.43" y="-13.97" radius="0.64" width="0.127" layer="51"/>
+<circle x="-11.43" y="-16.51" radius="0.64" width="0.127" layer="51"/>
 </package>
 <package name="TSOC-BB-S24-SMD-BOTA">
-<description>&lt;b&gt;thingSoC Single Twenty-Four (24) Pin SIngle-in-Line SMD Socket - BOTTOM layer metal&lt;/b&gt;
+<description>&lt;b&gt;thingSoC Single Twenty-Four (24) Pin Single-in-Line SMD Socket - BOTTOM layer metal&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.thingsoc.com
 &lt;br&gt;
@@ -7020,89 +7020,89 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<smd name="1B" x="-11.43" y="-11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="2B" x="-8.89" y="-11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="3B" x="-6.35" y="-11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="4B" x="-3.81" y="-11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="5B" x="-1.27" y="-11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="6B" x="1.27" y="-11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="7B" x="3.81" y="-11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="8B" x="6.35" y="-11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="9B" x="8.89" y="-11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="10B" x="11.43" y="-11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="10C" x="11.43" y="11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="9C" x="8.89" y="11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="8C" x="6.35" y="11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="7C" x="3.81" y="11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="6C" x="1.27" y="11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="5C" x="-1.27" y="11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="4C" x="-3.81" y="11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="3C" x="-6.35" y="11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="2C" x="-8.89" y="11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="1C" x="-11.43" y="11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<wire x1="17.78" y1="-12.68" x2="17.78" y2="-10.18" width="0.127" layer="22"/>
-<wire x1="17.78" y1="-10.18" x2="-12.7" y2="-10.18" width="0.127" layer="22"/>
-<wire x1="-12.7" y1="-10.18" x2="-12.7" y2="-12.68" width="0.127" layer="22"/>
-<wire x1="-12.7" y1="-12.68" x2="17.78" y2="-12.68" width="0.127" layer="22"/>
-<circle x="11.43" y="-11.43" radius="0.64" width="0.127" layer="22"/>
-<circle x="8.89" y="-11.43" radius="0.64" width="0.127" layer="22"/>
-<circle x="6.35" y="-11.43" radius="0.64" width="0.127" layer="22"/>
-<circle x="3.81" y="-11.43" radius="0.64" width="0.127" layer="22"/>
-<circle x="1.27" y="-11.43" radius="0.64" width="0.127" layer="22"/>
-<circle x="-1.27" y="-11.43" radius="0.64" width="0.127" layer="22"/>
-<rectangle x1="11.11" y1="-14.18" x2="11.75" y2="-11.43" layer="22" rot="R180"/>
-<rectangle x1="6.03" y1="-14.18" x2="6.67" y2="-11.43" layer="22" rot="R180"/>
-<rectangle x1="0.95" y1="-14.18" x2="1.59" y2="-11.43" layer="22" rot="R180"/>
-<rectangle x1="8.57" y1="-11.43" x2="9.21" y2="-8.68" layer="22"/>
-<rectangle x1="3.49" y1="-11.43" x2="4.13" y2="-8.68" layer="22"/>
-<rectangle x1="-1.59" y1="-11.43" x2="-0.95" y2="-8.68" layer="22"/>
-<circle x="-3.81" y="-11.43" radius="0.64" width="0.127" layer="22"/>
-<circle x="-6.35" y="-11.43" radius="0.64" width="0.127" layer="22"/>
-<rectangle x1="-4.13" y1="-14.18" x2="-3.49" y2="-11.43" layer="22" rot="R180"/>
-<rectangle x1="-6.67" y1="-11.43" x2="-6.03" y2="-8.68" layer="22"/>
-<rectangle x1="-11.75" y1="-11.43" x2="-11.11" y2="-8.68" layer="22"/>
-<rectangle x1="-9.21" y1="-14.18" x2="-8.57" y2="-11.43" layer="22" rot="R180"/>
-<circle x="-8.89" y="-11.43" radius="0.64" width="0.127" layer="22"/>
+<smd name="1B" x="-11.43" y="11.43" dx="5.4" dy="1" layer="16"/>
+<smd name="2B" x="-11.43" y="8.89" dx="5.4" dy="1" layer="16"/>
+<smd name="3B" x="-11.43" y="6.35" dx="5.4" dy="1" layer="16"/>
+<smd name="4B" x="-11.43" y="3.81" dx="5.4" dy="1" layer="16"/>
+<smd name="5B" x="-11.43" y="1.27" dx="5.4" dy="1" layer="16"/>
+<smd name="6B" x="-11.43" y="-1.27" dx="5.4" dy="1" layer="16"/>
+<smd name="7B" x="-11.43" y="-3.81" dx="5.4" dy="1" layer="16"/>
+<smd name="8B" x="-11.43" y="-6.35" dx="5.4" dy="1" layer="16"/>
+<smd name="9B" x="-11.43" y="-8.89" dx="5.4" dy="1" layer="16"/>
+<smd name="10B" x="-11.43" y="-11.43" dx="5.4" dy="1" layer="16"/>
+<smd name="10C" x="11.43" y="-11.43" dx="5.4" dy="1" layer="16"/>
+<smd name="9C" x="11.43" y="-8.89" dx="5.4" dy="1" layer="16"/>
+<smd name="8C" x="11.43" y="-6.35" dx="5.4" dy="1" layer="16"/>
+<smd name="7C" x="11.43" y="-3.81" dx="5.4" dy="1" layer="16"/>
+<smd name="6C" x="11.43" y="-1.27" dx="5.4" dy="1" layer="16"/>
+<smd name="5C" x="11.43" y="1.27" dx="5.4" dy="1" layer="16"/>
+<smd name="4C" x="11.43" y="3.81" dx="5.4" dy="1" layer="16"/>
+<smd name="3C" x="11.43" y="6.35" dx="5.4" dy="1" layer="16"/>
+<smd name="2C" x="11.43" y="8.89" dx="5.4" dy="1" layer="16"/>
+<smd name="1C" x="11.43" y="11.43" dx="5.4" dy="1" layer="16"/>
+<wire x1="-12.68" y1="-17.78" x2="-10.18" y2="-17.78" width="0.127" layer="22"/>
+<wire x1="-10.18" y1="-17.78" x2="-10.18" y2="12.7" width="0.127" layer="22"/>
+<wire x1="-10.18" y1="12.7" x2="-12.68" y2="12.7" width="0.127" layer="22"/>
+<wire x1="-12.68" y1="12.7" x2="-12.68" y2="-17.78" width="0.127" layer="22"/>
 <circle x="-11.43" y="-11.43" radius="0.64" width="0.127" layer="22"/>
-<wire x1="17.78" y1="10.18" x2="17.78" y2="12.68" width="0.127" layer="22"/>
-<wire x1="17.78" y1="12.68" x2="-12.7" y2="12.68" width="0.127" layer="22"/>
-<wire x1="-12.7" y1="12.68" x2="-12.7" y2="10.18" width="0.127" layer="22"/>
-<wire x1="-12.7" y1="10.18" x2="17.78" y2="10.18" width="0.127" layer="22"/>
-<circle x="11.43" y="11.43" radius="0.64" width="0.127" layer="22"/>
-<circle x="8.89" y="11.43" radius="0.64" width="0.127" layer="22"/>
-<circle x="6.35" y="11.43" radius="0.64" width="0.127" layer="22"/>
-<circle x="3.81" y="11.43" radius="0.64" width="0.127" layer="22"/>
-<circle x="1.27" y="11.43" radius="0.64" width="0.127" layer="22"/>
-<circle x="-1.27" y="11.43" radius="0.64" width="0.127" layer="22"/>
-<rectangle x1="11.11" y1="8.68" x2="11.75" y2="11.43" layer="22" rot="R180"/>
-<rectangle x1="6.03" y1="8.68" x2="6.67" y2="11.43" layer="22" rot="R180"/>
-<rectangle x1="0.95" y1="8.68" x2="1.59" y2="11.43" layer="22" rot="R180"/>
-<rectangle x1="8.57" y1="11.43" x2="9.21" y2="14.18" layer="22"/>
-<rectangle x1="3.49" y1="11.43" x2="4.13" y2="14.18" layer="22"/>
-<rectangle x1="-1.59" y1="11.43" x2="-0.95" y2="14.18" layer="22"/>
-<circle x="-3.81" y="11.43" radius="0.64" width="0.127" layer="22"/>
-<circle x="-6.35" y="11.43" radius="0.64" width="0.127" layer="22"/>
-<rectangle x1="-4.13" y1="8.68" x2="-3.49" y2="11.43" layer="22" rot="R180"/>
-<rectangle x1="-6.67" y1="11.43" x2="-6.03" y2="14.18" layer="22"/>
-<rectangle x1="-11.75" y1="11.43" x2="-11.11" y2="14.18" layer="22"/>
-<rectangle x1="-9.21" y1="8.68" x2="-8.57" y2="11.43" layer="22" rot="R180"/>
-<circle x="-8.89" y="11.43" radius="0.64" width="0.127" layer="22"/>
+<circle x="-11.43" y="-8.89" radius="0.64" width="0.127" layer="22"/>
+<circle x="-11.43" y="-6.35" radius="0.64" width="0.127" layer="22"/>
+<circle x="-11.43" y="-3.81" radius="0.64" width="0.127" layer="22"/>
+<circle x="-11.43" y="-1.27" radius="0.64" width="0.127" layer="22"/>
+<circle x="-11.43" y="1.27" radius="0.64" width="0.127" layer="22"/>
+<rectangle x1="-13.125" y1="-12.805" x2="-12.485" y2="-10.055" layer="22" rot="R90"/>
+<rectangle x1="-13.125" y1="-7.725" x2="-12.485" y2="-4.975" layer="22" rot="R90"/>
+<rectangle x1="-13.125" y1="-2.645" x2="-12.485" y2="0.105" layer="22" rot="R90"/>
+<rectangle x1="-10.375" y1="-10.265" x2="-9.735" y2="-7.515" layer="22" rot="R270"/>
+<rectangle x1="-10.375" y1="-5.185" x2="-9.735" y2="-2.435" layer="22" rot="R270"/>
+<rectangle x1="-10.375" y1="-0.105" x2="-9.735" y2="2.645" layer="22" rot="R270"/>
+<circle x="-11.43" y="3.81" radius="0.64" width="0.127" layer="22"/>
+<circle x="-11.43" y="6.35" radius="0.64" width="0.127" layer="22"/>
+<rectangle x1="-13.125" y1="2.435" x2="-12.485" y2="5.185" layer="22" rot="R90"/>
+<rectangle x1="-10.375" y1="4.975" x2="-9.735" y2="7.725" layer="22" rot="R270"/>
+<rectangle x1="-10.375" y1="10.055" x2="-9.735" y2="12.805" layer="22" rot="R270"/>
+<rectangle x1="-13.125" y1="7.515" x2="-12.485" y2="10.265" layer="22" rot="R90"/>
+<circle x="-11.43" y="8.89" radius="0.64" width="0.127" layer="22"/>
 <circle x="-11.43" y="11.43" radius="0.64" width="0.127" layer="22"/>
-<circle x="13.97" y="11.43" radius="0.64" width="0.127" layer="22"/>
-<circle x="16.51" y="11.43" radius="0.64" width="0.127" layer="22"/>
-<rectangle x1="11.11" y1="8.68" x2="11.75" y2="11.43" layer="22" rot="R180"/>
-<rectangle x1="16.19" y1="8.68" x2="16.83" y2="11.43" layer="22" rot="R180"/>
-<rectangle x1="8.57" y1="11.43" x2="9.21" y2="14.18" layer="22"/>
-<rectangle x1="13.65" y1="11.43" x2="14.29" y2="14.18" layer="22"/>
-<smd name="11C" x="13.97" y="11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="12C" x="16.51" y="11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="11B" x="13.97" y="-11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<smd name="12B" x="16.51" y="-11.43" dx="5.4" dy="1" layer="16" rot="R90"/>
-<rectangle x1="16.19" y1="-14.18" x2="16.83" y2="-11.43" layer="22" rot="R180"/>
-<circle x="13.97" y="-11.43" radius="0.64" width="0.127" layer="22"/>
-<circle x="16.51" y="-11.43" radius="0.64" width="0.127" layer="22"/>
-<rectangle x1="8.57" y1="-11.43" x2="9.21" y2="-8.68" layer="22"/>
-<rectangle x1="13.65" y1="-11.43" x2="14.29" y2="-8.68" layer="22"/>
+<wire x1="10.18" y1="-17.78" x2="12.68" y2="-17.78" width="0.127" layer="22"/>
+<wire x1="12.68" y1="-17.78" x2="12.68" y2="12.7" width="0.127" layer="22"/>
+<wire x1="12.68" y1="12.7" x2="10.18" y2="12.7" width="0.127" layer="22"/>
+<wire x1="10.18" y1="12.7" x2="10.18" y2="-17.78" width="0.127" layer="22"/>
+<circle x="11.43" y="-11.43" radius="0.64" width="0.127" layer="22"/>
+<circle x="11.43" y="-8.89" radius="0.64" width="0.127" layer="22"/>
+<circle x="11.43" y="-6.35" radius="0.64" width="0.127" layer="22"/>
+<circle x="11.43" y="-3.81" radius="0.64" width="0.127" layer="22"/>
+<circle x="11.43" y="-1.27" radius="0.64" width="0.127" layer="22"/>
+<circle x="11.43" y="1.27" radius="0.64" width="0.127" layer="22"/>
+<rectangle x1="9.735" y1="-12.805" x2="10.375" y2="-10.055" layer="22" rot="R90"/>
+<rectangle x1="9.735" y1="-7.725" x2="10.375" y2="-4.975" layer="22" rot="R90"/>
+<rectangle x1="9.735" y1="-2.645" x2="10.375" y2="0.105" layer="22" rot="R90"/>
+<rectangle x1="12.485" y1="-10.265" x2="13.125" y2="-7.515" layer="22" rot="R270"/>
+<rectangle x1="12.485" y1="-5.185" x2="13.125" y2="-2.435" layer="22" rot="R270"/>
+<rectangle x1="12.485" y1="-0.105" x2="13.125" y2="2.645" layer="22" rot="R270"/>
+<circle x="11.43" y="3.81" radius="0.64" width="0.127" layer="22"/>
+<circle x="11.43" y="6.35" radius="0.64" width="0.127" layer="22"/>
+<rectangle x1="9.735" y1="2.435" x2="10.375" y2="5.185" layer="22" rot="R90"/>
+<rectangle x1="12.485" y1="4.975" x2="13.125" y2="7.725" layer="22" rot="R270"/>
+<rectangle x1="12.485" y1="10.055" x2="13.125" y2="12.805" layer="22" rot="R270"/>
+<rectangle x1="9.735" y1="7.515" x2="10.375" y2="10.265" layer="22" rot="R90"/>
+<circle x="11.43" y="8.89" radius="0.64" width="0.127" layer="22"/>
+<circle x="11.43" y="11.43" radius="0.64" width="0.127" layer="22"/>
+<circle x="11.43" y="-13.97" radius="0.64" width="0.127" layer="22"/>
+<circle x="11.43" y="-16.51" radius="0.64" width="0.127" layer="22"/>
+<rectangle x1="9.735" y1="-12.805" x2="10.375" y2="-10.055" layer="22" rot="R90"/>
+<rectangle x1="9.735" y1="-17.885" x2="10.375" y2="-15.135" layer="22" rot="R90"/>
+<rectangle x1="12.485" y1="-10.265" x2="13.125" y2="-7.515" layer="22" rot="R270"/>
+<rectangle x1="12.485" y1="-15.345" x2="13.125" y2="-12.595" layer="22" rot="R270"/>
+<smd name="11C" x="11.43" y="-13.97" dx="5.4" dy="1" layer="16"/>
+<smd name="12C" x="11.43" y="-16.51" dx="5.4" dy="1" layer="16"/>
+<smd name="11B" x="-11.43" y="-13.97" dx="5.4" dy="1" layer="16"/>
+<smd name="12B" x="-11.43" y="-16.51" dx="5.4" dy="1" layer="16"/>
+<rectangle x1="-13.125" y1="-17.885" x2="-12.485" y2="-15.135" layer="22" rot="R90"/>
+<circle x="-11.43" y="-13.97" radius="0.64" width="0.127" layer="22"/>
+<circle x="-11.43" y="-16.51" radius="0.64" width="0.127" layer="22"/>
+<rectangle x1="-10.375" y1="-10.265" x2="-9.735" y2="-7.515" layer="22" rot="R270"/>
+<rectangle x1="-10.375" y1="-15.345" x2="-9.735" y2="-12.595" layer="22" rot="R270"/>
 </package>
 <package name="TSOC-BB-S04-SILK">
 <description>&lt;b&gt;thingSoC Silkscreen Outlines&lt;/b&gt;
@@ -7118,20 +7118,30 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="25.42" y1="6.758" x2="27.92" y2="6.758" width="0.127" layer="21"/>
-<wire x1="27.92" y1="6.758" x2="27.92" y2="9.945" width="0.127" layer="21"/>
-<wire x1="25.42" y1="7.278" x2="25.42" y2="6.758" width="0.127" layer="21"/>
-<wire x1="27.92" y1="11.371" x2="27.92" y2="15.045" width="0.127" layer="21"/>
-<wire x1="25.42" y1="12.419" x2="25.42" y2="8.917" width="0.127" layer="21"/>
-<wire x1="30.48" y1="1.778" x2="30.48" y2="42.672" width="0.1524" layer="21"/>
-<wire x1="28.702" y1="44.45" x2="1.778" y2="44.45" width="0.1524" layer="21"/>
-<wire x1="0" y1="42.672" x2="0" y2="1.778" width="0.1524" layer="21"/>
-<wire x1="1.778" y1="0" x2="28.702" y2="0" width="0.1524" layer="21"/>
-<wire x1="30.48" y1="42.672" x2="28.702" y2="44.45" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.778" y1="44.45" x2="0" y2="42.672" width="0.1524" layer="21" curve="90"/>
-<wire x1="0" y1="1.778" x2="1.778" y2="0" width="0.1524" layer="21" curve="90"/>
-<wire x1="28.702" y1="0" x2="30.48" y2="1.778" width="0.1524" layer="21" curve="90"/>
-<wire x1="25.42" y1="16.918" x2="27.92" y2="16.918" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-17.88" x2="12.68" y2="-17.88" width="0.127" layer="21"/>
+<wire x1="12.68" y1="-17.88" x2="12.68" y2="-17.233" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-17.36" x2="10.18" y2="-17.88" width="0.127" layer="21"/>
+<wire x1="12.68" y1="-10.473" x2="12.68" y2="-9.593" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-14.759" x2="10.18" y2="-15.721" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-7.72" x2="12.68" y2="-7.72" width="0.127" layer="21"/>
+<wire x1="10.14" y1="-10.473" x2="10.14" y2="-9.593" width="0.127" layer="21"/>
+<wire x1="12.72" y1="-14.759" x2="12.72" y2="-15.721" width="0.127" layer="21"/>
+<wire x1="10.14" y1="-8.187" x2="10.14" y2="-7.815" width="0.127" layer="21"/>
+<wire x1="12.68" y1="-8.187" x2="12.68" y2="-7.815" width="0.127" layer="21"/>
+<wire x1="10.14" y1="-13.013" x2="10.14" y2="-12.133" width="0.127" layer="21"/>
+<wire x1="12.68" y1="-13.013" x2="12.68" y2="-12.133" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="16.764" x2="-15.24" y2="-24.13" width="0.1524" layer="21"/>
+<wire x1="-13.462" y1="-25.908" x2="13.462" y2="-25.908" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="-24.13" x2="15.24" y2="16.764" width="0.1524" layer="21"/>
+<hole x="13.335" y="16.637" drill="2"/>
+<hole x="-13.335" y="16.637" drill="2"/>
+<wire x1="13.462" y1="18.542" x2="-13.462" y2="18.542" width="0.1524" layer="21"/>
+<wire x1="-15.24" y1="-24.13" x2="-13.462" y2="-25.908" width="0.1524" layer="21" curve="90"/>
+<wire x1="13.462" y1="-25.908" x2="15.24" y2="-24.13" width="0.1524" layer="21" curve="90"/>
+<wire x1="15.24" y1="16.764" x2="13.462" y2="18.542" width="0.1524" layer="21" curve="90"/>
+<wire x1="-13.462" y1="18.542" x2="-15.24" y2="16.764" width="0.1524" layer="21" curve="90"/>
+<hole x="13.335" y="-24.003" drill="2"/>
+<hole x="-13.335" y="-24.003" drill="2"/>
 </package>
 <package name="TSOC-BB-S24-SILK">
 <description>&lt;b&gt;thingSoC Twenty-Four(24) SilkScreen Outlines&lt;/b&gt;
@@ -7145,46 +7155,18 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="5.06" y1="37.438" x2="2.56" y2="37.438" width="0.127" layer="21"/>
-<wire x1="2.56" y1="6.758" x2="5.06" y2="6.758" width="0.127" layer="21"/>
-<wire x1="5.06" y1="36.918" x2="5.06" y2="37.438" width="0.127" layer="21"/>
-<wire x1="5.06" y1="6.758" x2="5.06" y2="9.945" width="0.127" layer="21"/>
-<wire x1="2.56" y1="7.278" x2="2.56" y2="6.758" width="0.127" layer="21"/>
-<wire x1="5.06" y1="21.531" x2="5.06" y2="25.205" width="0.127" layer="21"/>
-<wire x1="5.06" y1="16.451" x2="5.06" y2="20.125" width="0.127" layer="21"/>
-<wire x1="5.06" y1="11.371" x2="5.06" y2="15.045" width="0.127" layer="21"/>
-<wire x1="2.56" y1="22.579" x2="2.56" y2="19.077" width="0.127" layer="21"/>
-<wire x1="2.56" y1="17.499" x2="2.56" y2="13.997" width="0.127" layer="21"/>
-<wire x1="2.56" y1="12.419" x2="2.56" y2="8.917" width="0.127" layer="21"/>
-<wire x1="27.92" y1="37.438" x2="25.42" y2="37.438" width="0.127" layer="21"/>
-<wire x1="25.42" y1="6.758" x2="27.92" y2="6.758" width="0.127" layer="21"/>
-<wire x1="27.92" y1="36.918" x2="27.92" y2="37.438" width="0.127" layer="21"/>
-<wire x1="27.92" y1="6.758" x2="27.92" y2="9.945" width="0.127" layer="21"/>
-<wire x1="25.42" y1="7.278" x2="25.42" y2="6.758" width="0.127" layer="21"/>
-<wire x1="27.92" y1="21.531" x2="27.92" y2="25.205" width="0.127" layer="21"/>
-<wire x1="27.92" y1="16.451" x2="27.92" y2="20.125" width="0.127" layer="21"/>
-<wire x1="27.92" y1="11.371" x2="27.92" y2="15.045" width="0.127" layer="21"/>
-<wire x1="25.42" y1="22.579" x2="25.42" y2="19.077" width="0.127" layer="21"/>
-<wire x1="25.42" y1="17.499" x2="25.42" y2="13.997" width="0.127" layer="21"/>
-<wire x1="25.42" y1="12.419" x2="25.42" y2="8.917" width="0.127" layer="21"/>
-<wire x1="27.92" y1="26.611" x2="27.92" y2="30.285" width="0.127" layer="21"/>
-<wire x1="27.92" y1="31.691" x2="27.92" y2="35.365" width="0.127" layer="21"/>
-<wire x1="5.06" y1="26.611" x2="5.06" y2="30.285" width="0.127" layer="21"/>
-<wire x1="5.06" y1="31.691" x2="5.06" y2="35.365" width="0.127" layer="21"/>
-<wire x1="25.42" y1="27.659" x2="25.42" y2="24.157" width="0.127" layer="21"/>
-<wire x1="25.42" y1="32.739" x2="25.42" y2="29.237" width="0.127" layer="21"/>
-<wire x1="2.56" y1="27.659" x2="2.56" y2="24.157" width="0.127" layer="21"/>
-<wire x1="2.56" y1="32.739" x2="2.56" y2="29.237" width="0.127" layer="21"/>
-<wire x1="25.38" y1="34.378" x2="25.38" y2="37.438" width="0.127" layer="21"/>
-<wire x1="2.52" y1="34.378" x2="2.52" y2="37.438" width="0.127" layer="21"/>
-<wire x1="30.48" y1="1.778" x2="30.48" y2="42.672" width="0.1524" layer="21"/>
-<wire x1="28.702" y1="44.45" x2="1.778" y2="44.45" width="0.1524" layer="21"/>
-<wire x1="0" y1="42.672" x2="0" y2="1.778" width="0.1524" layer="21"/>
-<wire x1="1.778" y1="0" x2="28.702" y2="0" width="0.1524" layer="21"/>
-<wire x1="30.48" y1="42.672" x2="28.702" y2="44.45" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.778" y1="44.45" x2="0" y2="42.672" width="0.1524" layer="21" curve="90"/>
-<wire x1="0" y1="1.778" x2="1.778" y2="0" width="0.1524" layer="21" curve="90"/>
-<wire x1="28.702" y1="0" x2="30.48" y2="1.778" width="0.1524" layer="21" curve="90"/>
+<wire x1="15.24" y1="-24.13" x2="15.24" y2="16.764" width="0.1524" layer="21"/>
+<wire x1="13.462" y1="18.542" x2="-13.462" y2="18.542" width="0.1524" layer="21"/>
+<wire x1="-15.24" y1="16.764" x2="-15.24" y2="-24.13" width="0.1524" layer="21"/>
+<hole x="-13.335" y="-24.003" drill="2"/>
+<hole x="13.335" y="-24.003" drill="2"/>
+<wire x1="-13.462" y1="-25.908" x2="13.462" y2="-25.908" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="16.764" x2="13.462" y2="18.542" width="0.1524" layer="21" curve="90"/>
+<wire x1="-13.462" y1="18.542" x2="-15.24" y2="16.764" width="0.1524" layer="21" curve="90"/>
+<wire x1="-15.24" y1="-24.13" x2="-13.462" y2="-25.908" width="0.1524" layer="21" curve="90"/>
+<wire x1="13.462" y1="-25.908" x2="15.24" y2="-24.13" width="0.1524" layer="21" curve="90"/>
+<hole x="-13.335" y="16.637" drill="2"/>
+<hole x="13.335" y="16.637" drill="2"/>
 </package>
 <package name="TSOC-EM-BRD">
 <description>&lt;b&gt;thingSoC "Single" PCB Board Outline For Embedded Modules&lt;/b&gt;
@@ -7198,10 +7180,10 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="11.43" y1="-19.05" x2="-11.43" y2="-19.05" width="0" layer="20"/>
-<wire x1="-11.43" y1="-19.05" x2="-11.43" y2="19.05" width="0" layer="20"/>
-<wire x1="-11.43" y1="19.05" x2="11.43" y2="19.05" width="0" layer="20"/>
-<wire x1="11.43" y1="19.05" x2="11.43" y2="-19.05" width="0" layer="20"/>
+<wire x1="-19.05" y1="-11.43" x2="-19.05" y2="11.43" width="0" layer="20"/>
+<wire x1="-19.05" y1="11.43" x2="19.05" y2="11.43" width="0" layer="20"/>
+<wire x1="19.05" y1="11.43" x2="19.05" y2="-11.43" width="0" layer="20"/>
+<wire x1="19.05" y1="-11.43" x2="-19.05" y2="-11.43" width="0" layer="20"/>
 </package>
 <package name="TSOC-EM-S32">
 <description>&lt;b&gt;thingSoC Embedded Module Thirty-Two(32) Pin Socket&lt;/b&gt;
@@ -7215,71 +7197,71 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<pad name="1B" x="-11.43" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="2B" x="-8.89" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="3B" x="-6.35" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="4B" x="-3.81" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="5B" x="-1.27" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="6B" x="1.27" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="7B" x="3.81" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="8B" x="6.35" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<text x="-6.35" y="-8.382" size="1.27" layer="25" font="vector" ratio="10" rot="R180">&gt;NAME</text>
-<rectangle x1="3.556" y1="-11.684" x2="4.064" y2="-11.176" layer="51"/>
-<rectangle x1="1.016" y1="-11.684" x2="1.524" y2="-11.176" layer="51"/>
-<rectangle x1="-1.524" y1="-11.684" x2="-1.016" y2="-11.176" layer="51"/>
-<rectangle x1="-4.064" y1="-11.684" x2="-3.556" y2="-11.176" layer="51"/>
-<rectangle x1="-6.604" y1="-11.684" x2="-6.096" y2="-11.176" layer="51"/>
-<rectangle x1="-9.144" y1="-11.684" x2="-8.636" y2="-11.176" layer="51"/>
-<rectangle x1="-11.684" y1="-11.684" x2="-11.176" y2="-11.176" layer="51"/>
-<rectangle x1="6.096" y1="-11.684" x2="6.604" y2="-11.176" layer="51"/>
-<pad name="1C" x="-11.43" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="2C" x="-8.89" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="3C" x="-6.35" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="4C" x="-3.81" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="5C" x="-1.27" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="6C" x="1.27" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="7C" x="3.81" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<pad name="8C" x="6.35" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="3.556" y1="11.176" x2="4.064" y2="11.684" layer="51"/>
-<rectangle x1="1.016" y1="11.176" x2="1.524" y2="11.684" layer="51"/>
-<rectangle x1="-1.524" y1="11.176" x2="-1.016" y2="11.684" layer="51"/>
-<rectangle x1="-4.064" y1="11.176" x2="-3.556" y2="11.684" layer="51"/>
-<rectangle x1="-6.604" y1="11.176" x2="-6.096" y2="11.684" layer="51"/>
-<rectangle x1="-9.144" y1="11.176" x2="-8.636" y2="11.684" layer="51"/>
-<rectangle x1="-11.684" y1="11.176" x2="-11.176" y2="11.684" layer="51"/>
-<rectangle x1="6.096" y1="11.176" x2="6.604" y2="11.684" layer="51"/>
-<pad name="10B" x="11.43" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="11.176" y1="-11.684" x2="11.684" y2="-11.176" layer="51"/>
-<pad name="9B" x="8.89" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="8.636" y1="-11.684" x2="9.144" y2="-11.176" layer="51"/>
-<pad name="9C" x="8.89" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="8.636" y1="11.176" x2="9.144" y2="11.684" layer="51"/>
-<pad name="10C" x="11.43" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="11.176" y1="11.176" x2="11.684" y2="11.684" layer="51"/>
-<pad name="11C" x="13.97" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="13.716" y1="11.176" x2="14.224" y2="11.684" layer="51"/>
-<pad name="12C" x="16.51" y="11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="16.256" y1="11.176" x2="16.764" y2="11.684" layer="51"/>
-<pad name="11B" x="13.97" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="13.716" y1="-11.684" x2="14.224" y2="-11.176" layer="51"/>
-<pad name="12B" x="16.51" y="-11.43" drill="1.016" shape="long" rot="R90"/>
-<rectangle x1="16.256" y1="-11.684" x2="16.764" y2="-11.176" layer="51"/>
-<pad name="1E" x="19.05" y="-8.89" drill="1.016" shape="long" rot="R180"/>
-<rectangle x1="18.796" y1="-9.144" x2="19.304" y2="-8.636" layer="51" rot="R90"/>
-<pad name="2E" x="19.05" y="-6.35" drill="1.016" shape="long" rot="R180"/>
-<rectangle x1="18.796" y1="-6.604" x2="19.304" y2="-6.096" layer="51" rot="R90"/>
-<pad name="3E" x="19.05" y="-3.81" drill="1.016" shape="long" rot="R180"/>
-<rectangle x1="18.796" y1="-4.064" x2="19.304" y2="-3.556" layer="51" rot="R90"/>
-<pad name="4E" x="19.05" y="-1.27" drill="1.016" shape="long" rot="R180"/>
-<rectangle x1="18.796" y1="-1.524" x2="19.304" y2="-1.016" layer="51" rot="R90"/>
-<pad name="5E" x="19.05" y="1.27" drill="1.016" shape="long" rot="R180"/>
-<rectangle x1="18.796" y1="1.016" x2="19.304" y2="1.524" layer="51" rot="R90"/>
-<pad name="6E" x="19.05" y="3.81" drill="1.016" shape="long" rot="R180"/>
-<rectangle x1="18.796" y1="3.556" x2="19.304" y2="4.064" layer="51" rot="R90"/>
-<pad name="7E" x="19.05" y="6.35" drill="1.016" shape="long" rot="R180"/>
-<rectangle x1="18.796" y1="6.096" x2="19.304" y2="6.604" layer="51" rot="R90"/>
-<pad name="8E" x="19.05" y="8.89" drill="1.016" shape="long" rot="R180"/>
-<rectangle x1="18.796" y1="8.636" x2="19.304" y2="9.144" layer="51" rot="R90"/>
+<pad name="1B" x="-11.43" y="11.43" drill="1.016" shape="long"/>
+<pad name="2B" x="-11.43" y="8.89" drill="1.016" shape="long"/>
+<pad name="3B" x="-11.43" y="6.35" drill="1.016" shape="long"/>
+<pad name="4B" x="-11.43" y="3.81" drill="1.016" shape="long"/>
+<pad name="5B" x="-11.43" y="1.27" drill="1.016" shape="long"/>
+<pad name="6B" x="-11.43" y="-1.27" drill="1.016" shape="long"/>
+<pad name="7B" x="-11.43" y="-3.81" drill="1.016" shape="long"/>
+<pad name="8B" x="-11.43" y="-6.35" drill="1.016" shape="long"/>
+<text x="-8.382" y="6.35" size="1.27" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<rectangle x1="-11.684" y1="-4.064" x2="-11.176" y2="-3.556" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="-1.524" x2="-11.176" y2="-1.016" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="1.016" x2="-11.176" y2="1.524" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="3.556" x2="-11.176" y2="4.064" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="6.096" x2="-11.176" y2="6.604" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="8.636" x2="-11.176" y2="9.144" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="11.176" x2="-11.176" y2="11.684" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="-6.604" x2="-11.176" y2="-6.096" layer="51" rot="R270"/>
+<pad name="1C" x="11.43" y="11.43" drill="1.016" shape="long"/>
+<pad name="2C" x="11.43" y="8.89" drill="1.016" shape="long"/>
+<pad name="3C" x="11.43" y="6.35" drill="1.016" shape="long"/>
+<pad name="4C" x="11.43" y="3.81" drill="1.016" shape="long"/>
+<pad name="5C" x="11.43" y="1.27" drill="1.016" shape="long"/>
+<pad name="6C" x="11.43" y="-1.27" drill="1.016" shape="long"/>
+<pad name="7C" x="11.43" y="-3.81" drill="1.016" shape="long"/>
+<pad name="8C" x="11.43" y="-6.35" drill="1.016" shape="long"/>
+<rectangle x1="11.176" y1="-4.064" x2="11.684" y2="-3.556" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-1.524" x2="11.684" y2="-1.016" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="1.016" x2="11.684" y2="1.524" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="3.556" x2="11.684" y2="4.064" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="6.096" x2="11.684" y2="6.604" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="8.636" x2="11.684" y2="9.144" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="11.176" x2="11.684" y2="11.684" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-6.604" x2="11.684" y2="-6.096" layer="51" rot="R270"/>
+<pad name="10B" x="-11.43" y="-11.43" drill="1.016" shape="long"/>
+<rectangle x1="-11.684" y1="-11.684" x2="-11.176" y2="-11.176" layer="51" rot="R270"/>
+<pad name="9B" x="-11.43" y="-8.89" drill="1.016" shape="long"/>
+<rectangle x1="-11.684" y1="-9.144" x2="-11.176" y2="-8.636" layer="51" rot="R270"/>
+<pad name="9C" x="11.43" y="-8.89" drill="1.016" shape="long"/>
+<rectangle x1="11.176" y1="-9.144" x2="11.684" y2="-8.636" layer="51" rot="R270"/>
+<pad name="10C" x="11.43" y="-11.43" drill="1.016" shape="long"/>
+<rectangle x1="11.176" y1="-11.684" x2="11.684" y2="-11.176" layer="51" rot="R270"/>
+<pad name="11C" x="11.43" y="-13.97" drill="1.016" shape="long"/>
+<rectangle x1="11.176" y1="-14.224" x2="11.684" y2="-13.716" layer="51" rot="R270"/>
+<pad name="12C" x="11.43" y="-16.51" drill="1.016" shape="long"/>
+<rectangle x1="11.176" y1="-16.764" x2="11.684" y2="-16.256" layer="51" rot="R270"/>
+<pad name="11B" x="-11.43" y="-13.97" drill="1.016" shape="long"/>
+<rectangle x1="-11.684" y1="-14.224" x2="-11.176" y2="-13.716" layer="51" rot="R270"/>
+<pad name="12B" x="-11.43" y="-16.51" drill="1.016" shape="long"/>
+<rectangle x1="-11.684" y1="-16.764" x2="-11.176" y2="-16.256" layer="51" rot="R270"/>
+<pad name="1E" x="-8.89" y="-19.05" drill="1.016" shape="long" rot="R90"/>
+<rectangle x1="-9.144" y1="-19.304" x2="-8.636" y2="-18.796" layer="51"/>
+<pad name="2E" x="-6.35" y="-19.05" drill="1.016" shape="long" rot="R90"/>
+<rectangle x1="-6.604" y1="-19.304" x2="-6.096" y2="-18.796" layer="51"/>
+<pad name="3E" x="-3.81" y="-19.05" drill="1.016" shape="long" rot="R90"/>
+<rectangle x1="-4.064" y1="-19.304" x2="-3.556" y2="-18.796" layer="51"/>
+<pad name="4E" x="-1.27" y="-19.05" drill="1.016" shape="long" rot="R90"/>
+<rectangle x1="-1.524" y1="-19.304" x2="-1.016" y2="-18.796" layer="51"/>
+<pad name="5E" x="1.27" y="-19.05" drill="1.016" shape="long" rot="R90"/>
+<rectangle x1="1.016" y1="-19.304" x2="1.524" y2="-18.796" layer="51"/>
+<pad name="6E" x="3.81" y="-19.05" drill="1.016" shape="long" rot="R90"/>
+<rectangle x1="3.556" y1="-19.304" x2="4.064" y2="-18.796" layer="51"/>
+<pad name="7E" x="6.35" y="-19.05" drill="1.016" shape="long" rot="R90"/>
+<rectangle x1="6.096" y1="-19.304" x2="6.604" y2="-18.796" layer="51"/>
+<pad name="8E" x="8.89" y="-19.05" drill="1.016" shape="long" rot="R90"/>
+<rectangle x1="8.636" y1="-19.304" x2="9.144" y2="-18.796" layer="51"/>
 </package>
 <package name="TSOC-BB-S24">
 <description>&lt;b&gt;thingSoC BreadBoard Module Twenty-Four(24) Pin Socket&lt;/b&gt;
@@ -7293,55 +7275,55 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<pad name="1B" x="-11.43" y="-11.43" drill="1.016" shape="square" rot="R90"/>
-<pad name="2B" x="-8.89" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="3B" x="-6.35" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="4B" x="-3.81" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="5B" x="-1.27" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="6B" x="1.27" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="7B" x="3.81" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="8B" x="6.35" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<text x="-6.35" y="-8.382" size="1.27" layer="25" font="vector" ratio="10" rot="R180">&gt;NAME</text>
-<rectangle x1="3.556" y1="-11.684" x2="4.064" y2="-11.176" layer="51"/>
-<rectangle x1="1.016" y1="-11.684" x2="1.524" y2="-11.176" layer="51"/>
-<rectangle x1="-1.524" y1="-11.684" x2="-1.016" y2="-11.176" layer="51"/>
-<rectangle x1="-4.064" y1="-11.684" x2="-3.556" y2="-11.176" layer="51"/>
-<rectangle x1="-6.604" y1="-11.684" x2="-6.096" y2="-11.176" layer="51"/>
-<rectangle x1="-9.144" y1="-11.684" x2="-8.636" y2="-11.176" layer="51"/>
-<rectangle x1="-11.684" y1="-11.684" x2="-11.176" y2="-11.176" layer="51"/>
-<rectangle x1="6.096" y1="-11.684" x2="6.604" y2="-11.176" layer="51"/>
-<pad name="1C" x="-11.43" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="2C" x="-8.89" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="3C" x="-6.35" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="4C" x="-3.81" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="5C" x="-1.27" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="6C" x="1.27" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="7C" x="3.81" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="8C" x="6.35" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<rectangle x1="3.556" y1="11.176" x2="4.064" y2="11.684" layer="51"/>
-<rectangle x1="1.016" y1="11.176" x2="1.524" y2="11.684" layer="51"/>
-<rectangle x1="-1.524" y1="11.176" x2="-1.016" y2="11.684" layer="51"/>
-<rectangle x1="-4.064" y1="11.176" x2="-3.556" y2="11.684" layer="51"/>
-<rectangle x1="-6.604" y1="11.176" x2="-6.096" y2="11.684" layer="51"/>
-<rectangle x1="-9.144" y1="11.176" x2="-8.636" y2="11.684" layer="51"/>
-<rectangle x1="-11.684" y1="11.176" x2="-11.176" y2="11.684" layer="51"/>
-<rectangle x1="6.096" y1="11.176" x2="6.604" y2="11.684" layer="51"/>
-<pad name="10B" x="11.43" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<rectangle x1="11.176" y1="-11.684" x2="11.684" y2="-11.176" layer="51"/>
-<pad name="9B" x="8.89" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<rectangle x1="8.636" y1="-11.684" x2="9.144" y2="-11.176" layer="51"/>
-<pad name="9C" x="8.89" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<rectangle x1="8.636" y1="11.176" x2="9.144" y2="11.684" layer="51"/>
-<pad name="10C" x="11.43" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<rectangle x1="11.176" y1="11.176" x2="11.684" y2="11.684" layer="51"/>
-<pad name="11C" x="13.97" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<rectangle x1="13.716" y1="11.176" x2="14.224" y2="11.684" layer="51"/>
-<pad name="12C" x="16.51" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<rectangle x1="16.256" y1="11.176" x2="16.764" y2="11.684" layer="51"/>
-<pad name="11B" x="13.97" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<rectangle x1="13.716" y1="-11.684" x2="14.224" y2="-11.176" layer="51"/>
-<pad name="12B" x="16.51" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<rectangle x1="16.256" y1="-11.684" x2="16.764" y2="-11.176" layer="51"/>
+<pad name="1B" x="-11.43" y="11.43" drill="1.016" shape="square"/>
+<pad name="2B" x="-11.43" y="8.89" drill="1.016" shape="octagon"/>
+<pad name="3B" x="-11.43" y="6.35" drill="1.016" shape="octagon"/>
+<pad name="4B" x="-11.43" y="3.81" drill="1.016" shape="octagon"/>
+<pad name="5B" x="-11.43" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="6B" x="-11.43" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="7B" x="-11.43" y="-3.81" drill="1.016" shape="octagon"/>
+<pad name="8B" x="-11.43" y="-6.35" drill="1.016" shape="octagon"/>
+<text x="-8.382" y="6.35" size="1.27" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<rectangle x1="-11.684" y1="-4.064" x2="-11.176" y2="-3.556" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="-1.524" x2="-11.176" y2="-1.016" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="1.016" x2="-11.176" y2="1.524" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="3.556" x2="-11.176" y2="4.064" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="6.096" x2="-11.176" y2="6.604" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="8.636" x2="-11.176" y2="9.144" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="11.176" x2="-11.176" y2="11.684" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="-6.604" x2="-11.176" y2="-6.096" layer="51" rot="R270"/>
+<pad name="1C" x="11.43" y="11.43" drill="1.016" shape="octagon"/>
+<pad name="2C" x="11.43" y="8.89" drill="1.016" shape="octagon"/>
+<pad name="3C" x="11.43" y="6.35" drill="1.016" shape="octagon"/>
+<pad name="4C" x="11.43" y="3.81" drill="1.016" shape="octagon"/>
+<pad name="5C" x="11.43" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="6C" x="11.43" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="7C" x="11.43" y="-3.81" drill="1.016" shape="octagon"/>
+<pad name="8C" x="11.43" y="-6.35" drill="1.016" shape="octagon"/>
+<rectangle x1="11.176" y1="-4.064" x2="11.684" y2="-3.556" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-1.524" x2="11.684" y2="-1.016" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="1.016" x2="11.684" y2="1.524" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="3.556" x2="11.684" y2="4.064" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="6.096" x2="11.684" y2="6.604" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="8.636" x2="11.684" y2="9.144" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="11.176" x2="11.684" y2="11.684" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-6.604" x2="11.684" y2="-6.096" layer="51" rot="R270"/>
+<pad name="10B" x="-11.43" y="-11.43" drill="1.016" shape="octagon"/>
+<rectangle x1="-11.684" y1="-11.684" x2="-11.176" y2="-11.176" layer="51" rot="R270"/>
+<pad name="9B" x="-11.43" y="-8.89" drill="1.016" shape="octagon"/>
+<rectangle x1="-11.684" y1="-9.144" x2="-11.176" y2="-8.636" layer="51" rot="R270"/>
+<pad name="9C" x="11.43" y="-8.89" drill="1.016" shape="octagon"/>
+<rectangle x1="11.176" y1="-9.144" x2="11.684" y2="-8.636" layer="51" rot="R270"/>
+<pad name="10C" x="11.43" y="-11.43" drill="1.016" shape="octagon"/>
+<rectangle x1="11.176" y1="-11.684" x2="11.684" y2="-11.176" layer="51" rot="R270"/>
+<pad name="11C" x="11.43" y="-13.97" drill="1.016" shape="octagon"/>
+<rectangle x1="11.176" y1="-14.224" x2="11.684" y2="-13.716" layer="51" rot="R270"/>
+<pad name="12C" x="11.43" y="-16.51" drill="1.016" shape="octagon"/>
+<rectangle x1="11.176" y1="-16.764" x2="11.684" y2="-16.256" layer="51" rot="R270"/>
+<pad name="11B" x="-11.43" y="-13.97" drill="1.016" shape="octagon"/>
+<rectangle x1="-11.684" y1="-14.224" x2="-11.176" y2="-13.716" layer="51" rot="R270"/>
+<pad name="12B" x="-11.43" y="-16.51" drill="1.016" shape="octagon"/>
+<rectangle x1="-11.684" y1="-16.764" x2="-11.176" y2="-16.256" layer="51" rot="R270"/>
 </package>
 <package name="TSOC-BB-S32">
 <description>&lt;b&gt;thingSoC BreadBoard Module Thirty-Two(32) Pin Socket&lt;/b&gt;
@@ -7355,139 +7337,139 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<pad name="1B" x="-11.43" y="-11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="2B" x="-8.89" y="-11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="3B" x="-6.35" y="-11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="4B" x="-3.81" y="-11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="5B" x="-1.27" y="-11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="6B" x="1.27" y="-11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="7B" x="3.81" y="-11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="8B" x="6.35" y="-11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<text x="-6.35" y="-8.382" size="1.27" layer="25" font="vector" ratio="10" rot="R180">&gt;NAME</text>
-<rectangle x1="3.556" y1="-11.684" x2="4.064" y2="-11.176" layer="51"/>
-<rectangle x1="1.016" y1="-11.684" x2="1.524" y2="-11.176" layer="51"/>
-<rectangle x1="-1.524" y1="-11.684" x2="-1.016" y2="-11.176" layer="51"/>
-<rectangle x1="-4.064" y1="-11.684" x2="-3.556" y2="-11.176" layer="51"/>
-<rectangle x1="-6.604" y1="-11.684" x2="-6.096" y2="-11.176" layer="51"/>
-<rectangle x1="-9.144" y1="-11.684" x2="-8.636" y2="-11.176" layer="51"/>
-<rectangle x1="-11.684" y1="-11.684" x2="-11.176" y2="-11.176" layer="51"/>
-<rectangle x1="6.096" y1="-11.684" x2="6.604" y2="-11.176" layer="51"/>
-<pad name="1C" x="-11.43" y="11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="2C" x="-8.89" y="11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="3C" x="-6.35" y="11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="4C" x="-3.81" y="11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="5C" x="-1.27" y="11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="6C" x="1.27" y="11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="7C" x="3.81" y="11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<pad name="8C" x="6.35" y="11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<rectangle x1="3.556" y1="11.176" x2="4.064" y2="11.684" layer="51"/>
-<rectangle x1="1.016" y1="11.176" x2="1.524" y2="11.684" layer="51"/>
-<rectangle x1="-1.524" y1="11.176" x2="-1.016" y2="11.684" layer="51"/>
-<rectangle x1="-4.064" y1="11.176" x2="-3.556" y2="11.684" layer="51"/>
-<rectangle x1="-6.604" y1="11.176" x2="-6.096" y2="11.684" layer="51"/>
-<rectangle x1="-9.144" y1="11.176" x2="-8.636" y2="11.684" layer="51"/>
-<rectangle x1="-11.684" y1="11.176" x2="-11.176" y2="11.684" layer="51"/>
-<rectangle x1="6.096" y1="11.176" x2="6.604" y2="11.684" layer="51"/>
-<pad name="10B" x="11.43" y="-11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<rectangle x1="11.176" y1="-11.684" x2="11.684" y2="-11.176" layer="51"/>
-<pad name="9B" x="8.89" y="-11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<rectangle x1="8.636" y1="-11.684" x2="9.144" y2="-11.176" layer="51"/>
-<pad name="9C" x="8.89" y="11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<rectangle x1="8.636" y1="11.176" x2="9.144" y2="11.684" layer="51"/>
-<pad name="10C" x="11.43" y="11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<rectangle x1="11.176" y1="11.176" x2="11.684" y2="11.684" layer="51"/>
-<pad name="11C" x="13.97" y="11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<rectangle x1="13.716" y1="11.176" x2="14.224" y2="11.684" layer="51"/>
-<pad name="12C" x="16.51" y="11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<rectangle x1="16.256" y1="11.176" x2="16.764" y2="11.684" layer="51"/>
-<pad name="11B" x="13.97" y="-11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<rectangle x1="13.716" y1="-11.684" x2="14.224" y2="-11.176" layer="51"/>
-<pad name="12B" x="16.51" y="-11.43" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
-<rectangle x1="16.256" y1="-11.684" x2="16.764" y2="-11.176" layer="51"/>
-<pad name="1E" x="19.05" y="-8.89" drill="1.016" diameter="1.778" shape="octagon" rot="R180"/>
-<rectangle x1="18.796" y1="-9.144" x2="19.304" y2="-8.636" layer="51" rot="R90"/>
-<pad name="2E" x="19.05" y="-6.35" drill="1.016" diameter="1.778" shape="octagon" rot="R180"/>
-<rectangle x1="18.796" y1="-6.604" x2="19.304" y2="-6.096" layer="51" rot="R90"/>
-<pad name="3E" x="19.05" y="-3.81" drill="1.016" diameter="1.778" shape="octagon" rot="R180"/>
-<rectangle x1="18.796" y1="-4.064" x2="19.304" y2="-3.556" layer="51" rot="R90"/>
-<pad name="4E" x="19.05" y="-1.27" drill="1.016" diameter="1.778" shape="octagon" rot="R180"/>
-<rectangle x1="18.796" y1="-1.524" x2="19.304" y2="-1.016" layer="51" rot="R90"/>
-<pad name="5E" x="19.05" y="1.27" drill="1.016" diameter="1.778" shape="octagon" rot="R180"/>
-<rectangle x1="18.796" y1="1.016" x2="19.304" y2="1.524" layer="51" rot="R90"/>
-<pad name="6E" x="19.05" y="3.81" drill="1.016" diameter="1.778" shape="octagon" rot="R180"/>
-<rectangle x1="18.796" y1="3.556" x2="19.304" y2="4.064" layer="51" rot="R90"/>
-<pad name="7E" x="19.05" y="6.35" drill="1.016" diameter="1.778" shape="octagon" rot="R180"/>
-<rectangle x1="18.796" y1="6.096" x2="19.304" y2="6.604" layer="51" rot="R90"/>
-<pad name="8E" x="19.05" y="8.89" drill="1.016" diameter="1.778" shape="octagon" rot="R180"/>
-<rectangle x1="18.796" y1="8.636" x2="19.304" y2="9.144" layer="51" rot="R90"/>
+<pad name="1B" x="-11.43" y="11.43" drill="1.016" diameter="1.778" shape="octagon"/>
+<pad name="2B" x="-11.43" y="8.89" drill="1.016" diameter="1.778" shape="octagon"/>
+<pad name="3B" x="-11.43" y="6.35" drill="1.016" diameter="1.778" shape="octagon"/>
+<pad name="4B" x="-11.43" y="3.81" drill="1.016" diameter="1.778" shape="octagon"/>
+<pad name="5B" x="-11.43" y="1.27" drill="1.016" diameter="1.778" shape="octagon"/>
+<pad name="6B" x="-11.43" y="-1.27" drill="1.016" diameter="1.778" shape="octagon"/>
+<pad name="7B" x="-11.43" y="-3.81" drill="1.016" diameter="1.778" shape="octagon"/>
+<pad name="8B" x="-11.43" y="-6.35" drill="1.016" diameter="1.778" shape="octagon"/>
+<text x="-8.382" y="6.35" size="1.27" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<rectangle x1="-11.684" y1="-4.064" x2="-11.176" y2="-3.556" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="-1.524" x2="-11.176" y2="-1.016" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="1.016" x2="-11.176" y2="1.524" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="3.556" x2="-11.176" y2="4.064" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="6.096" x2="-11.176" y2="6.604" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="8.636" x2="-11.176" y2="9.144" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="11.176" x2="-11.176" y2="11.684" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="-6.604" x2="-11.176" y2="-6.096" layer="51" rot="R270"/>
+<pad name="1C" x="11.43" y="11.43" drill="1.016" diameter="1.778" shape="octagon"/>
+<pad name="2C" x="11.43" y="8.89" drill="1.016" diameter="1.778" shape="octagon"/>
+<pad name="3C" x="11.43" y="6.35" drill="1.016" diameter="1.778" shape="octagon"/>
+<pad name="4C" x="11.43" y="3.81" drill="1.016" diameter="1.778" shape="octagon"/>
+<pad name="5C" x="11.43" y="1.27" drill="1.016" diameter="1.778" shape="octagon"/>
+<pad name="6C" x="11.43" y="-1.27" drill="1.016" diameter="1.778" shape="octagon"/>
+<pad name="7C" x="11.43" y="-3.81" drill="1.016" diameter="1.778" shape="octagon"/>
+<pad name="8C" x="11.43" y="-6.35" drill="1.016" diameter="1.778" shape="octagon"/>
+<rectangle x1="11.176" y1="-4.064" x2="11.684" y2="-3.556" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-1.524" x2="11.684" y2="-1.016" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="1.016" x2="11.684" y2="1.524" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="3.556" x2="11.684" y2="4.064" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="6.096" x2="11.684" y2="6.604" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="8.636" x2="11.684" y2="9.144" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="11.176" x2="11.684" y2="11.684" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-6.604" x2="11.684" y2="-6.096" layer="51" rot="R270"/>
+<pad name="10B" x="-11.43" y="-11.43" drill="1.016" diameter="1.778" shape="octagon"/>
+<rectangle x1="-11.684" y1="-11.684" x2="-11.176" y2="-11.176" layer="51" rot="R270"/>
+<pad name="9B" x="-11.43" y="-8.89" drill="1.016" diameter="1.778" shape="octagon"/>
+<rectangle x1="-11.684" y1="-9.144" x2="-11.176" y2="-8.636" layer="51" rot="R270"/>
+<pad name="9C" x="11.43" y="-8.89" drill="1.016" diameter="1.778" shape="octagon"/>
+<rectangle x1="11.176" y1="-9.144" x2="11.684" y2="-8.636" layer="51" rot="R270"/>
+<pad name="10C" x="11.43" y="-11.43" drill="1.016" diameter="1.778" shape="octagon"/>
+<rectangle x1="11.176" y1="-11.684" x2="11.684" y2="-11.176" layer="51" rot="R270"/>
+<pad name="11C" x="11.43" y="-13.97" drill="1.016" diameter="1.778" shape="octagon"/>
+<rectangle x1="11.176" y1="-14.224" x2="11.684" y2="-13.716" layer="51" rot="R270"/>
+<pad name="12C" x="11.43" y="-16.51" drill="1.016" diameter="1.778" shape="octagon"/>
+<rectangle x1="11.176" y1="-16.764" x2="11.684" y2="-16.256" layer="51" rot="R270"/>
+<pad name="11B" x="-11.43" y="-13.97" drill="1.016" diameter="1.778" shape="octagon"/>
+<rectangle x1="-11.684" y1="-14.224" x2="-11.176" y2="-13.716" layer="51" rot="R270"/>
+<pad name="12B" x="-11.43" y="-16.51" drill="1.016" diameter="1.778" shape="octagon"/>
+<rectangle x1="-11.684" y1="-16.764" x2="-11.176" y2="-16.256" layer="51" rot="R270"/>
+<pad name="1E" x="-8.89" y="-19.05" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
+<rectangle x1="-9.144" y1="-19.304" x2="-8.636" y2="-18.796" layer="51"/>
+<pad name="2E" x="-6.35" y="-19.05" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
+<rectangle x1="-6.604" y1="-19.304" x2="-6.096" y2="-18.796" layer="51"/>
+<pad name="3E" x="-3.81" y="-19.05" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
+<rectangle x1="-4.064" y1="-19.304" x2="-3.556" y2="-18.796" layer="51"/>
+<pad name="4E" x="-1.27" y="-19.05" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
+<rectangle x1="-1.524" y1="-19.304" x2="-1.016" y2="-18.796" layer="51"/>
+<pad name="5E" x="1.27" y="-19.05" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
+<rectangle x1="1.016" y1="-19.304" x2="1.524" y2="-18.796" layer="51"/>
+<pad name="6E" x="3.81" y="-19.05" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
+<rectangle x1="3.556" y1="-19.304" x2="4.064" y2="-18.796" layer="51"/>
+<pad name="7E" x="6.35" y="-19.05" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
+<rectangle x1="6.096" y1="-19.304" x2="6.604" y2="-18.796" layer="51"/>
+<pad name="8E" x="8.89" y="-19.05" drill="1.016" diameter="1.778" shape="octagon" rot="R90"/>
+<rectangle x1="8.636" y1="-19.304" x2="9.144" y2="-18.796" layer="51"/>
 </package>
 <package name="TSOC-BB-S68">
-<pad name="1B" x="-11.43" y="-11.43" drill="1.016" shape="square" rot="R90"/>
-<pad name="2B" x="-8.89" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="3B" x="-6.35" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="4B" x="-3.81" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="5B" x="-1.27" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="6B" x="1.27" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="7B" x="3.81" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="8B" x="6.35" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="1C" x="-11.43" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="2C" x="-8.89" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="3C" x="-6.35" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="4C" x="-3.81" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="5C" x="-1.27" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="6C" x="1.27" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="7C" x="3.81" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="8C" x="6.35" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="10B" x="11.43" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="9B" x="8.89" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="9C" x="8.89" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="10C" x="11.43" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="11C" x="13.97" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="12C" x="16.51" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="11B" x="13.97" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="12B" x="16.51" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="K2" x="19.05" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="K1" x="19.05" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="1F" x="21.59" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="2F" x="24.13" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="3F" x="26.67" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="4F" x="29.21" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="5F" x="31.75" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="6F" x="34.29" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="7F" x="36.83" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="8F" x="39.37" y="11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="1E" x="21.59" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="2E" x="24.13" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="3E" x="26.67" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="4E" x="29.21" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="5E" x="31.75" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="6E" x="34.29" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="7E" x="36.83" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="8E" x="39.37" y="-11.43" drill="1.016" shape="octagon" rot="R90"/>
-<pad name="1B1" x="69.85" y="-11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="2B1" x="67.31" y="-11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="3B1" x="64.77" y="-11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="4B1" x="62.23" y="-11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="5B1" x="59.69" y="-11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="6B1" x="57.15" y="-11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="7B1" x="54.61" y="-11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="8B1" x="52.07" y="-11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="10B1" x="46.99" y="-11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="9B1" x="49.53" y="-11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="11B1" x="44.45" y="-11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="12B1" x="41.91" y="-11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="1C1" x="69.85" y="11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="2C1" x="67.31" y="11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="3C1" x="64.77" y="11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="4C1" x="62.23" y="11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="5C1" x="59.69" y="11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="6C1" x="57.15" y="11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="7C1" x="54.61" y="11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="8C1" x="52.07" y="11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="9C1" x="49.53" y="11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="10C1" x="46.99" y="11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="11C1" x="44.45" y="11.43" drill="1.016" shape="octagon" rot="R270"/>
-<pad name="12C1" x="41.91" y="11.43" drill="1.016" shape="octagon" rot="R270"/>
+<pad name="1B" x="11.43" y="-11.43" drill="1.016" shape="square" rot="R180"/>
+<pad name="2B" x="11.43" y="-8.89" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="3B" x="11.43" y="-6.35" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="4B" x="11.43" y="-3.81" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="5B" x="11.43" y="-1.27" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="6B" x="11.43" y="1.27" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="7B" x="11.43" y="3.81" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="8B" x="11.43" y="6.35" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="1C" x="-11.43" y="-11.43" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="2C" x="-11.43" y="-8.89" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="3C" x="-11.43" y="-6.35" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="4C" x="-11.43" y="-3.81" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="5C" x="-11.43" y="-1.27" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="6C" x="-11.43" y="1.27" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="7C" x="-11.43" y="3.81" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="8C" x="-11.43" y="6.35" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="10B" x="11.43" y="11.43" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="9B" x="11.43" y="8.89" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="9C" x="-11.43" y="8.89" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="10C" x="-11.43" y="11.43" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="11C" x="-11.43" y="13.97" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="12C" x="-11.43" y="16.51" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="11B" x="11.43" y="13.97" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="12B" x="11.43" y="16.51" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="K2" x="-11.43" y="19.05" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="K1" x="11.43" y="19.05" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="1F" x="-11.43" y="21.59" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="2F" x="-11.43" y="24.13" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="3F" x="-11.43" y="26.67" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="4F" x="-11.43" y="29.21" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="5F" x="-11.43" y="31.75" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="6F" x="-11.43" y="34.29" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="7F" x="-11.43" y="36.83" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="8F" x="-11.43" y="39.37" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="1E" x="11.43" y="21.59" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="2E" x="11.43" y="24.13" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="3E" x="11.43" y="26.67" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="4E" x="11.43" y="29.21" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="5E" x="11.43" y="31.75" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="6E" x="11.43" y="34.29" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="7E" x="11.43" y="36.83" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="8E" x="11.43" y="39.37" drill="1.016" shape="octagon" rot="R180"/>
+<pad name="1B1" x="11.43" y="69.85" drill="1.016" shape="octagon"/>
+<pad name="2B1" x="11.43" y="67.31" drill="1.016" shape="octagon"/>
+<pad name="3B1" x="11.43" y="64.77" drill="1.016" shape="octagon"/>
+<pad name="4B1" x="11.43" y="62.23" drill="1.016" shape="octagon"/>
+<pad name="5B1" x="11.43" y="59.69" drill="1.016" shape="octagon"/>
+<pad name="6B1" x="11.43" y="57.15" drill="1.016" shape="octagon"/>
+<pad name="7B1" x="11.43" y="54.61" drill="1.016" shape="octagon"/>
+<pad name="8B1" x="11.43" y="52.07" drill="1.016" shape="octagon"/>
+<pad name="10B1" x="11.43" y="46.99" drill="1.016" shape="octagon"/>
+<pad name="9B1" x="11.43" y="49.53" drill="1.016" shape="octagon"/>
+<pad name="11B1" x="11.43" y="44.45" drill="1.016" shape="octagon"/>
+<pad name="12B1" x="11.43" y="41.91" drill="1.016" shape="octagon"/>
+<pad name="1C1" x="-11.43" y="69.85" drill="1.016" shape="octagon"/>
+<pad name="2C1" x="-11.43" y="67.31" drill="1.016" shape="octagon"/>
+<pad name="3C1" x="-11.43" y="64.77" drill="1.016" shape="octagon"/>
+<pad name="4C1" x="-11.43" y="62.23" drill="1.016" shape="octagon"/>
+<pad name="5C1" x="-11.43" y="59.69" drill="1.016" shape="octagon"/>
+<pad name="6C1" x="-11.43" y="57.15" drill="1.016" shape="octagon"/>
+<pad name="7C1" x="-11.43" y="54.61" drill="1.016" shape="octagon"/>
+<pad name="8C1" x="-11.43" y="52.07" drill="1.016" shape="octagon"/>
+<pad name="9C1" x="-11.43" y="49.53" drill="1.016" shape="octagon"/>
+<pad name="10C1" x="-11.43" y="46.99" drill="1.016" shape="octagon"/>
+<pad name="11C1" x="-11.43" y="44.45" drill="1.016" shape="octagon"/>
+<pad name="12C1" x="-11.43" y="41.91" drill="1.016" shape="octagon"/>
 </package>
 <package name="TSOC-EM-BRD-DBL">
 <description>&lt;b&gt;thingSoC "Double" PCB Board Outline &amp; Holes&lt;/b&gt;
@@ -7501,14 +7483,35 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="-11.43" y1="-25.908" x2="-12.7" y2="-24.638" width="0" layer="20"/>
-<wire x1="-11.43" y1="-25.908" x2="11.43" y2="-25.908" width="0" layer="20"/>
-<wire x1="12.7" y1="52.832" x2="12.7" y2="-24.638" width="0" layer="20"/>
-<wire x1="12.7" y1="-24.638" x2="11.43" y2="-25.908" width="0" layer="20"/>
-<wire x1="12.7" y1="52.832" x2="11.43" y2="54.102" width="0" layer="20"/>
-<wire x1="11.43" y1="54.102" x2="-11.43" y2="54.102" width="0" layer="20"/>
-<wire x1="-11.43" y1="54.102" x2="-12.7" y2="52.832" width="0" layer="20"/>
-<wire x1="-12.7" y1="52.832" x2="-12.7" y2="-24.638" width="0" layer="20"/>
+<wire x1="0" y1="30.48" x2="1.27" y2="31.75" width="0" layer="20"/>
+<wire x1="0" y1="30.48" x2="0" y2="7.62" width="0" layer="20"/>
+<wire x1="78.74" y1="6.35" x2="1.27" y2="6.35" width="0" layer="20"/>
+<wire x1="1.27" y1="6.35" x2="0" y2="7.62" width="0" layer="20"/>
+<wire x1="78.74" y1="6.35" x2="80.01" y2="7.62" width="0" layer="20"/>
+<wire x1="80.01" y1="7.62" x2="80.01" y2="30.48" width="0" layer="20"/>
+<wire x1="80.01" y1="30.48" x2="78.74" y2="31.75" width="0" layer="20"/>
+<wire x1="78.74" y1="31.75" x2="1.27" y2="31.75" width="0" layer="20"/>
+</package>
+<package name="TSOC-EM-BRD-DBL-CUT">
+<description>&lt;b&gt;thingSoC "Double" PCB Board Outline for "Cut" modules&lt;/b&gt;
+&lt;p&gt;
+Source LBR : http://www.thingsoc.com
+&lt;br&gt;
+Github : https://github.com/thingsoc
+&lt;br&gt;
+License : http://creativecommons.org/licenses/by-sa/4.0/
+(Creative Commons 4.0)
+&lt;p&gt;
+THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+&lt;P&gt;</description>
+<wire x1="0" y1="29.21" x2="1.27" y2="30.48" width="0" layer="20"/>
+<wire x1="0" y1="29.21" x2="0" y2="8.89" width="0" layer="20"/>
+<wire x1="78.74" y1="7.62" x2="1.27" y2="7.62" width="0" layer="20"/>
+<wire x1="1.27" y1="7.62" x2="0" y2="8.89" width="0" layer="20"/>
+<wire x1="78.74" y1="7.62" x2="80.01" y2="8.89" width="0" layer="20"/>
+<wire x1="80.01" y1="8.89" x2="80.01" y2="29.21" width="0" layer="20"/>
+<wire x1="80.01" y1="29.21" x2="78.74" y2="30.48" width="0" layer="20"/>
+<wire x1="78.74" y1="30.48" x2="1.27" y2="30.48" width="0" layer="20"/>
 </package>
 <package name="TSOC-EM-BB">
 <description>&lt;b&gt;thingSoC "Single" PCB Board Outline For Embedded Modules - BreadBoard Friendly Size&lt;/b&gt;
@@ -7522,14 +7525,14 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="-17.78" y1="12.7" x2="20.32" y2="12.7" width="0" layer="20"/>
-<wire x1="20.32" y1="-12.7" x2="-17.78" y2="-12.7" width="0" layer="20"/>
-<wire x1="-17.78" y1="-12.7" x2="-19.05" y2="-11.43" width="0" layer="20" curve="-90"/>
-<wire x1="-19.05" y1="-11.43" x2="-19.05" y2="11.43" width="0" layer="20"/>
-<wire x1="-19.05" y1="11.43" x2="-17.78" y2="12.7" width="0" layer="20" curve="-90"/>
-<wire x1="20.32" y1="12.7" x2="21.59" y2="11.43" width="0" layer="20" curve="-90"/>
-<wire x1="21.59" y1="11.43" x2="21.59" y2="-11.43" width="0" layer="20"/>
-<wire x1="21.59" y1="-11.43" x2="20.32" y2="-12.7" width="0" layer="20" curve="-90"/>
+<wire x1="-12.7" y1="-24.638" x2="-12.7" y2="13.462" width="0" layer="20"/>
+<wire x1="12.7" y1="13.462" x2="12.7" y2="-24.638" width="0" layer="20"/>
+<wire x1="12.7" y1="-24.638" x2="11.43" y2="-25.908" width="0" layer="20" curve="-90"/>
+<wire x1="11.43" y1="-25.908" x2="-11.43" y2="-25.908" width="0" layer="20"/>
+<wire x1="-11.43" y1="-25.908" x2="-12.7" y2="-24.638" width="0" layer="20" curve="-90"/>
+<wire x1="-12.7" y1="13.462" x2="-11.43" y2="14.732" width="0" layer="20" curve="-90"/>
+<wire x1="-11.43" y1="14.732" x2="11.43" y2="14.732" width="0" layer="20"/>
+<wire x1="11.43" y1="14.732" x2="12.7" y2="13.462" width="0" layer="20" curve="-90"/>
 </package>
 <package name="NPTC081KFXC-RC">
 <description>NPTC081KFXC-RC  Sullins Connector Solutions
@@ -7615,127 +7618,127 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<text x="-6.35" y="-7.112" size="1.27" layer="25" font="vector" ratio="10" rot="R180">&gt;NAME</text>
-<rectangle x1="3.556" y1="-11.684" x2="4.064" y2="-11.176" layer="51"/>
-<rectangle x1="1.016" y1="-11.684" x2="1.524" y2="-11.176" layer="51"/>
-<rectangle x1="-1.524" y1="-11.684" x2="-1.016" y2="-11.176" layer="51"/>
-<rectangle x1="-4.064" y1="-11.684" x2="-3.556" y2="-11.176" layer="51"/>
-<rectangle x1="-6.604" y1="-11.684" x2="-6.096" y2="-11.176" layer="51"/>
-<rectangle x1="-9.144" y1="-11.684" x2="-8.636" y2="-11.176" layer="51"/>
-<rectangle x1="-11.684" y1="-11.684" x2="-11.176" y2="-11.176" layer="51"/>
-<rectangle x1="6.096" y1="-11.684" x2="6.604" y2="-11.176" layer="51"/>
-<rectangle x1="3.556" y1="11.176" x2="4.064" y2="11.684" layer="51"/>
-<rectangle x1="1.016" y1="11.176" x2="1.524" y2="11.684" layer="51"/>
-<rectangle x1="-1.524" y1="11.176" x2="-1.016" y2="11.684" layer="51"/>
-<rectangle x1="-4.064" y1="11.176" x2="-3.556" y2="11.684" layer="51"/>
-<rectangle x1="-6.604" y1="11.176" x2="-6.096" y2="11.684" layer="51"/>
-<rectangle x1="-9.144" y1="11.176" x2="-8.636" y2="11.684" layer="51"/>
-<rectangle x1="-11.684" y1="11.176" x2="-11.176" y2="11.684" layer="51"/>
-<rectangle x1="6.096" y1="11.176" x2="6.604" y2="11.684" layer="51"/>
-<rectangle x1="11.176" y1="-11.684" x2="11.684" y2="-11.176" layer="51"/>
-<rectangle x1="8.636" y1="-11.684" x2="9.144" y2="-11.176" layer="51"/>
-<rectangle x1="8.636" y1="11.176" x2="9.144" y2="11.684" layer="51"/>
-<rectangle x1="11.176" y1="11.176" x2="11.684" y2="11.684" layer="51"/>
-<rectangle x1="13.716" y1="11.176" x2="14.224" y2="11.684" layer="51"/>
-<rectangle x1="16.256" y1="11.176" x2="16.764" y2="11.684" layer="51"/>
-<rectangle x1="13.716" y1="-11.684" x2="14.224" y2="-11.176" layer="51"/>
-<rectangle x1="16.256" y1="-11.684" x2="16.764" y2="-11.176" layer="51"/>
-<rectangle x1="18.796" y1="-9.144" x2="19.304" y2="-8.636" layer="51" rot="R90"/>
-<rectangle x1="18.796" y1="-6.604" x2="19.304" y2="-6.096" layer="51" rot="R90"/>
-<rectangle x1="18.796" y1="-4.064" x2="19.304" y2="-3.556" layer="51" rot="R90"/>
-<rectangle x1="18.796" y1="-1.524" x2="19.304" y2="-1.016" layer="51" rot="R90"/>
-<rectangle x1="18.796" y1="1.016" x2="19.304" y2="1.524" layer="51" rot="R90"/>
-<rectangle x1="18.796" y1="3.556" x2="19.304" y2="4.064" layer="51" rot="R90"/>
-<rectangle x1="18.796" y1="6.096" x2="19.304" y2="6.604" layer="51" rot="R90"/>
-<rectangle x1="18.796" y1="8.636" x2="19.304" y2="9.144" layer="51" rot="R90"/>
-<wire x1="20.3" y1="-10.26" x2="20.3" y2="10.26" width="0.127" layer="51"/>
-<wire x1="20.3" y1="10.26" x2="17.8" y2="10.26" width="0.127" layer="51"/>
-<wire x1="17.8" y1="10.26" x2="17.8" y2="-10.26" width="0.127" layer="51"/>
-<wire x1="17.8" y1="-10.26" x2="20.3" y2="-10.26" width="0.127" layer="51"/>
-<wire x1="20.3" y1="10.26" x2="17.8" y2="10.26" width="0.127" layer="21"/>
-<wire x1="17.8" y1="-10.26" x2="20.3" y2="-10.26" width="0.127" layer="21"/>
-<wire x1="20.3" y1="9.74" x2="20.3" y2="10.26" width="0.127" layer="21"/>
-<wire x1="20.3" y1="-10.26" x2="20.3" y2="-7.073" width="0.127" layer="21"/>
-<wire x1="17.8" y1="-9.74" x2="17.8" y2="-10.26" width="0.127" layer="21"/>
-<wire x1="17.8" y1="10.26" x2="17.8" y2="7.073" width="0.127" layer="21"/>
-<wire x1="20.3" y1="4.513" x2="20.3" y2="8.187" width="0.127" layer="21"/>
-<wire x1="20.3" y1="-0.567" x2="20.3" y2="3.107" width="0.127" layer="21"/>
-<wire x1="20.3" y1="-5.647" x2="20.3" y2="-1.973" width="0.127" layer="21"/>
-<wire x1="17.8" y1="5.561" x2="17.8" y2="2.059" width="0.127" layer="21"/>
-<wire x1="17.8" y1="0.481" x2="17.8" y2="-3.021" width="0.127" layer="21"/>
-<wire x1="17.8" y1="-4.599" x2="17.8" y2="-8.101" width="0.127" layer="21"/>
-<smd name="7E" x="17.4" y="6.35" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="5E" x="17.4" y="1.27" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="3E" x="17.4" y="-3.81" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="1E" x="17.4" y="-8.89" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="8E" x="20.7" y="8.89" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="6E" x="20.7" y="3.81" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="4E" x="20.7" y="-1.27" dx="2" dy="1" layer="1" rot="R180"/>
-<smd name="2E" x="20.7" y="-6.35" dx="2" dy="1" layer="1" rot="R180"/>
-<wire x1="17.88" y1="-10.18" x2="-12.8" y2="-10.18" width="0.127" layer="51"/>
-<wire x1="-12.8" y1="-10.18" x2="-12.8" y2="-12.68" width="0.127" layer="51"/>
-<wire x1="-12.8" y1="-12.68" x2="17.88" y2="-12.68" width="0.127" layer="51"/>
-<wire x1="17.88" y1="-12.68" x2="17.88" y2="-10.18" width="0.127" layer="51"/>
-<wire x1="-12.8" y1="-10.18" x2="-12.8" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="17.88" y1="-12.68" x2="17.88" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="-12.28" y1="-10.18" x2="-12.8" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="17.88" y1="-10.18" x2="14.693" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="17.36" y1="-12.68" x2="17.88" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="3.107" y1="-10.18" x2="-0.567" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="8.187" y1="-10.18" x2="4.513" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="13.267" y1="-10.18" x2="9.593" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="2.059" y1="-12.68" x2="5.561" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="7.139" y1="-12.68" x2="10.641" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="12.219" y1="-12.68" x2="15.721" y2="-12.68" width="0.127" layer="21"/>
-<smd name="6B" x="1.27" y="-13.08" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="8B" x="6.35" y="-13.08" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="10B" x="11.43" y="-13.08" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="12B" x="16.51" y="-13.08" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="5B" x="-1.27" y="-9.78" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="7B" x="3.81" y="-9.78" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="9B" x="8.89" y="-9.78" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="11B" x="13.97" y="-9.78" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="4B" x="-3.81" y="-13.08" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="3B" x="-6.35" y="-9.78" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="2B" x="-8.89" y="-13.08" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="1B" x="-11.43" y="-9.78" dx="2" dy="1" layer="1" rot="R270"/>
-<wire x1="17.88" y1="12.68" x2="-12.8" y2="12.68" width="0.127" layer="51"/>
-<wire x1="-12.8" y1="12.68" x2="-12.8" y2="10.18" width="0.127" layer="51"/>
-<wire x1="17.88" y1="10.18" x2="17.88" y2="12.68" width="0.127" layer="51"/>
-<wire x1="-12.8" y1="12.68" x2="-12.8" y2="10.18" width="0.127" layer="21"/>
-<wire x1="17.88" y1="10.18" x2="17.88" y2="12.68" width="0.127" layer="21"/>
-<wire x1="-12.28" y1="12.68" x2="-12.8" y2="12.68" width="0.127" layer="21"/>
-<wire x1="17.88" y1="12.68" x2="14.693" y2="12.68" width="0.127" layer="21"/>
-<wire x1="17.36" y1="10.18" x2="17.88" y2="10.18" width="0.127" layer="21"/>
-<wire x1="3.107" y1="12.68" x2="-0.567" y2="12.68" width="0.127" layer="21"/>
-<wire x1="8.187" y1="12.68" x2="4.513" y2="12.68" width="0.127" layer="21"/>
-<wire x1="13.267" y1="12.68" x2="9.593" y2="12.68" width="0.127" layer="21"/>
-<wire x1="2.059" y1="10.18" x2="5.561" y2="10.18" width="0.127" layer="21"/>
-<wire x1="7.139" y1="10.18" x2="10.641" y2="10.18" width="0.127" layer="21"/>
-<wire x1="12.219" y1="10.18" x2="15.721" y2="10.18" width="0.127" layer="21"/>
-<smd name="6C" x="1.27" y="9.78" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="8C" x="6.35" y="9.78" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="10C" x="11.43" y="9.78" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="12C" x="16.51" y="9.78" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="5C" x="-1.27" y="13.08" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="7C" x="3.81" y="13.08" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="9C" x="8.89" y="13.08" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="11C" x="13.97" y="13.08" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="4C" x="-3.81" y="9.78" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="3C" x="-6.35" y="13.08" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="2C" x="-8.89" y="9.78" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="1C" x="-11.43" y="13.08" dx="2" dy="1" layer="1" rot="R270"/>
-<wire x1="-1.973" y1="12.68" x2="-5.647" y2="12.68" width="0.127" layer="21"/>
-<wire x1="-7.053" y1="12.68" x2="-10.727" y2="12.68" width="0.127" layer="21"/>
-<wire x1="-1.973" y1="-10.18" x2="-5.647" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="-7.053" y1="-10.18" x2="-10.727" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="17.88" y1="10.14" x2="-12.8" y2="10.14" width="0.127" layer="51"/>
-<wire x1="-3.021" y1="10.18" x2="0.481" y2="10.18" width="0.127" layer="21"/>
-<wire x1="-8.101" y1="10.18" x2="-4.599" y2="10.18" width="0.127" layer="21"/>
-<wire x1="-3.021" y1="-12.68" x2="0.481" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="-8.101" y1="-12.68" x2="-4.599" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="-9.74" y1="10.14" x2="-12.8" y2="10.14" width="0.127" layer="21"/>
-<wire x1="-9.74" y1="-12.72" x2="-12.8" y2="-12.72" width="0.127" layer="21"/>
+<text x="-7.112" y="6.35" size="1.27" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<rectangle x1="-11.684" y1="-4.064" x2="-11.176" y2="-3.556" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="-1.524" x2="-11.176" y2="-1.016" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="1.016" x2="-11.176" y2="1.524" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="3.556" x2="-11.176" y2="4.064" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="6.096" x2="-11.176" y2="6.604" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="8.636" x2="-11.176" y2="9.144" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="11.176" x2="-11.176" y2="11.684" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="-6.604" x2="-11.176" y2="-6.096" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-4.064" x2="11.684" y2="-3.556" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-1.524" x2="11.684" y2="-1.016" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="1.016" x2="11.684" y2="1.524" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="3.556" x2="11.684" y2="4.064" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="6.096" x2="11.684" y2="6.604" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="8.636" x2="11.684" y2="9.144" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="11.176" x2="11.684" y2="11.684" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-6.604" x2="11.684" y2="-6.096" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="-11.684" x2="-11.176" y2="-11.176" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="-9.144" x2="-11.176" y2="-8.636" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-9.144" x2="11.684" y2="-8.636" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-11.684" x2="11.684" y2="-11.176" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-14.224" x2="11.684" y2="-13.716" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-16.764" x2="11.684" y2="-16.256" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="-14.224" x2="-11.176" y2="-13.716" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="-16.764" x2="-11.176" y2="-16.256" layer="51" rot="R270"/>
+<rectangle x1="-9.144" y1="-19.304" x2="-8.636" y2="-18.796" layer="51"/>
+<rectangle x1="-6.604" y1="-19.304" x2="-6.096" y2="-18.796" layer="51"/>
+<rectangle x1="-4.064" y1="-19.304" x2="-3.556" y2="-18.796" layer="51"/>
+<rectangle x1="-1.524" y1="-19.304" x2="-1.016" y2="-18.796" layer="51"/>
+<rectangle x1="1.016" y1="-19.304" x2="1.524" y2="-18.796" layer="51"/>
+<rectangle x1="3.556" y1="-19.304" x2="4.064" y2="-18.796" layer="51"/>
+<rectangle x1="6.096" y1="-19.304" x2="6.604" y2="-18.796" layer="51"/>
+<rectangle x1="8.636" y1="-19.304" x2="9.144" y2="-18.796" layer="51"/>
+<wire x1="-10.26" y1="-20.3" x2="10.26" y2="-20.3" width="0.127" layer="51"/>
+<wire x1="10.26" y1="-20.3" x2="10.26" y2="-17.8" width="0.127" layer="51"/>
+<wire x1="10.26" y1="-17.8" x2="-10.26" y2="-17.8" width="0.127" layer="51"/>
+<wire x1="-10.26" y1="-17.8" x2="-10.26" y2="-20.3" width="0.127" layer="51"/>
+<wire x1="10.26" y1="-20.3" x2="10.26" y2="-17.8" width="0.127" layer="21"/>
+<wire x1="-10.26" y1="-17.8" x2="-10.26" y2="-20.3" width="0.127" layer="21"/>
+<wire x1="9.74" y1="-20.3" x2="10.26" y2="-20.3" width="0.127" layer="21"/>
+<wire x1="-10.26" y1="-20.3" x2="-7.073" y2="-20.3" width="0.127" layer="21"/>
+<wire x1="-9.74" y1="-17.8" x2="-10.26" y2="-17.8" width="0.127" layer="21"/>
+<wire x1="10.26" y1="-17.8" x2="7.073" y2="-17.8" width="0.127" layer="21"/>
+<wire x1="4.513" y1="-20.3" x2="8.187" y2="-20.3" width="0.127" layer="21"/>
+<wire x1="-0.567" y1="-20.3" x2="3.107" y2="-20.3" width="0.127" layer="21"/>
+<wire x1="-5.647" y1="-20.3" x2="-1.973" y2="-20.3" width="0.127" layer="21"/>
+<wire x1="5.561" y1="-17.8" x2="2.059" y2="-17.8" width="0.127" layer="21"/>
+<wire x1="0.481" y1="-17.8" x2="-3.021" y2="-17.8" width="0.127" layer="21"/>
+<wire x1="-4.599" y1="-17.8" x2="-8.101" y2="-17.8" width="0.127" layer="21"/>
+<smd name="7E" x="6.35" y="-17.4" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="5E" x="1.27" y="-17.4" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="3E" x="-3.81" y="-17.4" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="1E" x="-8.89" y="-17.4" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="8E" x="8.89" y="-20.7" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="6E" x="3.81" y="-20.7" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="4E" x="-1.27" y="-20.7" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="2E" x="-6.35" y="-20.7" dx="2" dy="1" layer="1" rot="R90"/>
+<wire x1="-10.18" y1="-17.88" x2="-10.18" y2="12.8" width="0.127" layer="51"/>
+<wire x1="-10.18" y1="12.8" x2="-12.68" y2="12.8" width="0.127" layer="51"/>
+<wire x1="-12.68" y1="12.8" x2="-12.68" y2="-17.88" width="0.127" layer="51"/>
+<wire x1="-12.68" y1="-17.88" x2="-10.18" y2="-17.88" width="0.127" layer="51"/>
+<wire x1="-10.18" y1="12.8" x2="-12.68" y2="12.8" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="-17.88" x2="-10.18" y2="-17.88" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="12.28" x2="-10.18" y2="12.8" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="-17.88" x2="-10.18" y2="-14.693" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="-17.36" x2="-12.68" y2="-17.88" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="-3.107" x2="-10.18" y2="0.567" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="-8.187" x2="-10.18" y2="-4.513" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="-13.267" x2="-10.18" y2="-9.593" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="-2.059" x2="-12.68" y2="-5.561" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="-7.139" x2="-12.68" y2="-10.641" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="-12.219" x2="-12.68" y2="-15.721" width="0.127" layer="21"/>
+<smd name="6B" x="-13.08" y="-1.27" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="8B" x="-13.08" y="-6.35" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="10B" x="-13.08" y="-11.43" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="12B" x="-13.08" y="-16.51" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="5B" x="-9.78" y="1.27" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="7B" x="-9.78" y="-3.81" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="9B" x="-9.78" y="-8.89" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="11B" x="-9.78" y="-13.97" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="4B" x="-13.08" y="3.81" dx="2" dy="1" layer="1"/>
+<smd name="3B" x="-9.78" y="6.35" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="2B" x="-13.08" y="8.89" dx="2" dy="1" layer="1"/>
+<smd name="1B" x="-9.78" y="11.43" dx="2" dy="1" layer="1" rot="R180"/>
+<wire x1="12.68" y1="-17.88" x2="12.68" y2="12.8" width="0.127" layer="51"/>
+<wire x1="12.68" y1="12.8" x2="10.18" y2="12.8" width="0.127" layer="51"/>
+<wire x1="10.18" y1="-17.88" x2="12.68" y2="-17.88" width="0.127" layer="51"/>
+<wire x1="12.68" y1="12.8" x2="10.18" y2="12.8" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-17.88" x2="12.68" y2="-17.88" width="0.127" layer="21"/>
+<wire x1="12.68" y1="12.28" x2="12.68" y2="12.8" width="0.127" layer="21"/>
+<wire x1="12.68" y1="-17.88" x2="12.68" y2="-14.693" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-17.36" x2="10.18" y2="-17.88" width="0.127" layer="21"/>
+<wire x1="12.68" y1="-3.107" x2="12.68" y2="0.567" width="0.127" layer="21"/>
+<wire x1="12.68" y1="-8.187" x2="12.68" y2="-4.513" width="0.127" layer="21"/>
+<wire x1="12.68" y1="-13.267" x2="12.68" y2="-9.593" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-2.059" x2="10.18" y2="-5.561" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-7.139" x2="10.18" y2="-10.641" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-12.219" x2="10.18" y2="-15.721" width="0.127" layer="21"/>
+<smd name="6C" x="9.78" y="-1.27" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="8C" x="9.78" y="-6.35" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="10C" x="9.78" y="-11.43" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="12C" x="9.78" y="-16.51" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="5C" x="13.08" y="1.27" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="7C" x="13.08" y="-3.81" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="9C" x="13.08" y="-8.89" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="11C" x="13.08" y="-13.97" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="4C" x="9.78" y="3.81" dx="2" dy="1" layer="1"/>
+<smd name="3C" x="13.08" y="6.35" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="2C" x="9.78" y="8.89" dx="2" dy="1" layer="1"/>
+<smd name="1C" x="13.08" y="11.43" dx="2" dy="1" layer="1" rot="R180"/>
+<wire x1="12.68" y1="1.973" x2="12.68" y2="5.647" width="0.127" layer="21"/>
+<wire x1="12.68" y1="7.053" x2="12.68" y2="10.727" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="1.973" x2="-10.18" y2="5.647" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="7.053" x2="-10.18" y2="10.727" width="0.127" layer="21"/>
+<wire x1="10.14" y1="-17.88" x2="10.14" y2="12.8" width="0.127" layer="51"/>
+<wire x1="10.18" y1="3.021" x2="10.18" y2="-0.481" width="0.127" layer="21"/>
+<wire x1="10.18" y1="8.101" x2="10.18" y2="4.599" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="3.021" x2="-12.68" y2="-0.481" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="8.101" x2="-12.68" y2="4.599" width="0.127" layer="21"/>
+<wire x1="10.14" y1="9.74" x2="10.14" y2="12.8" width="0.127" layer="21"/>
+<wire x1="-12.72" y1="9.74" x2="-12.72" y2="12.8" width="0.127" layer="21"/>
 </package>
 <package name="TSOC-BB-S32-SILK">
 <description>&lt;b&gt;thingSoC Silkscreen Outlines&lt;/b&gt;
@@ -7751,58 +7754,36 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="25.5" y1="4.338" x2="25.5" y2="6.838" width="0.127" layer="21"/>
-<wire x1="4.98" y1="6.838" x2="4.98" y2="4.338" width="0.127" layer="21"/>
-<wire x1="24.98" y1="4.338" x2="25.5" y2="4.338" width="0.127" layer="21"/>
-<wire x1="4.98" y1="4.338" x2="8.167" y2="4.338" width="0.127" layer="21"/>
-<wire x1="5.5" y1="6.838" x2="4.98" y2="6.838" width="0.127" layer="21"/>
-<wire x1="25.5" y1="6.838" x2="22.313" y2="6.838" width="0.127" layer="21"/>
-<wire x1="19.753" y1="4.338" x2="23.427" y2="4.338" width="0.127" layer="21"/>
-<wire x1="14.673" y1="4.338" x2="18.347" y2="4.338" width="0.127" layer="21"/>
-<wire x1="9.593" y1="4.338" x2="13.267" y2="4.338" width="0.127" layer="21"/>
-<wire x1="20.801" y1="6.838" x2="17.299" y2="6.838" width="0.127" layer="21"/>
-<wire x1="15.721" y1="6.838" x2="12.219" y2="6.838" width="0.127" layer="21"/>
-<wire x1="10.641" y1="6.838" x2="7.139" y2="6.838" width="0.127" layer="21"/>
-<wire x1="5.06" y1="37.438" x2="2.56" y2="37.438" width="0.127" layer="21"/>
-<wire x1="2.56" y1="6.758" x2="5.06" y2="6.758" width="0.127" layer="21"/>
-<wire x1="5.06" y1="36.918" x2="5.06" y2="37.438" width="0.127" layer="21"/>
-<wire x1="5.06" y1="6.758" x2="5.06" y2="9.945" width="0.127" layer="21"/>
-<wire x1="2.56" y1="7.278" x2="2.56" y2="6.758" width="0.127" layer="21"/>
-<wire x1="5.06" y1="21.531" x2="5.06" y2="25.205" width="0.127" layer="21"/>
-<wire x1="5.06" y1="16.451" x2="5.06" y2="20.125" width="0.127" layer="21"/>
-<wire x1="5.06" y1="11.371" x2="5.06" y2="15.045" width="0.127" layer="21"/>
-<wire x1="2.56" y1="22.579" x2="2.56" y2="19.077" width="0.127" layer="21"/>
-<wire x1="2.56" y1="17.499" x2="2.56" y2="13.997" width="0.127" layer="21"/>
-<wire x1="2.56" y1="12.419" x2="2.56" y2="8.917" width="0.127" layer="21"/>
-<wire x1="27.92" y1="37.438" x2="25.42" y2="37.438" width="0.127" layer="21"/>
-<wire x1="25.42" y1="6.758" x2="27.92" y2="6.758" width="0.127" layer="21"/>
-<wire x1="27.92" y1="36.918" x2="27.92" y2="37.438" width="0.127" layer="21"/>
-<wire x1="27.92" y1="6.758" x2="27.92" y2="9.945" width="0.127" layer="21"/>
-<wire x1="25.42" y1="7.278" x2="25.42" y2="6.758" width="0.127" layer="21"/>
-<wire x1="27.92" y1="21.531" x2="27.92" y2="25.205" width="0.127" layer="21"/>
-<wire x1="27.92" y1="16.451" x2="27.92" y2="20.125" width="0.127" layer="21"/>
-<wire x1="27.92" y1="11.371" x2="27.92" y2="15.045" width="0.127" layer="21"/>
-<wire x1="25.42" y1="22.579" x2="25.42" y2="19.077" width="0.127" layer="21"/>
-<wire x1="25.42" y1="17.499" x2="25.42" y2="13.997" width="0.127" layer="21"/>
-<wire x1="25.42" y1="12.419" x2="25.42" y2="8.917" width="0.127" layer="21"/>
-<wire x1="27.92" y1="26.611" x2="27.92" y2="30.285" width="0.127" layer="21"/>
-<wire x1="27.92" y1="31.691" x2="27.92" y2="35.365" width="0.127" layer="21"/>
-<wire x1="5.06" y1="26.611" x2="5.06" y2="30.285" width="0.127" layer="21"/>
-<wire x1="5.06" y1="31.691" x2="5.06" y2="35.365" width="0.127" layer="21"/>
-<wire x1="25.42" y1="27.659" x2="25.42" y2="24.157" width="0.127" layer="21"/>
-<wire x1="25.42" y1="32.739" x2="25.42" y2="29.237" width="0.127" layer="21"/>
-<wire x1="2.56" y1="27.659" x2="2.56" y2="24.157" width="0.127" layer="21"/>
-<wire x1="2.56" y1="32.739" x2="2.56" y2="29.237" width="0.127" layer="21"/>
-<wire x1="25.38" y1="34.378" x2="25.38" y2="37.438" width="0.127" layer="21"/>
-<wire x1="2.52" y1="34.378" x2="2.52" y2="37.438" width="0.127" layer="21"/>
-<wire x1="30.48" y1="1.778" x2="30.48" y2="42.672" width="0.1524" layer="21"/>
-<wire x1="28.702" y1="44.45" x2="1.778" y2="44.45" width="0.1524" layer="20"/>
-<wire x1="0" y1="42.672" x2="0" y2="1.778" width="0.1524" layer="21"/>
-<wire x1="1.778" y1="0" x2="28.702" y2="0" width="0.1524" layer="21"/>
-<wire x1="30.48" y1="42.672" x2="28.702" y2="44.45" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.778" y1="44.45" x2="0" y2="42.672" width="0.1524" layer="21" curve="90"/>
-<wire x1="0" y1="1.778" x2="1.778" y2="0" width="0.1524" layer="21" curve="90"/>
-<wire x1="28.702" y1="0" x2="30.48" y2="1.778" width="0.1524" layer="21" curve="90"/>
+<wire x1="10.26" y1="-20.3" x2="10.26" y2="-17.8" width="0.127" layer="21"/>
+<wire x1="-10.26" y1="-17.8" x2="-10.26" y2="-20.3" width="0.127" layer="21"/>
+<wire x1="9.74" y1="-20.3" x2="10.26" y2="-20.3" width="0.127" layer="21"/>
+<wire x1="-10.26" y1="-20.3" x2="-9.867" y2="-20.3" width="0.127" layer="21"/>
+<wire x1="-9.994" y1="-17.8" x2="-10.26" y2="-17.8" width="0.127" layer="21"/>
+<wire x1="10.26" y1="-17.8" x2="9.867" y2="-17.8" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="12.8" x2="-12.68" y2="12.8" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="-17.88" x2="-10.18" y2="-17.88" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="12.28" x2="-10.18" y2="12.8" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="-17.88" x2="-10.18" y2="-17.487" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="-17.36" x2="-12.68" y2="-17.88" width="0.127" layer="21"/>
+<wire x1="12.68" y1="12.8" x2="10.18" y2="12.8" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-17.88" x2="12.68" y2="-17.88" width="0.127" layer="21"/>
+<wire x1="12.68" y1="12.28" x2="12.68" y2="12.8" width="0.127" layer="21"/>
+<wire x1="12.68" y1="-17.88" x2="12.68" y2="-17.487" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-17.614" x2="10.18" y2="-17.88" width="0.127" layer="21"/>
+<wire x1="10.14" y1="12.28" x2="10.14" y2="12.8" width="0.127" layer="21"/>
+<wire x1="-12.72" y1="12.28" x2="-12.72" y2="12.8" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="16.764" x2="-15.24" y2="-24.13" width="0.1524" layer="21"/>
+<wire x1="-13.462" y1="-25.908" x2="13.462" y2="-25.908" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="-24.13" x2="15.24" y2="16.764" width="0.1524" layer="21"/>
+<hole x="13.335" y="16.637" drill="2"/>
+<hole x="-13.335" y="16.637" drill="2"/>
+<wire x1="13.462" y1="18.542" x2="-13.462" y2="18.542" width="0.1524" layer="21"/>
+<wire x1="-15.24" y1="-24.13" x2="-13.462" y2="-25.908" width="0.1524" layer="21" curve="90"/>
+<wire x1="13.462" y1="-25.908" x2="15.24" y2="-24.13" width="0.1524" layer="21" curve="90"/>
+<wire x1="15.24" y1="16.764" x2="13.462" y2="18.542" width="0.1524" layer="21" curve="90"/>
+<wire x1="-13.462" y1="18.542" x2="-15.24" y2="16.764" width="0.1524" layer="21" curve="90"/>
+<hole x="13.335" y="-24.003" drill="2"/>
+<hole x="-13.335" y="-24.003" drill="2"/>
 </package>
 <package name="TSOC-BB-S24-SMD-TOP">
 <description>&lt;b&gt;thingSoC Single Twenty-Four(24) Pin SIngle-in-Line SMD Socket - TOP layer metal&lt;/b&gt;
@@ -7816,97 +7797,97 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<text x="-6.35" y="-7.112" size="1.27" layer="25" font="vector" ratio="10" rot="R180">&gt;NAME</text>
-<rectangle x1="3.556" y1="-11.684" x2="4.064" y2="-11.176" layer="51"/>
-<rectangle x1="1.016" y1="-11.684" x2="1.524" y2="-11.176" layer="51"/>
-<rectangle x1="-1.524" y1="-11.684" x2="-1.016" y2="-11.176" layer="51"/>
-<rectangle x1="-4.064" y1="-11.684" x2="-3.556" y2="-11.176" layer="51"/>
-<rectangle x1="-6.604" y1="-11.684" x2="-6.096" y2="-11.176" layer="51"/>
-<rectangle x1="-9.144" y1="-11.684" x2="-8.636" y2="-11.176" layer="51"/>
-<rectangle x1="-11.684" y1="-11.684" x2="-11.176" y2="-11.176" layer="51"/>
-<rectangle x1="6.096" y1="-11.684" x2="6.604" y2="-11.176" layer="51"/>
-<rectangle x1="3.556" y1="11.176" x2="4.064" y2="11.684" layer="51"/>
-<rectangle x1="1.016" y1="11.176" x2="1.524" y2="11.684" layer="51"/>
-<rectangle x1="-1.524" y1="11.176" x2="-1.016" y2="11.684" layer="51"/>
-<rectangle x1="-4.064" y1="11.176" x2="-3.556" y2="11.684" layer="51"/>
-<rectangle x1="-6.604" y1="11.176" x2="-6.096" y2="11.684" layer="51"/>
-<rectangle x1="-9.144" y1="11.176" x2="-8.636" y2="11.684" layer="51"/>
-<rectangle x1="-11.684" y1="11.176" x2="-11.176" y2="11.684" layer="51"/>
-<rectangle x1="6.096" y1="11.176" x2="6.604" y2="11.684" layer="51"/>
-<rectangle x1="11.176" y1="-11.684" x2="11.684" y2="-11.176" layer="51"/>
-<rectangle x1="8.636" y1="-11.684" x2="9.144" y2="-11.176" layer="51"/>
-<rectangle x1="8.636" y1="11.176" x2="9.144" y2="11.684" layer="51"/>
-<rectangle x1="11.176" y1="11.176" x2="11.684" y2="11.684" layer="51"/>
-<rectangle x1="13.716" y1="11.176" x2="14.224" y2="11.684" layer="51"/>
-<rectangle x1="16.256" y1="11.176" x2="16.764" y2="11.684" layer="51"/>
-<rectangle x1="13.716" y1="-11.684" x2="14.224" y2="-11.176" layer="51"/>
-<rectangle x1="16.256" y1="-11.684" x2="16.764" y2="-11.176" layer="51"/>
-<wire x1="17.88" y1="-10.18" x2="-12.8" y2="-10.18" width="0.127" layer="51"/>
-<wire x1="-12.8" y1="-10.18" x2="-12.8" y2="-12.68" width="0.127" layer="51"/>
-<wire x1="-12.8" y1="-12.68" x2="17.88" y2="-12.68" width="0.127" layer="51"/>
-<wire x1="17.88" y1="-12.68" x2="17.88" y2="-10.18" width="0.127" layer="51"/>
-<wire x1="-12.8" y1="-10.18" x2="-12.8" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="17.88" y1="-12.68" x2="17.88" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="-12.28" y1="-10.18" x2="-12.8" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="17.88" y1="-10.18" x2="14.693" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="17.36" y1="-12.68" x2="17.88" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="3.107" y1="-10.18" x2="-0.567" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="8.187" y1="-10.18" x2="4.513" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="13.267" y1="-10.18" x2="9.593" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="2.059" y1="-12.68" x2="5.561" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="7.139" y1="-12.68" x2="10.641" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="12.219" y1="-12.68" x2="15.721" y2="-12.68" width="0.127" layer="21"/>
-<smd name="6B" x="1.27" y="-13.08" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="8B" x="6.35" y="-13.08" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="10B" x="11.43" y="-13.08" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="12B" x="16.51" y="-13.08" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="5B" x="-1.27" y="-9.78" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="7B" x="3.81" y="-9.78" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="9B" x="8.89" y="-9.78" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="11B" x="13.97" y="-9.78" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="4B" x="-3.81" y="-13.08" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="3B" x="-6.35" y="-9.78" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="2B" x="-8.89" y="-13.08" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="1B" x="-11.43" y="-9.78" dx="2" dy="1" layer="1" rot="R270"/>
-<wire x1="17.88" y1="12.68" x2="-12.8" y2="12.68" width="0.127" layer="51"/>
-<wire x1="-12.8" y1="12.68" x2="-12.8" y2="10.18" width="0.127" layer="51"/>
-<wire x1="17.88" y1="10.18" x2="17.88" y2="12.68" width="0.127" layer="51"/>
-<wire x1="-12.8" y1="12.68" x2="-12.8" y2="10.18" width="0.127" layer="21"/>
-<wire x1="17.88" y1="10.18" x2="17.88" y2="12.68" width="0.127" layer="21"/>
-<wire x1="-12.28" y1="12.68" x2="-12.8" y2="12.68" width="0.127" layer="21"/>
-<wire x1="17.88" y1="12.68" x2="14.693" y2="12.68" width="0.127" layer="21"/>
-<wire x1="17.36" y1="10.18" x2="17.88" y2="10.18" width="0.127" layer="21"/>
-<wire x1="3.107" y1="12.68" x2="-0.567" y2="12.68" width="0.127" layer="21"/>
-<wire x1="8.187" y1="12.68" x2="4.513" y2="12.68" width="0.127" layer="21"/>
-<wire x1="13.267" y1="12.68" x2="9.593" y2="12.68" width="0.127" layer="21"/>
-<wire x1="2.059" y1="10.18" x2="5.561" y2="10.18" width="0.127" layer="21"/>
-<wire x1="7.139" y1="10.18" x2="10.641" y2="10.18" width="0.127" layer="21"/>
-<wire x1="12.219" y1="10.18" x2="15.721" y2="10.18" width="0.127" layer="21"/>
-<smd name="6C" x="1.27" y="9.78" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="8C" x="6.35" y="9.78" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="10C" x="11.43" y="9.78" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="12C" x="16.51" y="9.78" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="5C" x="-1.27" y="13.08" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="7C" x="3.81" y="13.08" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="9C" x="8.89" y="13.08" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="11C" x="13.97" y="13.08" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="4C" x="-3.81" y="9.78" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="3C" x="-6.35" y="13.08" dx="2" dy="1" layer="1" rot="R270"/>
-<smd name="2C" x="-8.89" y="9.78" dx="2" dy="1" layer="1" rot="R90"/>
-<smd name="1C" x="-11.43" y="13.08" dx="2" dy="1" layer="1" rot="R270"/>
-<wire x1="-1.973" y1="12.68" x2="-5.647" y2="12.68" width="0.127" layer="21"/>
-<wire x1="-7.053" y1="12.68" x2="-10.727" y2="12.68" width="0.127" layer="21"/>
-<wire x1="-1.973" y1="-10.18" x2="-5.647" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="-7.053" y1="-10.18" x2="-10.727" y2="-10.18" width="0.127" layer="21"/>
-<wire x1="17.88" y1="10.14" x2="-12.8" y2="10.14" width="0.127" layer="51"/>
-<wire x1="-3.021" y1="10.18" x2="0.481" y2="10.18" width="0.127" layer="21"/>
-<wire x1="-8.101" y1="10.18" x2="-4.599" y2="10.18" width="0.127" layer="21"/>
-<wire x1="-3.021" y1="-12.68" x2="0.481" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="-8.101" y1="-12.68" x2="-4.599" y2="-12.68" width="0.127" layer="21"/>
-<wire x1="-9.74" y1="10.14" x2="-12.8" y2="10.14" width="0.127" layer="21"/>
-<wire x1="-9.74" y1="-12.72" x2="-12.8" y2="-12.72" width="0.127" layer="21"/>
+<text x="-7.112" y="6.35" size="1.27" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<rectangle x1="-11.684" y1="-4.064" x2="-11.176" y2="-3.556" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="-1.524" x2="-11.176" y2="-1.016" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="1.016" x2="-11.176" y2="1.524" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="3.556" x2="-11.176" y2="4.064" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="6.096" x2="-11.176" y2="6.604" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="8.636" x2="-11.176" y2="9.144" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="11.176" x2="-11.176" y2="11.684" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="-6.604" x2="-11.176" y2="-6.096" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-4.064" x2="11.684" y2="-3.556" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-1.524" x2="11.684" y2="-1.016" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="1.016" x2="11.684" y2="1.524" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="3.556" x2="11.684" y2="4.064" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="6.096" x2="11.684" y2="6.604" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="8.636" x2="11.684" y2="9.144" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="11.176" x2="11.684" y2="11.684" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-6.604" x2="11.684" y2="-6.096" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="-11.684" x2="-11.176" y2="-11.176" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="-9.144" x2="-11.176" y2="-8.636" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-9.144" x2="11.684" y2="-8.636" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-11.684" x2="11.684" y2="-11.176" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-14.224" x2="11.684" y2="-13.716" layer="51" rot="R270"/>
+<rectangle x1="11.176" y1="-16.764" x2="11.684" y2="-16.256" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="-14.224" x2="-11.176" y2="-13.716" layer="51" rot="R270"/>
+<rectangle x1="-11.684" y1="-16.764" x2="-11.176" y2="-16.256" layer="51" rot="R270"/>
+<wire x1="-10.18" y1="-17.88" x2="-10.18" y2="12.8" width="0.127" layer="51"/>
+<wire x1="-10.18" y1="12.8" x2="-12.68" y2="12.8" width="0.127" layer="51"/>
+<wire x1="-12.68" y1="12.8" x2="-12.68" y2="-17.88" width="0.127" layer="51"/>
+<wire x1="-12.68" y1="-17.88" x2="-10.18" y2="-17.88" width="0.127" layer="51"/>
+<wire x1="-10.18" y1="12.8" x2="-12.68" y2="12.8" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="-17.88" x2="-10.18" y2="-17.88" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="12.28" x2="-10.18" y2="12.8" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="-17.88" x2="-10.18" y2="-14.693" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="-17.36" x2="-12.68" y2="-17.88" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="-3.107" x2="-10.18" y2="0.567" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="-8.187" x2="-10.18" y2="-4.513" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="-13.267" x2="-10.18" y2="-9.593" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="-2.059" x2="-12.68" y2="-5.561" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="-7.139" x2="-12.68" y2="-10.641" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="-12.219" x2="-12.68" y2="-15.721" width="0.127" layer="21"/>
+<smd name="6B" x="-13.08" y="-1.27" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="8B" x="-13.08" y="-6.35" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="10B" x="-13.08" y="-11.43" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="12B" x="-13.08" y="-16.51" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="5B" x="-9.78" y="1.27" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="7B" x="-9.78" y="-3.81" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="9B" x="-9.78" y="-8.89" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="11B" x="-9.78" y="-13.97" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="4B" x="-13.08" y="3.81" dx="2" dy="1" layer="1"/>
+<smd name="3B" x="-9.78" y="6.35" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="2B" x="-13.08" y="8.89" dx="2" dy="1" layer="1"/>
+<smd name="1B" x="-9.78" y="11.43" dx="2" dy="1" layer="1" rot="R180"/>
+<wire x1="12.68" y1="-17.88" x2="12.68" y2="12.8" width="0.127" layer="51"/>
+<wire x1="12.68" y1="12.8" x2="10.18" y2="12.8" width="0.127" layer="51"/>
+<wire x1="10.18" y1="-17.88" x2="12.68" y2="-17.88" width="0.127" layer="51"/>
+<wire x1="12.68" y1="12.8" x2="10.18" y2="12.8" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-17.88" x2="12.68" y2="-17.88" width="0.127" layer="21"/>
+<wire x1="12.68" y1="12.28" x2="12.68" y2="12.8" width="0.127" layer="21"/>
+<wire x1="12.68" y1="-17.88" x2="12.68" y2="-14.693" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-17.36" x2="10.18" y2="-17.88" width="0.127" layer="21"/>
+<wire x1="12.68" y1="-3.107" x2="12.68" y2="0.567" width="0.127" layer="21"/>
+<wire x1="12.68" y1="-8.187" x2="12.68" y2="-4.513" width="0.127" layer="21"/>
+<wire x1="12.68" y1="-13.267" x2="12.68" y2="-9.593" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-2.059" x2="10.18" y2="-5.561" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-7.139" x2="10.18" y2="-10.641" width="0.127" layer="21"/>
+<wire x1="10.18" y1="-12.219" x2="10.18" y2="-15.721" width="0.127" layer="21"/>
+<smd name="6C" x="9.78" y="-1.27" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="8C" x="9.78" y="-6.35" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="10C" x="9.78" y="-11.43" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="12C" x="9.78" y="-16.51" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="5C" x="13.08" y="1.27" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="7C" x="13.08" y="-3.81" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="9C" x="13.08" y="-8.89" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="11C" x="13.08" y="-13.97" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="4C" x="9.78" y="3.81" dx="2" dy="1" layer="1"/>
+<smd name="3C" x="13.08" y="6.35" dx="2" dy="1" layer="1" rot="R180"/>
+<smd name="2C" x="9.78" y="8.89" dx="2" dy="1" layer="1"/>
+<smd name="1C" x="13.08" y="11.43" dx="2" dy="1" layer="1" rot="R180"/>
+<wire x1="12.68" y1="1.973" x2="12.68" y2="5.647" width="0.127" layer="21"/>
+<wire x1="12.68" y1="7.053" x2="12.68" y2="10.727" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="1.973" x2="-10.18" y2="5.647" width="0.127" layer="21"/>
+<wire x1="-10.18" y1="7.053" x2="-10.18" y2="10.727" width="0.127" layer="21"/>
+<wire x1="10.14" y1="-17.88" x2="10.14" y2="12.8" width="0.127" layer="51"/>
+<wire x1="10.18" y1="3.021" x2="10.18" y2="-0.481" width="0.127" layer="21"/>
+<wire x1="10.18" y1="8.101" x2="10.18" y2="4.599" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="3.021" x2="-12.68" y2="-0.481" width="0.127" layer="21"/>
+<wire x1="-12.68" y1="8.101" x2="-12.68" y2="4.599" width="0.127" layer="21"/>
+<wire x1="10.14" y1="9.74" x2="10.14" y2="12.8" width="0.127" layer="21"/>
+<wire x1="-12.72" y1="9.74" x2="-12.72" y2="12.8" width="0.127" layer="21"/>
 </package>
-<package name="TSOC-BB-BRD-PLUS">
+<package name="TSOC-BB-BRD-PLUS-DIM">
 <description>&lt;b&gt;thingSoC "Single" PCB Board Outline &amp; Holes&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.thingsoc.com
@@ -7918,18 +7899,18 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="30.48" y1="1.778" x2="30.48" y2="51.562" width="0" layer="20"/>
-<wire x1="28.702" y1="53.34" x2="1.778" y2="53.34" width="0" layer="20"/>
-<wire x1="0" y1="51.562" x2="0" y2="1.778" width="0" layer="20"/>
-<hole x="1.905" y="1.905" drill="2"/>
-<hole x="28.575" y="1.905" drill="2"/>
-<wire x1="1.778" y1="0" x2="28.702" y2="0" width="0" layer="20"/>
-<wire x1="30.48" y1="51.562" x2="28.702" y2="53.34" width="0" layer="20" curve="90"/>
-<wire x1="1.778" y1="53.34" x2="0" y2="51.562" width="0" layer="20" curve="90"/>
-<wire x1="0" y1="1.778" x2="1.778" y2="0" width="0" layer="20" curve="90"/>
-<wire x1="28.702" y1="0" x2="30.48" y2="1.778" width="0" layer="20" curve="90"/>
-<hole x="1.905" y="42.672" drill="2"/>
-<hole x="28.575" y="42.672" drill="2"/>
+<wire x1="15.24" y1="-24.384" x2="15.24" y2="25.4" width="0" layer="20"/>
+<wire x1="13.462" y1="27.178" x2="-13.462" y2="27.178" width="0" layer="20"/>
+<wire x1="-15.24" y1="25.4" x2="-15.24" y2="-24.384" width="0" layer="20"/>
+<hole x="-13.335" y="-24.003" drill="2"/>
+<hole x="13.335" y="-24.003" drill="2"/>
+<wire x1="-13.462" y1="-26.162" x2="13.462" y2="-26.162" width="0" layer="20"/>
+<wire x1="15.24" y1="25.4" x2="13.462" y2="27.178" width="0" layer="20" curve="90"/>
+<wire x1="-13.462" y1="27.178" x2="-15.24" y2="25.4" width="0" layer="20" curve="90"/>
+<wire x1="-15.24" y1="-24.384" x2="-13.462" y2="-26.162" width="0" layer="20" curve="90"/>
+<wire x1="13.462" y1="-26.162" x2="15.24" y2="-24.384" width="0" layer="20" curve="90"/>
+<hole x="-13.335" y="16.637" drill="2"/>
+<hole x="13.335" y="16.637" drill="2"/>
 </package>
 <package name="TSOC-BB-BRD-PLUS-CUT">
 <description>&lt;b&gt;thingSoC "Single" PCB Board Outline &amp; Holes&lt;/b&gt;
@@ -7943,28 +7924,28 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="30.48" y1="1.778" x2="30.48" y2="42.672" width="0" layer="20"/>
-<wire x1="0" y1="42.672" x2="0" y2="1.778" width="0" layer="20"/>
-<hole x="1.905" y="1.905" drill="2"/>
-<hole x="28.575" y="1.905" drill="2"/>
-<wire x1="1.778" y1="0" x2="28.702" y2="0" width="0" layer="20"/>
-<wire x1="30.48" y1="42.672" x2="28.702" y2="44.45" width="0" layer="20" curve="90"/>
-<wire x1="1.778" y1="44.45" x2="0" y2="42.672" width="0" layer="20" curve="90"/>
-<wire x1="0" y1="1.778" x2="1.778" y2="0" width="0" layer="20" curve="90"/>
-<wire x1="28.702" y1="0" x2="30.48" y2="1.778" width="0" layer="20" curve="90"/>
-<hole x="1.905" y="42.545" drill="2"/>
-<hole x="28.575" y="42.545" drill="2"/>
-<wire x1="1.778" y1="44.45" x2="4.164190625" y2="44.45" width="0" layer="20"/>
-<wire x1="4.164190625" y1="44.45" x2="5.08" y2="45.365809375" width="0" layer="20" curve="90"/>
-<wire x1="5.08" y1="45.365809375" x2="5.08" y2="49.884190625" width="0" layer="20"/>
-<wire x1="5.08" y1="49.884190625" x2="5.995809375" y2="50.8" width="0" layer="20" curve="-90"/>
-<wire x1="5.995809375" y1="50.8" x2="24.484190625" y2="50.8" width="0" layer="20"/>
-<wire x1="24.484190625" y1="50.8" x2="25.4" y2="49.884190625" width="0" layer="20" curve="-90"/>
-<wire x1="25.4" y1="49.884190625" x2="25.4" y2="45.365809375" width="0" layer="20"/>
-<wire x1="25.4" y1="45.365809375" x2="26.315809375" y2="44.45" width="0" layer="20" curve="90"/>
-<wire x1="26.315809375" y1="44.45" x2="28.702" y2="44.45" width="0" layer="20"/>
+<wire x1="15.24" y1="-24.13" x2="15.24" y2="16.764" width="0" layer="20"/>
+<wire x1="-15.24" y1="16.764" x2="-15.24" y2="-24.13" width="0" layer="20"/>
+<hole x="-13.335" y="-24.003" drill="2"/>
+<hole x="13.335" y="-24.003" drill="2"/>
+<wire x1="-13.462" y1="-25.908" x2="13.462" y2="-25.908" width="0" layer="20"/>
+<wire x1="15.24" y1="16.764" x2="13.462" y2="18.542" width="0" layer="20" curve="90"/>
+<wire x1="-13.462" y1="18.542" x2="-15.24" y2="16.764" width="0" layer="20" curve="90"/>
+<wire x1="-15.24" y1="-24.13" x2="-13.462" y2="-25.908" width="0" layer="20" curve="90"/>
+<wire x1="13.462" y1="-25.908" x2="15.24" y2="-24.13" width="0" layer="20" curve="90"/>
+<hole x="-13.335" y="16.637" drill="2"/>
+<hole x="13.335" y="16.637" drill="2"/>
+<wire x1="-13.462" y1="18.542" x2="-11.075809375" y2="18.542" width="0" layer="20"/>
+<wire x1="-11.075809375" y1="18.542" x2="-10.16" y2="19.457809375" width="0" layer="20" curve="90"/>
+<wire x1="-10.16" y1="19.457809375" x2="-10.16" y2="23.976190625" width="0" layer="20"/>
+<wire x1="-10.16" y1="23.976190625" x2="-9.244190625" y2="24.892" width="0" layer="20" curve="-90"/>
+<wire x1="-9.244190625" y1="24.892" x2="9.244190625" y2="24.892" width="0" layer="20"/>
+<wire x1="9.244190625" y1="24.892" x2="10.16" y2="23.976190625" width="0" layer="20" curve="-90"/>
+<wire x1="10.16" y1="23.976190625" x2="10.16" y2="19.457809375" width="0" layer="20"/>
+<wire x1="10.16" y1="19.457809375" x2="11.075809375" y2="18.542" width="0" layer="20" curve="90"/>
+<wire x1="11.075809375" y1="18.542" x2="13.462" y2="18.542" width="0" layer="20"/>
 </package>
-<package name="TSOC-BB-BRD-CUT-PLUS">
+<package name="TSOC-BB-BRD-HOLES">
 <description>&lt;b&gt;thingSoC "Single" PCB Board Outline &amp; Holes&lt;/b&gt;
 &lt;p&gt;
 Source LBR : http://www.thingsoc.com
@@ -7976,26 +7957,10 @@ License : http://creativecommons.org/licenses/by-sa/4.0/
 &lt;p&gt;
 THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 &lt;P&gt;</description>
-<wire x1="30.48" y1="1.778" x2="30.48" y2="51.562" width="0" layer="20"/>
-<wire x1="0" y1="51.562" x2="0" y2="1.778" width="0" layer="20"/>
-<hole x="1.905" y="10.795" drill="2"/>
-<hole x="28.575" y="10.795" drill="2"/>
-<wire x1="1.778" y1="0" x2="28.702" y2="0" width="0" layer="20"/>
-<wire x1="30.48" y1="51.562" x2="28.702" y2="53.34" width="0" layer="20" curve="90"/>
-<wire x1="1.778" y1="53.34" x2="0" y2="51.562" width="0" layer="20" curve="90"/>
-<wire x1="0" y1="1.778" x2="1.778" y2="0" width="0" layer="20" curve="90"/>
-<wire x1="28.702" y1="0" x2="30.48" y2="1.778" width="0" layer="20" curve="90"/>
-<hole x="1.905" y="51.435" drill="2"/>
-<hole x="28.575" y="51.435" drill="2"/>
-<wire x1="1.778" y1="53.34" x2="4.164190625" y2="53.34" width="0" layer="20"/>
-<wire x1="4.164190625" y1="53.34" x2="5.08" y2="54.255809375" width="0" layer="20" curve="90"/>
-<wire x1="5.08" y1="54.255809375" x2="5.08" y2="58.774190625" width="0" layer="20"/>
-<wire x1="5.08" y1="58.774190625" x2="5.995809375" y2="59.69" width="0" layer="20" curve="-90"/>
-<wire x1="5.995809375" y1="59.69" x2="24.484190625" y2="59.69" width="0" layer="20"/>
-<wire x1="24.484190625" y1="59.69" x2="25.4" y2="58.774190625" width="0" layer="20" curve="-90"/>
-<wire x1="25.4" y1="58.774190625" x2="25.4" y2="54.255809375" width="0" layer="20"/>
-<wire x1="25.4" y1="54.255809375" x2="26.315809375" y2="53.34" width="0" layer="20" curve="90"/>
-<wire x1="26.315809375" y1="53.34" x2="28.702" y2="53.34" width="0" layer="20"/>
+<hole x="13.335" y="16.637" drill="2"/>
+<hole x="-13.335" y="16.637" drill="2"/>
+<hole x="13.335" y="-24.003" drill="2"/>
+<hole x="-13.335" y="-24.003" drill="2"/>
 </package>
 </packages>
 <symbols>
@@ -21285,17 +21250,17 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <gate name="G$1" symbol="TSOC-PCB" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-HALF" package="TSOC-BB-BRD-HALF">
+<device name="-HALF" package="TSOC-BB-BRD-HALF-DIM">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-SINGLE" package="TSOC-BB-BRD">
+<device name="-SINGLE" package="TSOC-BB-BRD-DIM">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-DOUBLE" package="TS0C-BB-BRD-DBL">
+<device name="-DOUBLE" package="TS0C-BB-BRD-DBL-DIM">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -21310,12 +21275,17 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <technology name=""/>
 </technologies>
 </device>
+<device name="-EM-DBL-CUT" package="TSOC-EM-BRD-DBL-CUT">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 <device name="-EM-BB" package="TSOC-EM-BB">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-PLUS" package="TSOC-BB-BRD-PLUS">
+<device name="-PLUS" package="TSOC-BB-BRD-PLUS-DIM">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -21325,7 +21295,7 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 <technology name=""/>
 </technologies>
 </device>
-<device name="CUTPLUS" package="TSOC-BB-BRD-CUT-PLUS">
+<device name="-HOLES" package="TSOC-BB-BRD-HOLES">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -21695,6 +21665,11 @@ THIS SOFTWARE IS PROVIDED BY THE CONTRIBUTORS "AS IS" AND WITHOUT ANY EXPRESS OR
 </technologies>
 </device>
 <device name="-S24" package="TSOC-BB-S24-SILK">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-S32" package="TSOC-BB-S32-SILK">
 <technologies>
 <technology name=""/>
 </technologies>
